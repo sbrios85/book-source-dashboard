@@ -15,6 +15,7 @@ Network calls only succeed where the runner has open egress (GitHub Actions).
 """
 
 import json, math, re, io, csv, zipfile, datetime, pathlib, time
+import urllib.parse
 import yaml, requests
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -80,6 +81,107 @@ def in_outreach_region(lat, lng):
             inside = not inside
         j = i
     return inside
+
+
+# ── WEBSITE AUTO-LOOKUP (best-effort, free) ──────────────────────────────────
+# Finds an official site by querying DuckDuckGo's no-JS endpoints and taking the
+# first result that isn't a directory/aggregator. Search engines may rate-limit
+# datacenter IPs, so this is best-effort: results are cached (web_lookup_done) and
+# a hard request failure leaves the record to retry on a later run.
+WEB_BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
+AGGREGATOR_HOSTS = (
+    "facebook.com", "instagram.com", "twitter.com", "x.com", "linkedin.com", "yelp.com",
+    "tripadvisor.com", "yellowpages.com", "mapquest.com", "indeed.com", "glassdoor.com",
+    "bbb.org", "foursquare.com", "pinterest.com", "youtube.com", "wikipedia.org",
+    "duckduckgo.com", "google.com", "bing.com", "niche.com", "greatschools.org",
+    "publicschoolreview.com", "privateschoolreview.com", "ziprecruiter.com", "manta.com",
+    "chamberofcommerce.com", "loc.gov", "usnews.com",
+)
+
+
+def _is_aggregator(host):
+    # Match on domain boundary (host == d or endswith .d), not loose substring.
+    host = host.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return any(host == d or host.endswith("." + d) for d in AGGREGATOR_HOSTS)
+WEBSITE_LOOKUP_CAP = 150   # per run; cached flags let later runs continue where this stops
+WEBSITE_SLEEP = 2.0        # polite delay between queries
+
+
+def _ddg_decode(href):
+    # DDG result links are often /l/?uddg=<urlencoded target>
+    if href.startswith("//"):
+        href = "https:" + href
+    if "uddg=" in href:
+        try:
+            q = urllib.parse.urlparse(href).query
+            uddg = urllib.parse.parse_qs(q).get("uddg", [""])[0]
+            if uddg:
+                return urllib.parse.unquote(uddg)
+        except Exception:
+            pass
+    return href
+
+
+def _ddg_results(query):
+    """Return (list_of_urls, engine_responded). Tries two no-JS DDG endpoints."""
+    for url in ("https://html.duckduckgo.com/html/", "https://lite.duckduckgo.com/lite/"):
+        try:
+            r = requests.post(url, data={"q": query}, headers=WEB_BROWSER_UA, timeout=20)
+            if r.status_code != 200:
+                continue
+            hrefs = re.findall(r'<a[^>]+(?:class="result__a"|class="result-link")[^>]*href="([^"]+)"', r.text)
+            if not hrefs:  # lite layout: any external links in results
+                hrefs = re.findall(r'href="(https?://[^"]+)"', r.text)
+            urls = [_ddg_decode(h) for h in hrefs]
+            if urls:
+                return urls, True
+        except Exception:
+            continue
+    return [], False
+
+
+def find_website(name, city):
+    """Return (website_or_empty, engine_responded)."""
+    q = f"{name} {city} TX official website".strip()
+    urls, ok = _ddg_results(q)
+    if not ok:
+        return "", False
+    for u in urls:
+        try:
+            host = urllib.parse.urlparse(u).netloc.lower()
+        except Exception:
+            continue
+        if not host or _is_aggregator(host):
+            continue
+        parts = urllib.parse.urlparse(u)
+        return f"{parts.scheme}://{parts.netloc}", True
+    return "", True   # engine answered but only aggregators -> count as done
+
+
+def enrich_websites(records, label="records"):
+    """Generic: fill `website` for any record missing one. Works on leads or libraries,
+    so any future source added to either list is auto-scraped too."""
+    done = found = 0
+    for r in records:
+        if (r.get("website") or "").strip():
+            continue
+        if r.get("web_lookup_done"):
+            continue
+        if done >= WEBSITE_LOOKUP_CAP:
+            break
+        site, ok = find_website(r.get("name", ""), r.get("city", ""))
+        if not ok:
+            continue   # engine blocked/failed -> retry on a future run, don't mark done
+        r["web_lookup_done"] = True
+        done += 1
+        if site:
+            r["website"] = site
+            found += 1
+        time.sleep(WEBSITE_SLEEP)
+    log(f"website lookup [{label}]: attempted {done}, found {found}")
+    return records
 
 
 def miles(lat, lng):
@@ -203,7 +305,8 @@ def merge_libraries(fresh):
     existing = load(DATA / "libraries.json", "libraries")
     by_id = {l["id"]: l for l in existing.get("libraries", [])}
     MANUAL = ("librarian_name", "contact_title", "librarian_phone", "librarian_email", "fol_facebook",
-              "sales_notes", "status", "last_contacted", "follow_up", "outreach_notes", "website")
+              "sales_notes", "status", "last_contacted", "follow_up", "outreach_notes", "website",
+              "web_lookup_done")
     for l in fresh:
         if l["id"] in by_id:
             for f in MANUAL:
@@ -409,7 +512,8 @@ def merge_leads(fresh):
     for l in fresh:
         if l["id"] in by_id:
             for f in ("status", "last_contacted", "follow_up", "outreach_notes", "priority",
-                      "librarian_name", "contact_title", "librarian_phone", "librarian_email"):
+                      "librarian_name", "contact_title", "librarian_phone", "librarian_email",
+                      "website", "web_lookup_done"):
                 if by_id[l["id"]].get(f):
                     l[f] = by_id[l["id"]][f]
         by_id[l["id"]] = {**by_id.get(l["id"], {}), **l}
@@ -436,11 +540,15 @@ def main():
     log(f"center={CENTER}  radius={RADIUS}")
 
     leads = fetch_schools()
-    DATA.joinpath("leads.json").write_text(json.dumps(merge_leads(leads), indent=2))
+    leads_obj = merge_leads(leads)
+    enrich_websites(leads_obj["leads"], "leads")
+    DATA.joinpath("leads.json").write_text(json.dumps(leads_obj, indent=2))
     log("wrote leads.json")
 
     libs = fetch_libraries()
-    DATA.joinpath("libraries.json").write_text(json.dumps(merge_libraries(libs), indent=2))
+    libs_obj = merge_libraries(libs)
+    enrich_websites(libs_obj["libraries"], "libraries")
+    DATA.joinpath("libraries.json").write_text(json.dumps(libs_obj, indent=2))
     log("wrote libraries.json")
 
     sales = expand_fixed_sales() + fetch_civicplus() + fetch_craigslist() + fetch_estatesales_net()
