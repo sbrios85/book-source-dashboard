@@ -12,7 +12,7 @@
       "city": "Corpus Christi",
       "address": "901 Leopard St Room 601, Corpus Christi, TX 78401",
       "phone": "3618880343",
-      "website": "",
+      "website": "https://www.corpuschristitx.gov/department-directory/libraries/",
       "lat": 27.7963423,
       "lng": -97.4006885,
       "distance_mi": 0.4,
@@ -26,7 +26,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-corpus-christi-public-libraries-corpus-christi",
@@ -34,7 +35,7 @@
       "city": "Corpus Christi",
       "address": "805 Comanche St, Corpus Christi, TX 78401",
       "phone": "3618267070",
-      "website": "",
+      "website": "https://www.corpuschristitx.gov/department-directory/libraries/",
       "lat": 27.7931465,
       "lng": -97.3991057,
       "distance_mi": 0.5,
@@ -48,7 +49,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-ben-f-mcdonald-public-library-corpus-christi",
@@ -56,7 +58,7 @@
       "city": "Corpus Christi",
       "address": "4044 Greenwood Dr, Corpus Christi, TX 78416",
       "phone": "3618262356",
-      "website": "",
+      "website": "https://www.corpuschristitx.gov/department-directory/libraries/",
       "lat": 27.7588902,
       "lng": -97.4315119,
       "distance_mi": 3.6,
@@ -70,7 +72,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-anita-wt-neyland-public-library-corpus-christi",
@@ -78,7 +81,7 @@
       "city": "Corpus Christi",
       "address": "1230 Carmel Pkwy, Corpus Christi, TX 78411",
       "phone": "3618262370",
-      "website": "",
+      "website": "https://www.corpuschristitx.gov/department-directory/libraries/",
       "lat": 27.7284049,
       "lng": -97.3842631,
       "distance_mi": 5.0,
@@ -92,7 +95,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-bell-whittington-public-library-portland",
@@ -100,7 +104,7 @@
       "city": "Portland",
       "address": "2400 Memorial Pkwy, Portland, TX 78374",
       "phone": "3617774560",
-      "website": "",
+      "website": "https://www.portlandtx.gov/180/Bell-Whittington-Public-Library",
       "lat": 27.8994016,
       "lng": -97.3160216,
       "distance_mi": 8.4,
@@ -114,7 +118,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-dr-clotilde-p-garcia-public-library-corpus-christi",
@@ -122,7 +127,7 @@
       "city": "Corpus Christi",
       "address": "5930 Brockhampton Dr, Corpus Christi, TX 78414",
       "phone": "3618262360",
-      "website": "",
+      "website": "https://www.corpuschristitx.gov/department-directory/libraries/",
       "lat": 27.6699623,
       "lng": -97.3797834,
       "distance_mi": 9.1,
@@ -136,7 +141,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-owen-r-hopkins-public-library-corpus-christi",
@@ -144,7 +150,7 @@
       "city": "Corpus Christi",
       "address": "3202 Mckinzie Rd, Corpus Christi, TX 78410",
       "phone": "3618262350",
-      "website": "",
+      "website": "https://www.corpuschristitx.gov/department-directory/libraries/",
       "lat": 27.8418161,
       "lng": -97.5731086,
       "distance_mi": 11.2,
@@ -158,7 +164,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-ingleside-public-library-ingleside",
@@ -166,7 +173,7 @@
       "city": "Ingleside",
       "address": "2775 Waco St, Ingleside, TX 78362",
       "phone": "3617765355",
-      "website": "",
+      "website": "https://www.inglesidetx.gov/226/Library",
       "lat": 27.8783963,
       "lng": -97.2159573,
       "distance_mi": 12.3,
@@ -180,7 +187,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-janet-f-harte-public-library-corpus-christi",
@@ -188,7 +196,7 @@
       "city": "Corpus Christi",
       "address": "2629 Waldron Rd, Corpus Christi, TX 78418",
       "phone": "3618262310",
-      "website": "",
+      "website": "https://www.corpuschristitx.gov/department-directory/libraries/",
       "lat": 27.6438922,
       "lng": -97.2976919,
       "distance_mi": 12.4,
@@ -202,7 +210,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-taft-public-library-taft",
@@ -210,7 +219,7 @@
       "city": "Taft",
       "address": "503 Green Ave, Taft, TX 78390",
       "phone": "3615283512",
-      "website": "",
+      "website": "https://www.tafttx.gov/departments/library/",
       "lat": 27.9816554,
       "lng": -97.3930608,
       "distance_mi": 12.5,
@@ -224,7 +233,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-odem-public-library-odem",
@@ -232,7 +242,7 @@
       "city": "Odem",
       "address": "516 Voss Ave, Odem, TX 78370",
       "phone": "3613687388",
-      "website": "",
+      "website": "https://www.cityofodemtx.com",
       "lat": 27.9497749,
       "lng": -97.582957,
       "distance_mi": 15.4,
@@ -246,7 +256,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-nueces-county-public-libraries-robstown",
@@ -254,7 +265,7 @@
       "city": "Robstown",
       "address": "1000 Terry Shamsie Blvd, Robstown, TX 78380",
       "phone": "3613873431",
-      "website": "",
+      "website": "https://www.library.nuecescountytx.gov/",
       "lat": 27.7920067,
       "lng": -97.652647,
       "distance_mi": 15.7,
@@ -268,7 +279,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-ed-hazel-richmond-public-library-aransas-pass",
@@ -276,7 +288,7 @@
       "city": "Aransas Pass",
       "address": "110 N Lamont St, Aransas Pass, TX 78336",
       "phone": "3617582350",
-      "website": "",
+      "website": "https://aptx.gov/208/Library",
       "lat": 27.9090104,
       "lng": -97.1489069,
       "distance_mi": 16.9,
@@ -290,7 +302,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-sinton-public-library-sinton",
@@ -298,7 +311,7 @@
       "city": "Sinton",
       "address": "100 N Pirate Blvd, Sinton, TX 78387",
       "phone": "3613644545",
-      "website": "",
+      "website": "https://www.sintontexas.org/2170/Library",
       "lat": 28.036958,
       "lng": -97.4977325,
       "distance_mi": 17.5,
@@ -312,7 +325,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-william-r-bill-ellis-memorial-library-port-aransas",
@@ -320,7 +334,7 @@
       "city": "Port Aransas",
       "address": "700 W Ave A, Port Aransas, TX 78373",
       "phone": "3617494116",
-      "website": "",
+      "website": "https://cityofportaransas.org/departments/library/",
       "lat": 27.8359091,
       "lng": -97.0680654,
       "distance_mi": 20.2,
@@ -334,7 +348,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-aransas-county-public-library-rockport",
@@ -342,7 +357,7 @@
       "city": "Rockport",
       "address": "701 E Mimosa St, Rockport, TX 78382",
       "phone": "3617900153",
-      "website": "",
+      "website": "https://www.acplibrary.org/",
       "lat": 28.0263125,
       "lng": -97.054015,
       "distance_mi": 26.1,
@@ -356,7 +371,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-bishop-branch-library-bishop",
@@ -364,7 +380,7 @@
       "city": "Bishop",
       "address": "115 S Ash Ave, Bishop, TX 78343",
       "phone": "3615842222",
-      "website": "",
+      "website": "https://www.library.nuecescountytx.gov/",
       "lat": 27.5841101,
       "lng": -97.8002845,
       "distance_mi": 28.9,
@@ -378,7 +394,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-aransas-rockport",
@@ -398,7 +415,8 @@
       "sales_notes": "Ongoing in-library book sale during hours.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "lib-mathis-public-library-mathis",
@@ -406,7 +424,7 @@
       "city": "Mathis",
       "address": "103 Lamar St, Mathis, TX 78368",
       "phone": "3615476201",
-      "website": "",
+      "website": "https://cityofmathis.com/275/Public-Library",
       "lat": 28.0856984,
       "lng": -97.8164479,
       "distance_mi": 32.3,
@@ -420,7 +438,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-dennis-m-o-connor-public-library-refugio",
@@ -428,7 +447,7 @@
       "city": "Refugio",
       "address": "815 Commerce St, Refugio, TX 78377",
       "phone": "3615262608",
-      "website": "",
+      "website": "https://www.dmopl.com/",
       "lat": 28.2963202,
       "lng": -97.2755054,
       "distance_mi": 35.0,
@@ -442,7 +461,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-orange-grove-school-public-library-orange-grove",
@@ -450,7 +470,7 @@
       "city": "Orange Grove",
       "address": "504 S Dibrell St, Orange Grove, TX 78372",
       "phone": "3613842330",
-      "website": "",
+      "website": "https://www.cityofalice.org/government/departments/library/index.php",
       "lat": 27.9546981,
       "lng": -97.9418116,
       "distance_mi": 35.0,
@@ -464,7 +484,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-robert-j-kleberg-public-library-kingsville",
@@ -494,7 +515,7 @@
       "city": "Alice",
       "address": "401 E 3Rd St, Alice, TX 78332",
       "phone": "3616649506",
-      "website": "",
+      "website": "https://www.cityofalice.org/government/departments/library/index.php",
       "lat": 27.7531622,
       "lng": -98.0727994,
       "distance_mi": 41.5,
@@ -508,7 +529,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-joe-barnhart-bee-county-library-beeville",
@@ -516,7 +538,7 @@
       "city": "Beeville",
       "address": "110 W Corpus Christi St, Beeville, TX 78102",
       "phone": "3613624901",
-      "website": "",
+      "website": "https://www.bclib.org/",
       "lat": 28.401672,
       "lng": -97.7490217,
       "distance_mi": 46.8,
@@ -530,7 +552,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-live-oak-county-library-george-west",
@@ -538,7 +561,7 @@
       "city": "George West",
       "address": "402 Houston St, George West, TX 78022",
       "phone": "3614491124",
-      "website": "",
+      "website": "https://liveoak.biblionix.com/",
       "lat": 28.3343224,
       "lng": -98.1150473,
       "distance_mi": 57.3,
@@ -552,7 +575,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-seadrift-branch-library-seadrift",
@@ -560,7 +584,7 @@
       "city": "Seadrift",
       "address": "502 S 4Th St, Seadrift, TX 77983",
       "phone": "3617854241",
-      "website": "",
+      "website": "https://cclibrary.org/",
       "lat": 28.4116689,
       "lng": -96.7141688,
       "distance_mi": 59.3,
@@ -574,7 +598,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-goliad-county-library-goliad",
@@ -582,7 +607,7 @@
       "city": "Goliad",
       "address": "320 S Commercial St, Goliad, TX 77963",
       "phone": "3616452291",
-      "website": "",
+      "website": "https://www.co.goliad.tx.us/page/goliad.library",
       "lat": 28.6655437,
       "lng": -97.3926692,
       "distance_mi": 59.8,
@@ -596,7 +621,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-ed-rachal-memorial-library-falfurrias",
@@ -626,7 +652,7 @@
       "city": "Three Rivers",
       "address": "102 Leroy St, Three Rivers, TX 78071",
       "phone": "3617863037",
-      "website": "",
+      "website": "https://liveoak.biblionix.com/",
       "lat": 28.4586008,
       "lng": -98.1825786,
       "distance_mi": 66.0,
@@ -640,7 +666,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-victoria-public",
@@ -660,7 +687,8 @@
       "sales_notes": "Friends sale runs Jan / May / Sept. Member presale Sunday, public Mon\u2013Fri.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "lib-victoria-public-library-victoria",
@@ -668,7 +696,7 @@
       "city": "Victoria",
       "address": "302 N Main St, Victoria, TX 77901",
       "phone": "3614853301",
-      "website": "",
+      "website": "https://www.victoriatx.gov/185/Library",
       "lat": 28.8013142,
       "lng": -97.0051664,
       "distance_mi": 73.1,
@@ -682,7 +710,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-calhoun-county-public-library-port-lavaca",
@@ -690,7 +719,7 @@
       "city": "Port Lavaca",
       "address": "200 W Mahan St, Port Lavaca, TX 77979",
       "phone": "3615527323",
-      "website": "",
+      "website": "https://cclibrary.org/",
       "lat": 28.6156648,
       "lng": -96.6287032,
       "distance_mi": 73.2,
@@ -704,7 +733,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-port-o-connor-branch-library-port-o-connor",
@@ -712,7 +742,7 @@
       "city": "Port O'Connor",
       "address": "506 W Main St, Port O'Connor, TX 77982",
       "phone": "3619834365",
-      "website": "",
+      "website": "https://cclibrary.org/",
       "lat": 28.4460619,
       "lng": -96.4087982,
       "distance_mi": 74.9,
@@ -726,7 +756,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-kenedy-public-library-kenedy",
@@ -734,7 +765,7 @@
       "city": "Kenedy",
       "address": "303 W Main St, Kenedy, TX 78119",
       "phone": "8305833313",
-      "website": "",
+      "website": "https://www.co.karnes.tx.us",
       "lat": 28.8184969,
       "lng": -97.8505449,
       "distance_mi": 75.6,
@@ -748,7 +779,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-runge-public-library-runge",
@@ -756,7 +788,7 @@
       "city": "Runge",
       "address": "311 N Helena St, Runge, TX 78151",
       "phone": "8302394192",
-      "website": "",
+      "website": "https://www.co.karnes.tx.us",
       "lat": 28.8847728,
       "lng": -97.7133102,
       "distance_mi": 77.3,
@@ -770,7 +802,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-point-comfort-branch-library-point-comfort",
@@ -778,7 +811,7 @@
       "city": "Point Comfort",
       "address": "1 Lamar St, Point Comfort, TX 77978",
       "phone": "-3",
-      "website": "",
+      "website": "https://cclibrary.org/",
       "lat": 28.6764907,
       "lng": -96.5544613,
       "distance_mi": 79.3,
@@ -792,7 +825,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-karnes-city-public-library-karnes-city",
@@ -800,7 +834,7 @@
       "city": "Karnes City",
       "address": "302 S Panna Maria Ave, Karnes City, TX 78118",
       "phone": "8307802539",
-      "website": "",
+      "website": "https://www.co.karnes.tx.us",
       "lat": 28.8827316,
       "lng": -97.9011996,
       "distance_mi": 80.8,
@@ -814,7 +848,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-yorktown-public-library-yorktown",
@@ -822,7 +857,7 @@
       "city": "Yorktown",
       "address": "103 W Main St, Yorktown, TX 78164",
       "phone": "3615643232",
-      "website": "",
+      "website": "https://yorktownpubliclibrary.org/",
       "lat": 28.9811587,
       "lng": -97.5029276,
       "distance_mi": 81.8,
@@ -836,7 +871,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-cuero-public-library-cuero",
@@ -844,7 +880,7 @@
       "city": "Cuero",
       "address": "207 E Main St, Cuero, TX 77954",
       "phone": "3612752864",
-      "website": "",
+      "website": "https://www.cityofcuero.com/186/library",
       "lat": 29.0898617,
       "lng": -97.2900781,
       "distance_mi": 89.3,
@@ -858,7 +894,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-falls-city-public-library-falls-city",
@@ -866,7 +903,7 @@
       "city": "Falls City",
       "address": "206 N Irvin St, Falls City, TX 78113",
       "phone": "8302543361",
-      "website": "",
+      "website": "https://www.co.karnes.tx.us",
       "lat": 28.9813198,
       "lng": -98.0194476,
       "distance_mi": 89.9,
@@ -880,7 +917,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-jackson-county-memorial-library-edna",
@@ -888,7 +926,7 @@
       "city": "Edna",
       "address": "411 N Wells St Ste 121, Edna, TX 77957",
       "phone": "3617822162",
-      "website": "",
+      "website": "https://www.jcml-tx.org/",
       "lat": 28.9809337,
       "lng": -96.648061,
       "distance_mi": 93.4,
@@ -902,7 +940,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-palacios-library-inc-palacios",
@@ -910,7 +949,7 @@
       "city": "Palacios",
       "address": "326 Main St, Palacios, TX 77465",
       "phone": "3619723234",
-      "website": "",
+      "website": "https://www.palacioslibrary.org/",
       "lat": 28.7015075,
       "lng": -96.214908,
       "distance_mi": 95.1,
@@ -924,7 +963,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-blessing-library-blessing",
@@ -932,7 +972,7 @@
       "city": "Blessing",
       "address": "124 9Th St, Blessing, TX 77419",
       "phone": "3615887717",
-      "website": "",
+      "website": "https://www.cityofbaycity.org/189/Public-Library",
       "lat": 28.8699695,
       "lng": -96.222623,
       "distance_mi": 102.7,
@@ -946,7 +986,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-wilson-county-historical-commission-archive-floresville",
@@ -954,7 +995,7 @@
       "city": "Floresville",
       "address": "1144 C St, Floresville, TX 78114",
       "phone": "8303937361",
-      "website": "",
+      "website": "https://www.wilsoncountylibrary.org/",
       "lat": 29.1338768,
       "lng": -98.1576468,
       "distance_mi": 103.1,
@@ -968,7 +1009,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-wilson-county-public-libraries-floresville",
@@ -976,7 +1018,7 @@
       "city": "Floresville",
       "address": "1103 4Th St, Floresville, TX 78114",
       "phone": "8303937361",
-      "website": "",
+      "website": "https://www.wilsoncountylibrary.org/",
       "lat": 29.1365079,
       "lng": -98.1593442,
       "distance_mi": 103.3,
@@ -990,7 +1032,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-carl-mary-welhausen-library-yoakum",
@@ -998,7 +1041,7 @@
       "city": "Yoakum",
       "address": "810 Front St, Yoakum, TX 77995",
       "phone": "3612935001",
-      "website": "",
+      "website": "https://www.cityofyoakum.org",
       "lat": 29.286206,
       "lng": -97.1507341,
       "distance_mi": 103.7,
@@ -1012,7 +1055,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-pleasanton-public-library-pleasanton",
@@ -1042,7 +1086,7 @@
       "city": "Nixon",
       "address": "401 N Nixon Ave, Nixon, TX 78140",
       "phone": "8305821913",
-      "website": "",
+      "website": "https://www.wilsoncountylibrary.org/",
       "lat": 29.2705717,
       "lng": -97.7655126,
       "distance_mi": 104.0,
@@ -1056,7 +1100,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-jourdanton-community-library-jourdanton",
@@ -1086,7 +1131,7 @@
       "city": "Stockdale",
       "address": "800 W Main St, Stockdale, TX 78160",
       "phone": "8309963114",
-      "website": "",
+      "website": "https://www.wilsoncountylibrary.org/",
       "lat": 29.2338759,
       "lng": -97.9656116,
       "distance_mi": 104.9,
@@ -1100,7 +1145,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-charlotte-public-library-charlotte",
@@ -1130,7 +1176,7 @@
       "city": "Louise",
       "address": "803 Third St, Louise, TX 77455",
       "phone": "9796482018",
-      "website": "",
+      "website": "https://whartonco.lib.tx.us/",
       "lat": 29.1086779,
       "lng": -96.4099447,
       "distance_mi": 108.4,
@@ -1144,7 +1190,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-rio-hondo-public-library-rio-hondo",
@@ -1240,7 +1287,7 @@
       "city": "Shiner",
       "address": "115 E Wolters 2Nd St, Shiner, TX 77984",
       "phone": "3615943044",
-      "website": "",
+      "website": "https://shinertexas.gov",
       "lat": 29.4270121,
       "lng": -97.1681802,
       "distance_mi": 113.2,
@@ -1254,7 +1301,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-dustin-michael-sekula-memorial-library-edinburg",
@@ -1284,7 +1332,7 @@
       "city": "La Vernia",
       "address": "112 E Chihuahua St, La Vernia, TX 78121",
       "phone": "8302531429",
-      "website": "",
+      "website": "https://www.wilsoncountylibrary.org/",
       "lat": 29.3555512,
       "lng": -98.1139605,
       "distance_mi": 115.9,
@@ -1298,7 +1346,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-san-benito-public-library-san-benito",
@@ -1350,7 +1399,7 @@
       "city": "Hallettsville",
       "address": "705 E 4Th St, Hallettsville, TX 77964",
       "phone": "3617983243",
-      "website": "",
+      "website": "https://hallettsvillelibrary.org/",
       "lat": 29.4446944,
       "lng": -96.9375694,
       "distance_mi": 117.0,
@@ -1364,7 +1413,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-laguna-vista-public-library-laguna-vista",
@@ -1394,7 +1444,7 @@
       "city": "Gonzales",
       "address": "301 Saint Joseph St, Gonzales, TX 78629",
       "phone": "8306726315",
-      "website": "",
+      "website": "https://gonzales.biblionix.com/",
       "lat": 29.4997116,
       "lng": -97.4520529,
       "distance_mi": 117.4,
@@ -1408,7 +1458,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-el-campo-branch-library-el-campo",
@@ -1416,7 +1467,7 @@
       "city": "El Campo",
       "address": "200 W Church St, El Campo, TX 77437",
       "phone": "9795432362",
-      "website": "",
+      "website": "https://whartonco.lib.tx.us/",
       "lat": 29.2004049,
       "lng": -96.2752241,
       "distance_mi": 118.3,
@@ -1430,7 +1481,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-lark-branch-library-mcallen",
@@ -1482,7 +1534,7 @@
       "city": "Bay City",
       "address": "1100 7Th St, Bay City, TX 77414",
       "phone": "9792456931",
-      "website": "",
+      "website": "https://www.cityofbaycity.org/189/Public-Library",
       "lat": 28.9827491,
       "lng": -95.976779,
       "distance_mi": 118.8,
@@ -1496,7 +1548,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-mayor-joe-v-sanchez-public-library-weslaco",
@@ -1790,7 +1843,7 @@
       "city": "San Antonio",
       "address": "6322 Us Hwy 87 E, San Antonio, TX 78222",
       "phone": "2102079300",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.3935157,
       "lng": -98.3655128,
       "distance_mi": 124.8,
@@ -1804,7 +1857,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-sheridan-memorial-library-sheridan",
@@ -1812,7 +1866,7 @@
       "city": "Sheridan",
       "address": "5805 S Logan Park Dr, Sheridan, TX 77475",
       "phone": "9792345154",
-      "website": "",
+      "website": "https://www.columbustexaslibrary.net/",
       "lat": 29.4938669,
       "lng": -96.6724713,
       "distance_mi": 125.0,
@@ -1826,7 +1880,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-bibliotech-san-antonio",
@@ -1834,7 +1889,7 @@
       "city": "San Antonio",
       "address": "3505 Pleasanton Rd, San Antonio, TX 78205",
       "phone": "2103352450",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.344139,
       "lng": -98.5039075,
       "distance_mi": 126.1,
@@ -1848,7 +1903,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-bibliotech-south-san-antonio",
@@ -1856,7 +1912,7 @@
       "city": "San Antonio",
       "address": "3505 Pleasanton Rd, San Antonio, TX 78221",
       "phone": "2106310180",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.344139,
       "lng": -98.5039075,
       "distance_mi": 126.1,
@@ -1870,7 +1926,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-pharr-development-and-research-center-pharr",
@@ -1944,7 +2001,7 @@
       "city": "San Antonio",
       "address": "3134 Roosevelt Ave, San Antonio, TX 78214",
       "phone": "2102072704",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.365165,
       "lng": -98.4812416,
       "distance_mi": 126.6,
@@ -1958,7 +2015,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-mccreless-branch-library-san-antonio",
@@ -1966,7 +2024,7 @@
       "city": "San Antonio",
       "address": "1023 Ada St, San Antonio, TX 78223",
       "phone": "2102079170",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.3811275,
       "lng": -98.457925,
       "distance_mi": 126.8,
@@ -1980,7 +2038,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-seguin-public-library-seguin",
@@ -1988,7 +2047,7 @@
       "city": "Seguin",
       "address": "313 W Nolte St, Seguin, TX 78155",
       "phone": "8304012422",
-      "website": "",
+      "website": "https://www.seguintexas.gov/government/departments/library",
       "lat": 29.5673525,
       "lng": -97.967107,
       "distance_mi": 126.9,
@@ -2002,7 +2061,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-cortez-branch-library-san-antonio",
@@ -2010,7 +2070,7 @@
       "city": "San Antonio",
       "address": "2803 Hunter Blvd, San Antonio, TX 78224",
       "phone": "2102079130",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.3344675,
       "lng": -98.551895,
       "distance_mi": 127.1,
@@ -2024,7 +2084,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-pan-american-branch-library-san-antonio",
@@ -2032,7 +2093,7 @@
       "city": "San Antonio",
       "address": "1122 W Pyron Ave, San Antonio, TX 78221",
       "phone": "2102079150",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.3629691,
       "lng": -98.5210554,
       "distance_mi": 127.7,
@@ -2046,7 +2107,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-pearsall-public-library-pearsall",
@@ -2076,7 +2138,7 @@
       "city": "Sargent",
       "address": "20305 Fm 457, Sargent, TX 77414",
       "phone": "9794761335",
-      "website": "",
+      "website": "https://www.cityofbaycity.org/189/Public-Library",
       "lat": 28.8618089,
       "lng": -95.6661498,
       "distance_mi": 128.3,
@@ -2090,7 +2152,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-carver-branch-library-san-antonio",
@@ -2098,7 +2161,7 @@
       "city": "San Antonio",
       "address": "3350 E Commerce St, San Antonio, TX 78220",
       "phone": "2102079180",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4206793,
       "lng": -98.4348433,
       "distance_mi": 128.4,
@@ -2112,7 +2175,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-hidalgo-public-library-hidalgo",
@@ -2186,7 +2250,7 @@
       "city": "Garwood",
       "address": "512 Arthur St, Garwood, TX 77442",
       "phone": "9797583242",
-      "website": "",
+      "website": "https://whartonco.lib.tx.us/",
       "lat": 29.4488595,
       "lng": -96.3954347,
       "distance_mi": 129.1,
@@ -2200,7 +2264,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-mos-branch-library-laredo",
@@ -2230,7 +2295,7 @@
       "city": "San Antonio",
       "address": "1203 N Walters St, San Antonio, TX 78202",
       "phone": "2106310230",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4290456,
       "lng": -98.4522957,
       "distance_mi": 129.5,
@@ -2244,7 +2309,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-collins-garden-branch-library-san-antonio",
@@ -2252,7 +2318,7 @@
       "city": "San Antonio",
       "address": "200 N Park Blvd, San Antonio, TX 78204",
       "phone": "2102079120",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.3985672,
       "lng": -98.5151441,
       "distance_mi": 129.6,
@@ -2266,7 +2332,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-lamar-bruni-vergara-inner-city-library-laredo",
@@ -2318,7 +2385,7 @@
       "city": "San Antonio",
       "address": "201 W Market St, San Antonio, TX 78205",
       "phone": "2102072611",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4232186,
       "lng": -98.4885491,
       "distance_mi": 130.2,
@@ -2332,7 +2399,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-lytle-public-library-lytle",
@@ -2362,7 +2430,7 @@
       "city": "Marion",
       "address": "201 S Center St, Marion, TX 78124",
       "phone": "8304204022",
-      "website": "",
+      "website": "https://www.cityofmariontx.com",
       "lat": 29.5679291,
       "lng": -98.1407411,
       "distance_mi": 130.2,
@@ -2376,7 +2444,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-bibliotech-west-dr-ricardo-romo-branch-san-antonio",
@@ -2384,7 +2453,7 @@
       "city": "San Antonio",
       "address": "2003 S Zarzamora, San Antonio, TX 78207",
       "phone": "2106310190",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4046783,
       "lng": -98.5300151,
       "distance_mi": 130.4,
@@ -2398,7 +2467,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-bibliotech-central-jury-room-san-antonio",
@@ -2406,7 +2476,7 @@
       "city": "San Antonio",
       "address": "300 Dolorosa St, San Antonio, TX 78205",
       "phone": "2103352940",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.42404853,
       "lng": -98.49439221,
       "distance_mi": 130.5,
@@ -2420,7 +2490,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-bruni-plaza-branch-library-laredo",
@@ -2450,7 +2521,7 @@
       "city": "Converse",
       "address": "601 S Seguin Rd, Converse, TX 78109",
       "phone": "2106594160",
-      "website": "",
+      "website": "https://www.conversetx.net",
       "lat": 29.5136378,
       "lng": -98.3110783,
       "distance_mi": 130.7,
@@ -2464,7 +2535,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-jb-nickells-memorial-library-luling",
@@ -2538,7 +2610,7 @@
       "city": "San Antonio",
       "address": "626 N Flores St, San Antonio, TX 78205",
       "phone": "2106310290",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.43191273,
       "lng": -98.49522613,
       "distance_mi": 130.9,
@@ -2552,7 +2624,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-san-antonio-public-library-san-antonio",
@@ -2560,7 +2633,7 @@
       "city": "San Antonio",
       "address": "600 Soledad St, San Antonio, TX 78205",
       "phone": "2102072500",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4319625,
       "lng": -98.4933509,
       "distance_mi": 130.9,
@@ -2574,7 +2647,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-waelder-public-library-waelder",
@@ -2626,7 +2700,7 @@
       "city": "San Antonio",
       "address": "2200 W Commerce St, San Antonio, TX 78207",
       "phone": "2102079160",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.427466,
       "lng": -98.5197594,
       "distance_mi": 131.4,
@@ -2640,7 +2714,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-rio-grande-city-public-library-rio-grande-city",
@@ -2692,7 +2767,7 @@
       "city": "San Antonio",
       "address": "515 Castroville Rd, San Antonio, TX 78237",
       "phone": "2102079200",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4176525,
       "lng": -98.5495518,
       "distance_mi": 131.8,
@@ -2706,7 +2781,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-san-pedro-branch-library-san-antonio",
@@ -2714,7 +2790,7 @@
       "city": "San Antonio",
       "address": "1315 San Pedro Ave, San Antonio, TX 78212",
       "phone": "2102079050",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.446482,
       "lng": -98.4993675,
       "distance_mi": 131.9,
@@ -2728,7 +2804,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-wharton-county-library-wharton",
@@ -2736,7 +2813,7 @@
       "city": "Wharton",
       "address": "1920 N Fulton St, Wharton, TX 77488",
       "phone": "9795328080",
-      "website": "",
+      "website": "https://whartonco.lib.tx.us/",
       "lat": 29.3278888,
       "lng": -96.0933338,
       "distance_mi": 131.9,
@@ -2750,7 +2827,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-johnston-branch-library-san-antonio",
@@ -2758,7 +2836,7 @@
       "city": "San Antonio",
       "address": "6307 Sun Valley Dr, San Antonio, TX 78227",
       "phone": "2102079240",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.3716797,
       "lng": -98.6393359,
       "distance_mi": 132.2,
@@ -2772,7 +2850,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-landa-branch-library-san-antonio",
@@ -2780,7 +2859,7 @@
       "city": "San Antonio",
       "address": "233 Bushnell Ave, San Antonio, TX 78212",
       "phone": "2102079090",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4625375,
       "lng": -98.487887,
       "distance_mi": 132.5,
@@ -2794,7 +2873,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-schertz-public-library-schertz",
@@ -2802,7 +2882,7 @@
       "city": "Schertz",
       "address": "798 Schertz Pkwy, Schertz, TX 78154",
       "phone": "2106191700",
-      "website": "",
+      "website": "https://www.schertz.com/177/Library",
       "lat": 29.5602952,
       "lng": -98.2669471,
       "distance_mi": 132.5,
@@ -2816,7 +2896,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-pruitt-branch-library-san-antonio",
@@ -2824,7 +2905,7 @@
       "city": "San Antonio",
       "address": "5110 Walzem Rd, San Antonio, TX 78218",
       "phone": "2106501122",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.5101625,
       "lng": -98.390201,
       "distance_mi": 132.6,
@@ -2838,7 +2919,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-universal-city-public-library-universal-city",
@@ -2846,7 +2928,7 @@
       "city": "Universal City",
       "address": "100 Northview Dr, Universal City, TX 78148",
       "phone": "2106597048",
-      "website": "",
+      "website": "https://www.universalcitytexas.gov",
       "lat": 29.5493043,
       "lng": -98.2973656,
       "distance_mi": 132.6,
@@ -2860,7 +2942,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-schulenburg-public-library-schulenburg",
@@ -2890,7 +2973,7 @@
       "city": "Sweeny",
       "address": "205 W Ashley Wilson Rd, Sweeny, TX 77480",
       "phone": "9795482567",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.0440653,
       "lng": -95.7118439,
       "distance_mi": 133.6,
@@ -2904,7 +2987,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-tobin-library-san-antonio",
@@ -2912,7 +2996,7 @@
       "city": "San Antonio",
       "address": "4134 Harry Wurzbach Rd, San Antonio, TX 78209",
       "phone": "2102079040",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.5104425,
       "lng": -98.4345391,
       "distance_mi": 133.9,
@@ -2926,7 +3010,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-memorial-branch-library-san-antonio",
@@ -2934,7 +3019,7 @@
       "city": "San Antonio",
       "address": "3222 Culebra Rd, San Antonio, TX 78228",
       "phone": "2102079140",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4489174,
       "lng": -98.5641831,
       "distance_mi": 134.1,
@@ -2948,7 +3033,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-guerra-branch-library-san-antonio",
@@ -2956,7 +3042,7 @@
       "city": "San Antonio",
       "address": "7978 W Military Dr, San Antonio, TX 78227",
       "phone": "2102079070",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4248633,
       "lng": -98.6258682,
       "distance_mi": 134.7,
@@ -2970,7 +3056,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-thousand-oaks-branch-library-san-antonio",
@@ -2978,7 +3065,7 @@
       "city": "San Antonio",
       "address": "4618 Thousand Oaks Dr, San Antonio, TX 78233",
       "phone": "2102079190",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.5453826,
       "lng": -98.4011976,
       "distance_mi": 135.1,
@@ -2992,7 +3079,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-tri-community-library-prairie-lea",
@@ -3022,7 +3110,7 @@
       "city": "San Antonio",
       "address": "6111 Rosedale Ct, San Antonio, TX 78201",
       "phone": "2102079220",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4853769,
       "lng": -98.5334225,
       "distance_mi": 135.3,
@@ -3036,7 +3124,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-forest-hills-branch-library-san-antonio",
@@ -3044,7 +3133,7 @@
       "city": "San Antonio",
       "address": "5245 Ingram Rd, San Antonio, TX 78228",
       "phone": "2102079230",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4637975,
       "lng": -98.588627,
       "distance_mi": 135.8,
@@ -3058,7 +3147,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-semmes-branch-library-san-antonio",
@@ -3066,7 +3156,7 @@
       "city": "San Antonio",
       "address": "15060 Judson Rd, San Antonio, TX 78247",
       "phone": "2102079110",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.5789729,
       "lng": -98.3731157,
       "distance_mi": 136.4,
@@ -3080,7 +3170,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-weimar-public-library-weimar",
@@ -3110,7 +3201,7 @@
       "city": "San Antonio",
       "address": "8765 State Hwy 151, San Antonio, TX 78245",
       "phone": "2102079280",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4417792,
       "lng": -98.6615782,
       "distance_mi": 136.9,
@@ -3124,7 +3215,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-westside-community-center-library-new-braunfels",
@@ -3132,7 +3224,7 @@
       "city": "New Braunfels",
       "address": "2932 S Ih 35, New Braunfels, TX 78130",
       "phone": "8302214301",
-      "website": "",
+      "website": "https://www.newbraunfels.gov/library",
       "lat": 29.6798591,
       "lng": -98.1473833,
       "distance_mi": 137.6,
@@ -3146,7 +3238,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-city-of-garden-ridge-library-garden-ridge",
@@ -3154,7 +3247,7 @@
       "city": "Garden Ridge",
       "address": "9400 Municipal Pkwy, Garden Ridge, TX 78266",
       "phone": "2106516570",
-      "website": "",
+      "website": "https://www.ci.garden-ridge.tx.us",
       "lat": 29.6394553,
       "lng": -98.3004129,
       "distance_mi": 138.4,
@@ -3168,7 +3261,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-brook-hollow-branch-library-san-antonio",
@@ -3176,7 +3270,7 @@
       "city": "San Antonio",
       "address": "530 Heimer Rd, San Antonio, TX 78232",
       "phone": "2102079030",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.5698881,
       "lng": -98.4735331,
       "distance_mi": 138.6,
@@ -3190,7 +3284,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-leon-valley-public-library-leon-valley",
@@ -3198,7 +3293,7 @@
       "city": "Leon Valley",
       "address": "6425 Evers Rd, Leon Valley, TX 78238",
       "phone": "2106840720",
-      "website": "",
+      "website": "https://www.leonvalleytexas.gov",
       "lat": 29.5009204,
       "lng": -98.6134216,
       "distance_mi": 138.7,
@@ -3212,7 +3307,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-new-braunfels-public-library-new-braunfels",
@@ -3220,7 +3316,7 @@
       "city": "New Braunfels",
       "address": "700 E Common St, New Braunfels, TX 78130",
       "phone": "8302214300",
-      "website": "",
+      "website": "https://www.newbraunfels.gov/library",
       "lat": 29.7135074,
       "lng": -98.112705,
       "distance_mi": 139.1,
@@ -3234,7 +3330,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-eula-david-wintermann-library-eagle-lake",
@@ -3242,7 +3339,7 @@
       "city": "Eagle Lake",
       "address": "101 N Walnut Ave, Eagle Lake, TX 77434",
       "phone": "9792345411",
-      "website": "",
+      "website": "https://www.wintermannlib.org/",
       "lat": 29.5899686,
       "lng": -96.335393,
       "distance_mi": 139.4,
@@ -3256,7 +3353,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-great-northwest-branch-library-san-antonio",
@@ -3264,7 +3362,7 @@
       "city": "San Antonio",
       "address": "9050 Wellwood St, San Antonio, TX 78250",
       "phone": "2102079210",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.4839131,
       "lng": -98.6625975,
       "distance_mi": 139.4,
@@ -3278,7 +3376,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-castroville-public-library-castroville",
@@ -3308,7 +3407,7 @@
       "city": "San Antonio",
       "address": "11441 Vance Jackson Rd, San Antonio, TX 78230",
       "phone": "2102079100",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.5474926,
       "lng": -98.5651446,
       "distance_mi": 140.0,
@@ -3322,7 +3421,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-brazoria-library-brazoria",
@@ -3330,7 +3430,7 @@
       "city": "Brazoria",
       "address": "620 S Brooks St, Brazoria, TX 77422",
       "phone": "9797982372",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.0408517,
       "lng": -95.5695593,
       "distance_mi": 140.2,
@@ -3344,7 +3444,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-maverick-branch-library-san-antonio",
@@ -3352,7 +3453,7 @@
       "city": "San Antonio",
       "address": "8700 Mystic Park, San Antonio, TX 78254",
       "phone": "2102079060",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.5250993,
       "lng": -98.6423433,
       "distance_mi": 141.1,
@@ -3366,7 +3467,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-west-columbia-branch-library-west-columbia",
@@ -3374,7 +3476,7 @@
       "city": "West Columbia",
       "address": "518 E Brazos Ave, West Columbia, TX 77486",
       "phone": "9793453394",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.1434375,
       "lng": -95.641846,
       "distance_mi": 141.3,
@@ -3388,7 +3490,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-nesbitt-memorial-library-columbus",
@@ -3396,7 +3499,7 @@
       "city": "Columbus",
       "address": "529 Washington St, Columbus, TX 78934",
       "phone": "9797323392",
-      "website": "",
+      "website": "https://www.columbustexaslibrary.net/",
       "lat": 29.7042625,
       "lng": -96.54143,
       "distance_mi": 141.4,
@@ -3410,7 +3513,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-encino-branch-library-san-antonio",
@@ -3418,7 +3522,7 @@
       "city": "San Antonio",
       "address": "2515 E Evans Rd, San Antonio, TX 78259",
       "phone": "2102079250",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.6361148,
       "lng": -98.4487219,
       "distance_mi": 141.9,
@@ -3432,7 +3536,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-martindale-community-library-martindale",
@@ -3462,7 +3567,7 @@
       "city": "San Antonio",
       "address": "13330 Kyle Seale Pkwy, San Antonio, TX 78249",
       "phone": "2102079080",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.5696174,
       "lng": -98.6439245,
       "distance_mi": 143.7,
@@ -3476,7 +3581,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-east-bernard-branch-library-east-bernard",
@@ -3484,7 +3590,7 @@
       "city": "East Bernard",
       "address": "746 Clubside Dr, East Bernard, TX 77435",
       "phone": "9793356142",
-      "website": "",
+      "website": "https://whartonco.lib.tx.us/",
       "lat": 29.5220554,
       "lng": -96.0647631,
       "distance_mi": 143.8,
@@ -3498,7 +3604,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-parman-library-san-antonio",
@@ -3506,7 +3613,7 @@
       "city": "San Antonio",
       "address": "20735 Wilderness Oak, San Antonio, TX 78258",
       "phone": "2102072703",
-      "website": "",
+      "website": "https://www.mysapl.org",
       "lat": 29.636524,
       "lng": -98.514975,
       "distance_mi": 143.8,
@@ -3520,7 +3627,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-dr-eugene-clark-library-lockhart",
@@ -3550,7 +3658,7 @@
       "city": "Needville",
       "address": "9230 Gene St, Needville, TX 77461",
       "phone": "9797934270",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.3944399,
       "lng": -95.8383767,
       "distance_mi": 145.1,
@@ -3564,7 +3672,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-lake-jackson-library-lake-jackson",
@@ -3572,7 +3681,7 @@
       "city": "Lake Jackson",
       "address": "250 Circle Way St, Lake Jackson, TX 77566",
       "phone": "9794152590",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.0388213,
       "lng": -95.4498078,
       "distance_mi": 146.0,
@@ -3586,7 +3695,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-freeport-library-freeport",
@@ -3594,7 +3704,7 @@
       "city": "Freeport",
       "address": "410 Brazosport Blvd, Freeport, TX 77541",
       "phone": "9792333622",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 28.9646807,
       "lng": -95.3733908,
       "distance_mi": 146.9,
@@ -3608,7 +3718,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-san-marcos-public-library-san-marcos",
@@ -3638,7 +3749,7 @@
       "city": "Clute",
       "address": "215 N Shanks St, Clute, TX 77531",
       "phone": "9792654582",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.0234177,
       "lng": -95.4030392,
       "distance_mi": 147.7,
@@ -3652,7 +3763,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-fayette-public-library-la-grange",
@@ -3682,7 +3794,7 @@
       "city": "Wallis",
       "address": "6730 Railroad St, Wallis, TX 77485",
       "phone": "9794786813",
-      "website": "",
+      "website": "https://www.austincounty.com/page/austin.libraries",
       "lat": 29.6329581,
       "lng": -96.0671852,
       "distance_mi": 150.1,
@@ -3696,7 +3808,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-knox-memorial-library-wallis",
@@ -3704,7 +3817,7 @@
       "city": "Wallis",
       "address": "6730 Railroad St, Wallis, TX 77485",
       "phone": "9794786813",
-      "website": "",
+      "website": "https://www.austincounty.com/page/austin.libraries",
       "lat": 29.6329581,
       "lng": -96.0671852,
       "distance_mi": 150.1,
@@ -3718,7 +3831,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-hondo-public-library-hondo",
@@ -3770,7 +3884,7 @@
       "city": "Bulverde",
       "address": "131 Bulverde Crossing Rd, Bulverde, TX 78163",
       "phone": "8304384864",
-      "website": "",
+      "website": "https://mfplibrary.org/",
       "lat": 29.7941847,
       "lng": -98.4227929,
       "distance_mi": 151.1,
@@ -3784,7 +3898,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-angleton-library-angleton",
@@ -3792,7 +3907,7 @@
       "city": "Angleton",
       "address": "401 E Cedar St, Angleton, TX 77515",
       "phone": "9798641519",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.1698975,
       "lng": -95.4280909,
       "distance_mi": 152.4,
@@ -3806,7 +3921,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-smithville-public-library-smithville",
@@ -3836,7 +3952,7 @@
       "city": "Angleton",
       "address": "20875 Cr 171, Angleton, TX 77515",
       "phone": "9798641505",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.1761995,
       "lng": -95.4042796,
       "distance_mi": 153.8,
@@ -3850,7 +3966,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-kyle-public-library-kyle",
@@ -3880,7 +3997,7 @@
       "city": "Sealy",
       "address": "917 N Circle Dr, Sealy, TX 77474",
       "phone": "9798857469",
-      "website": "",
+      "website": "https://gordonmemoriallibrary.org/",
       "lat": 29.7739075,
       "lng": -96.1585601,
       "distance_mi": 155.6,
@@ -3894,7 +4011,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-fort-bend-county-libraries-richmond",
@@ -3902,7 +4020,7 @@
       "city": "Richmond",
       "address": "1003 Golfview Dr, Richmond, TX 77469",
       "phone": "2816334702",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.5625771,
       "lng": -95.7590095,
       "distance_mi": 157.1,
@@ -3916,7 +4034,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-george-memorial-library-richmond",
@@ -3924,7 +4043,7 @@
       "city": "Richmond",
       "address": "1001 Golfview Dr, Richmond, TX 77469",
       "phone": "2813424455",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.5626409,
       "lng": -95.7590188,
       "distance_mi": 157.1,
@@ -3938,7 +4057,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-lakehills-area-library-lakehills",
@@ -3968,7 +4088,7 @@
       "city": "Richmond",
       "address": "1422 Eugene Heimann Cir Rm 20714, Richmond, TX 77469",
       "phone": "2813413718",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.5764283,
       "lng": -95.7530477,
       "distance_mi": 158.0,
@@ -3982,7 +4102,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-wimberley-village-library-wimberley",
@@ -4034,7 +4155,7 @@
       "city": "Danbury",
       "address": "1702 N Main St, Danbury, TX 77534",
       "phone": "9799221905",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.229699,
       "lng": -95.3470889,
       "distance_mi": 158.8,
@@ -4048,7 +4169,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-fulshear-branch-library-fulshear",
@@ -4056,7 +4178,7 @@
       "city": "Fulshear",
       "address": "6350 Gm Library Rd, Fulshear, TX 77441",
       "phone": "2813461432",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.6949141,
       "lng": -95.9007193,
       "distance_mi": 159.2,
@@ -4070,7 +4192,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-west-end-library-industry",
@@ -4122,7 +4245,7 @@
       "city": "Boerne",
       "address": "451 N Main St Bldg 100, Boerne, TX 78006",
       "phone": "8302493053",
-      "website": "",
+      "website": "https://www.boernelibrary.org",
       "lat": 29.798086,
       "lng": -98.731136,
       "distance_mi": 159.9,
@@ -4136,7 +4259,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-buda-public-library-buda",
@@ -4188,7 +4312,7 @@
       "city": "Sugar Land",
       "address": "14010 University Blvd, Sugar Land, TX 77479",
       "phone": "2816335100",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.5753518,
       "lng": -95.647771,
       "distance_mi": 162.1,
@@ -4202,7 +4326,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-round-top-family-library-round-top",
@@ -4232,7 +4357,7 @@
       "city": "Brookshire",
       "address": "3815 Sixth St, Brookshire, TX 77423",
       "phone": "2813755550",
-      "website": "",
+      "website": "https://www.co.waller.tx.us/page/Libraries",
       "lat": 29.7841682,
       "lng": -95.9509037,
       "distance_mi": 162.6,
@@ -4246,7 +4371,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-sabinal-public-library-sabinal",
@@ -4298,7 +4424,7 @@
       "city": "Sugar Land",
       "address": "2121 Austin Pkwy, Sugar Land, TX 77479",
       "phone": "2812654444",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.5854874,
       "lng": -95.6168435,
       "distance_mi": 163.8,
@@ -4312,7 +4438,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-sienna-branch-library-missouri-city",
@@ -4320,7 +4447,7 @@
       "city": "Missouri City",
       "address": "8411 Sienna Springs Blvd, Missouri City, TX 77459",
       "phone": "2812382900",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.5319404,
       "lng": -95.5394819,
       "distance_mi": 164.3,
@@ -4334,7 +4461,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-kendalia-public-library-kendalia",
@@ -4386,7 +4514,7 @@
       "city": "Katy",
       "address": "2620 Commercial Center Blvd, Katy, TX 77494",
       "phone": "2813951311",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.7413277,
       "lng": -95.7766761,
       "distance_mi": 166.1,
@@ -4400,7 +4528,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-sugar-land-branch-library-sugar-land",
@@ -4408,7 +4537,7 @@
       "city": "Sugar Land",
       "address": "550 Eldridge Rd, Sugar Land, TX 77478",
       "phone": "2812778934",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.6305017,
       "lng": -95.6185478,
       "distance_mi": 166.1,
@@ -4422,7 +4551,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-southeast-austin-community-branch-library-austin",
@@ -4452,7 +4582,7 @@
       "city": "Houston",
       "address": "8421 Addicks Clodine Rd, Houston, TX 77083",
       "phone": "8324715900",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.6758553,
       "lng": -95.6620605,
       "distance_mi": 166.8,
@@ -4466,7 +4596,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-pleasant-hill-branch-library-austin",
@@ -4518,7 +4649,7 @@
       "city": "Stafford",
       "address": "320 Dulles Ave, Stafford, TX 77477",
       "phone": "2814918086",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.623625,
       "lng": -95.5826838,
       "distance_mi": 167.2,
@@ -4532,7 +4663,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-cy-fair-college-cypress",
@@ -4540,7 +4672,7 @@
       "city": "Cypress",
       "address": "9191 Barker Cypress Rd, Cypress, TX 77433",
       "phone": "2812903210",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 29.68462,
       "lng": -95.66189,
       "distance_mi": 167.3,
@@ -4554,7 +4686,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-bandera-county-library-bandera",
@@ -4584,7 +4717,7 @@
       "city": "Katy",
       "address": "5414 Franz Rd, Katy, TX 77493",
       "phone": "2813913135",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.8016633,
       "lng": -95.8178811,
       "distance_mi": 168.1,
@@ -4598,7 +4731,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-missouri-city-branch-library-missouri-city",
@@ -4606,7 +4740,7 @@
       "city": "Missouri City",
       "address": "1530 Texas Pkwy, Missouri City, TX 77489",
       "phone": "2812382100",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.604709,
       "lng": -95.52927,
       "distance_mi": 168.3,
@@ -4620,7 +4754,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-maud-smith-marks-branch-library-katy",
@@ -4628,7 +4763,7 @@
       "city": "Katy",
       "address": "1815 Westgreen Blvd, Katy, TX 77450",
       "phone": "2814928592",
-      "website": "",
+      "website": "https://www.fortbendlibraries.gov",
       "lat": 29.7577146,
       "lng": -95.7341785,
       "distance_mi": 168.6,
@@ -4642,7 +4777,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-menchaca-road-branch-library-austin",
@@ -4694,7 +4830,7 @@
       "city": "Manvel",
       "address": "20514B Hwy 6, Manvel, TX 77578",
       "phone": "2814897596",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.4651257,
       "lng": -95.3502829,
       "distance_mi": 169.2,
@@ -4708,7 +4844,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-will-hampton-at-oak-hill-branch-library-austin",
@@ -4738,7 +4875,7 @@
       "city": "Houston",
       "address": "7007 W Fuqua St, Houston, TX 77489",
       "phone": "8323932370",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.5988203,
       "lng": -95.4904325,
       "distance_mi": 169.6,
@@ -4752,7 +4889,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-henington-alief-regional-library-houston",
@@ -4760,7 +4898,7 @@
       "city": "Houston",
       "address": "11903 Bellaire Blvd, Houston, TX 77072",
       "phone": "8323931820",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.6921624,
       "lng": -95.5875219,
       "distance_mi": 170.5,
@@ -4774,7 +4912,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-twin-oaks-branch-library-austin",
@@ -4936,7 +5075,7 @@
       "city": "Pearland",
       "address": "11801 Shadow Creek Pkwy, Pearland, TX 77584",
       "phone": "7134360995",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.5592322,
       "lng": -95.3918784,
       "distance_mi": 171.8,
@@ -4950,7 +5089,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-willie-mae-kirk-branch-library-austin",
@@ -5002,7 +5142,7 @@
       "city": "Alvin",
       "address": "105 S Gordon St, Alvin, TX 77511",
       "phone": "2813884300",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.4235682,
       "lng": -95.2440278,
       "distance_mi": 172.1,
@@ -5016,7 +5156,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-hpl-express-frank-houston",
@@ -5024,7 +5165,7 @@
       "city": "Houston",
       "address": "10103 Fondren, Houston, TX 77096",
       "phone": "8323932410",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.6690908,
       "lng": -95.508451,
       "distance_mi": 172.5,
@@ -5038,7 +5179,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-vinson-neighborhood-library-houston",
@@ -5046,7 +5188,7 @@
       "city": "Houston",
       "address": "3810 W Fuqua St, Houston, TX 77045",
       "phone": "8323932120",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.6135775,
       "lng": -95.433609,
       "distance_mi": 172.7,
@@ -5060,7 +5202,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-westbank-community-library-district-austin",
@@ -5090,7 +5233,7 @@
       "city": "Houston",
       "address": "3223 Wilcrest Dr, Houston, TX 77042",
       "phone": "8323932011",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7289386,
       "lng": -95.5715555,
       "distance_mi": 173.1,
@@ -5104,7 +5247,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-kendall-neighborhood-library-houston",
@@ -5112,7 +5256,7 @@
       "city": "Houston",
       "address": "609 B Eldridge Pkwy, Houston, TX 77079",
       "phone": "8323931880",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.77279966,
       "lng": -95.62041305,
       "distance_mi": 173.6,
@@ -5126,7 +5270,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-howson-branch-library-austin",
@@ -5178,7 +5323,7 @@
       "city": "Houston",
       "address": "7660 Clarewood Dr, Houston, TX 77036",
       "phone": "8323932500",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7095174,
       "lng": -95.5207879,
       "distance_mi": 174.1,
@@ -5192,7 +5337,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-windsor-park-branch-library-austin",
@@ -5266,7 +5412,7 @@
       "city": "Houston",
       "address": "6400 High Star, Houston, TX 77074",
       "phone": "8323932660",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7106775,
       "lng": -95.496207,
       "distance_mi": 175.1,
@@ -5280,7 +5426,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-comfort-public-library-comfort",
@@ -5332,7 +5479,7 @@
       "city": "Bellaire",
       "address": "5111 Jessamine St, Bellaire, TX 77401",
       "phone": "7136628160",
-      "website": "",
+      "website": "https://www.bellairetx.gov/657/Library",
       "lat": 29.7019826,
       "lng": -95.469522,
       "distance_mi": 175.7,
@@ -5346,7 +5493,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-katherine-tyra-bear-creek-branch-library-houston",
@@ -5354,7 +5502,7 @@
       "city": "Houston",
       "address": "16719 Clay Rd, Houston, TX 77084",
       "phone": "8329275591",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.8347472,
       "lng": -95.6553532,
       "distance_mi": 175.7,
@@ -5368,7 +5516,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-st-john-branch-library-austin",
@@ -5464,7 +5613,7 @@
       "city": "Santa Fe",
       "address": "13302 W 6Th St, Santa Fe, TX 77510",
       "phone": "4099255540",
-      "website": "",
+      "website": "https://www.ci.santa-fe.tx.us",
       "lat": 29.3765387,
       "lng": -95.1087376,
       "distance_mi": 176.4,
@@ -5478,7 +5627,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-waller-county-library-hempstead",
@@ -5508,7 +5658,7 @@
       "city": "Houston",
       "address": "7405 Stella Link Rd, Houston, TX 77025",
       "phone": "8323932630",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.698121,
       "lng": -95.4400325,
       "distance_mi": 176.7,
@@ -5522,7 +5672,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-jungman-neighborhood-library-houston",
@@ -5530,7 +5681,7 @@
       "city": "Houston",
       "address": "5830 Westheimer Rd, Houston, TX 77057",
       "phone": "8323931860",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7379675,
       "lng": -95.481323,
       "distance_mi": 177.1,
@@ -5544,7 +5695,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-tom-reid-library-pearland",
@@ -5552,7 +5704,7 @@
       "city": "Pearland",
       "address": "3522 Liberty Dr, Pearland, TX 77581",
       "phone": "2816521677",
-      "website": "",
+      "website": "https://www.mybcls.org",
       "lat": 29.5507281,
       "lng": -95.2571218,
       "distance_mi": 177.3,
@@ -5566,7 +5718,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-johnson-neighborhood-library-houston",
@@ -5574,7 +5727,7 @@
       "city": "Houston",
       "address": "3517 Reed Rd, Houston, TX 77051",
       "phone": "8323932550",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.6583375,
       "lng": -95.370942,
       "distance_mi": 177.6,
@@ -5588,7 +5741,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-old-quarry-branch-library-austin",
@@ -5640,7 +5794,7 @@
       "city": "Houston",
       "address": "6108 Auden St, Houston, TX 77005",
       "phone": "8329275491",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.716318,
       "lng": -95.4374175,
       "distance_mi": 177.8,
@@ -5654,7 +5808,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-little-walnut-creek-branch-library-austin",
@@ -5706,7 +5861,7 @@
       "city": "Houston",
       "address": "930 Corbindale Rd, Houston, TX 77024",
       "phone": "8329275511",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7811133,
       "lng": -95.512769,
       "distance_mi": 178.1,
@@ -5720,7 +5875,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-hillendahl-neighborhood-library-houston",
@@ -5728,7 +5884,7 @@
       "city": "Houston",
       "address": "2436 Gessner Rd, Houston, TX 77080",
       "phone": "8323931940",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.8156078,
       "lng": -95.5451689,
       "distance_mi": 178.7,
@@ -5742,7 +5898,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-friendswood-public-library-friendswood",
@@ -5750,7 +5907,7 @@
       "city": "Friendswood",
       "address": "416 S Friendswood Dr, Friendswood, TX 77546",
       "phone": "2814827135",
-      "website": "",
+      "website": "https://www.friendswoodtx.gov",
       "lat": 29.52877,
       "lng": -95.200379,
       "distance_mi": 178.8,
@@ -5764,7 +5921,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-looscan-neighborhood-library-houston",
@@ -5772,7 +5930,7 @@
       "city": "Houston",
       "address": "2510 Willowick Rd, Houston, TX 77027",
       "phone": "8323931900",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.742819,
       "lng": -95.4417374,
       "distance_mi": 178.9,
@@ -5786,7 +5944,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-lake-travis-community-library-austin",
@@ -5816,7 +5975,7 @@
       "city": "Hitchcock",
       "address": "8005 Barry Ave, Hitchcock, TX 77563",
       "phone": "4099867814",
-      "website": "",
+      "website": "https://www.cityofhitchcock.org",
       "lat": 29.3470566,
       "lng": -95.0201902,
       "distance_mi": 179.5,
@@ -5830,7 +5989,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-ring-neighborhood-library-houston",
@@ -5838,7 +5998,7 @@
       "city": "Houston",
       "address": "8835 Long Point Rd, Houston, TX 77055",
       "phone": "8323932000",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.8029226,
       "lng": -95.5080537,
       "distance_mi": 179.5,
@@ -5852,7 +6012,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-bracewell-neighborhood-library-houston",
@@ -5860,7 +6021,7 @@
       "city": "Houston",
       "address": "9002 Kingspoint Dr, Houston, TX 77075",
       "phone": "8323932580",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.6020825,
       "lng": -95.2461287,
       "distance_mi": 180.2,
@@ -5874,7 +6035,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-utopia-memorial-library-utopia",
@@ -5904,7 +6066,7 @@
       "city": "Houston",
       "address": "5300 Caroline St, Houston, TX 77004",
       "phone": "8323932600",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7259261,
       "lng": -95.3857752,
       "distance_mi": 180.3,
@@ -5918,7 +6080,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-freed-montrose-neighborhood-library-houston",
@@ -5926,7 +6089,7 @@
       "city": "Houston",
       "address": "4100 Montrose Blvd, Houston, TX 77006",
       "phone": "8323931800",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7357954,
       "lng": -95.3911734,
       "distance_mi": 180.6,
@@ -5940,7 +6103,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-mancuso-neighborhood-library-houston",
@@ -5948,7 +6112,7 @@
       "city": "Houston",
       "address": "6767 Bellfort St, Houston, TX 77087",
       "phone": "8323931920",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.6679104,
       "lng": -95.3102264,
       "distance_mi": 180.6,
@@ -5962,7 +6126,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-parker-williams-branch-library-houston",
@@ -5970,7 +6135,7 @@
       "city": "Houston",
       "address": "10851 Scarsdale Blvd Ste 510, Houston, TX 77089",
       "phone": "8329277871",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.5837178,
       "lng": -95.214821,
       "distance_mi": 180.7,
@@ -5984,7 +6149,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-young-neighborhood-library-houston",
@@ -5992,7 +6158,7 @@
       "city": "Houston",
       "address": "5107 Griggs Rd, Houston, TX 77021",
       "phone": "8323932140",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.6981188,
       "lng": -95.3371393,
       "distance_mi": 181.0,
@@ -6006,7 +6172,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-smith-neighborhood-library-houston",
@@ -6014,7 +6181,7 @@
       "city": "Houston",
       "address": "3624 Scott St, Houston, TX 77004",
       "phone": "8323932050",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7226316,
       "lng": -95.3514943,
       "distance_mi": 181.6,
@@ -6028,7 +6195,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-fairbanks-branch-library-houston",
@@ -6036,7 +6204,7 @@
       "city": "Houston",
       "address": "7122 Gessner Rd, Houston, TX 77040",
       "phone": "8329277891",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.872363,
       "lng": -95.5408576,
       "distance_mi": 181.9,
@@ -6050,7 +6218,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-african-american-history-research-center-houston",
@@ -6058,7 +6227,7 @@
       "city": "Houston",
       "address": "1300 Victor St, Houston, TX 77019",
       "phone": "8323931440",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7539375,
       "lng": -95.380439,
       "distance_mi": 182.0,
@@ -6072,7 +6241,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-johnson-city-library-johnson-city",
@@ -6124,7 +6294,7 @@
       "city": "Houston",
       "address": "6200 Pinemont Dr, Houston, TX 77092",
       "phone": "8323931740",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.8404115,
       "lng": -95.4827143,
       "distance_mi": 182.4,
@@ -6138,7 +6308,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-helen-hall-library-league-city",
@@ -6146,7 +6317,7 @@
       "city": "League City",
       "address": "100 W Walker St, League City, TX 77573",
       "phone": "2815541111",
-      "website": "",
+      "website": "https://www.leaguecitytx.gov/1294/About-Us",
       "lat": 29.5036107,
       "lng": -95.0930222,
       "distance_mi": 182.6,
@@ -6160,7 +6331,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-dickinson-public-library-dickinson",
@@ -6168,7 +6340,7 @@
       "city": "Dickinson",
       "address": "4411 Hwy 3, Dickinson, TX 77539",
       "phone": "2815343812",
-      "website": "",
+      "website": "https://www.ci.dickinson.tx.us",
       "lat": 29.4595912,
       "lng": -95.0505999,
       "distance_mi": 182.7,
@@ -6182,7 +6354,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-houston-history-research-center-houston",
@@ -6190,7 +6363,7 @@
       "city": "Houston",
       "address": "550 Mckinney St, Houston, TX 77002",
       "phone": "8323931662",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7593349,
       "lng": -95.368918,
       "distance_mi": 182.7,
@@ -6204,7 +6377,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-houston-public-library-houston",
@@ -6212,7 +6386,7 @@
       "city": "Houston",
       "address": "500 Mckinney St, Houston, TX 77002",
       "phone": "8323931313",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7598401,
       "lng": -95.3697201,
       "distance_mi": 182.7,
@@ -6226,7 +6400,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-la-marque-public-library-la-marque",
@@ -6234,7 +6409,7 @@
       "city": "La Marque",
       "address": "1011 Bayou Rd, La Marque, TX 77568",
       "phone": "4099389270",
-      "website": "",
+      "website": "https://www.cityoflamarque.org",
       "lat": 29.3705787,
       "lng": -94.9716958,
       "distance_mi": 182.8,
@@ -6248,7 +6423,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-pflugerville-public-library-pflugerville",
@@ -6278,7 +6454,7 @@
       "city": "Houston",
       "address": "8145 Park Place Blvd, Houston, TX 77017",
       "phone": "8323931970",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.6874556,
       "lng": -95.2749236,
       "distance_mi": 183.1,
@@ -6292,7 +6468,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-spicewood-springs-branch-library-austin",
@@ -6322,7 +6499,7 @@
       "city": "Houston",
       "address": "1302 Heights Blvd, Houston, TX 77008",
       "phone": "8323931810",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7947167,
       "lng": -95.3975981,
       "distance_mi": 183.4,
@@ -6336,7 +6513,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-melcher-neighborhood-library-houston",
@@ -6344,7 +6522,7 @@
       "city": "Houston",
       "address": "7200 Keller St, Houston, TX 77012",
       "phone": "8323932480",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7063937,
       "lng": -95.2895005,
       "distance_mi": 183.4,
@@ -6358,7 +6536,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-wells-branch-community-library-austin",
@@ -6388,7 +6567,7 @@
       "city": "Houston",
       "address": "110 N Milby St, Houston, TX 77003",
       "phone": "8323931780",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7504863,
       "lng": -95.335205,
       "distance_mi": 183.7,
@@ -6402,7 +6581,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-oak-forest-neighborhood-library-houston",
@@ -6410,7 +6590,7 @@
       "city": "Houston",
       "address": "1349 W 43Rd St, Houston, TX 77018",
       "phone": "8323931960",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.8281925,
       "lng": -95.433968,
       "distance_mi": 183.7,
@@ -6424,7 +6604,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-clear-lake-city-county-freeman-branch-library-houston",
@@ -6432,7 +6613,7 @@
       "city": "Houston",
       "address": "16616 Diana Ln, Houston, TX 77062",
       "phone": "8329275421",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.5585244,
       "lng": -95.1190862,
       "distance_mi": 183.9,
@@ -6446,7 +6627,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-south-houston-branch-library-south-houston",
@@ -6454,7 +6636,7 @@
       "city": "South Houston",
       "address": "607 Ave A, South Houston, TX 77587",
       "phone": "8329275534",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 29.6664875,
       "lng": -95.22424,
       "distance_mi": 184.2,
@@ -6468,7 +6650,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-carnegie-neighborhood-library-houston",
@@ -6476,7 +6659,7 @@
       "city": "Houston",
       "address": "1050 Quitman St, Houston, TX 77009",
       "phone": "8323931720",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7825997,
       "lng": -95.3587357,
       "distance_mi": 184.3,
@@ -6490,7 +6673,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-stanaker-neighborhood-library-houston",
@@ -6498,7 +6682,7 @@
       "city": "Houston",
       "address": "611 Ssgt Macario Garcia Dr, Houston, TX 77011",
       "phone": "8323932080",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7399607,
       "lng": -95.3028118,
       "distance_mi": 184.5,
@@ -6512,7 +6696,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-northwest-branch-library-cypress",
@@ -6520,7 +6705,7 @@
       "city": "Cypress",
       "address": "11355 Regency Green Dr, Cypress, TX 77429",
       "phone": "8329275461",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 29.9621974,
       "lng": -95.592503,
       "distance_mi": 185.0,
@@ -6534,7 +6719,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-hcpl-technology-center-at-finnegan-park-houston",
@@ -6542,7 +6728,7 @@
       "city": "Houston",
       "address": "4900 Providence St, Houston, TX 77020",
       "phone": "7136787385",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7700529,
       "lng": -95.3195644,
       "distance_mi": 185.3,
@@ -6556,7 +6742,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-fairmont-branch-library-pasadena",
@@ -6564,7 +6751,7 @@
       "city": "Pasadena",
       "address": "4330 Fairmont Pkwy, Pasadena, TX 77504",
       "phone": "7138485345",
-      "website": "",
+      "website": "https://www.cityofpasadena.net/library/",
       "lat": 29.6497681,
       "lng": -95.1778542,
       "distance_mi": 185.4,
@@ -6578,7 +6765,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-shepard-acres-homes-neighborhood-library-houston",
@@ -6586,7 +6774,7 @@
       "city": "Houston",
       "address": "8501 W Montgomery Rd, Houston, TX 77088",
       "phone": "8323931700",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.8711751,
       "lng": -95.4371824,
       "distance_mi": 185.8,
@@ -6600,7 +6788,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-tuttle-neighborhood-library-houston",
@@ -6608,7 +6797,7 @@
       "city": "Houston",
       "address": "702 Kress St, Houston, TX 77020",
       "phone": "8323932100",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7764479,
       "lng": -95.3074727,
       "distance_mi": 186.1,
@@ -6622,7 +6811,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-moore-memorial-public-library-texas-city",
@@ -6630,7 +6820,7 @@
       "city": "Texas City",
       "address": "1701 9Th Ave N, Texas City, TX 77590",
       "phone": "4096435970",
-      "website": "",
+      "website": "https://www.moorelibrary.com",
       "lat": 29.3931727,
       "lng": -94.9187457,
       "distance_mi": 186.3,
@@ -6644,7 +6834,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-pasadena-public-library-pasadena",
@@ -6652,7 +6843,7 @@
       "city": "Pasadena",
       "address": "1201 Jeff Ginn Memorial Dr, Pasadena, TX 77506",
       "phone": "7134770276",
-      "website": "",
+      "website": "https://www.cityofpasadena.net/library/",
       "lat": 29.6927601,
       "lng": -95.1972372,
       "distance_mi": 186.6,
@@ -6666,7 +6857,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-lago-vista-public-library-lago-vista",
@@ -6696,7 +6888,7 @@
       "city": "Houston",
       "address": "979 Grenshaw St, Houston, TX 77088",
       "phone": "2814451617",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.8806338,
       "lng": -95.4243827,
       "distance_mi": 186.8,
@@ -6710,7 +6902,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-pleasantville-neighborhood-library-houston",
@@ -6718,7 +6911,7 @@
       "city": "Houston",
       "address": "1520 Gellhorn Dr, Houston, TX 77029",
       "phone": "8323932330",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7638591,
       "lng": -95.2727828,
       "distance_mi": 186.9,
@@ -6732,7 +6925,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-mccrane-kashmere-gardens-neighborhood-library-houston",
@@ -6740,7 +6934,7 @@
       "city": "Houston",
       "address": "5411 Pardee St, Houston, TX 77026",
       "phone": "8323932450",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.8059752,
       "lng": -95.3166422,
       "distance_mi": 187.2,
@@ -6754,7 +6948,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-galena-park-branch-library-galena-park",
@@ -6762,7 +6957,7 @@
       "city": "Galena Park",
       "address": "1500 Keene St, Galena Park, TX 77547",
       "phone": "8329275471",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 29.7434889,
       "lng": -95.236614,
       "distance_mi": 187.4,
@@ -6776,7 +6971,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-moody-neighborhood-library-houston",
@@ -6784,7 +6980,7 @@
       "city": "Houston",
       "address": "9525 Irvington Blvd, Houston, TX 77076",
       "phone": "8323931950",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.8474972,
       "lng": -95.362528,
       "distance_mi": 187.5,
@@ -6798,7 +6994,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-butt-holdsworth-memorial-library-kerrville",
@@ -6872,7 +7069,7 @@
       "city": "Houston",
       "address": "8002 Hirsch Rd, Houston, TX 77016",
       "phone": "8323931760",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.83333,
       "lng": -95.3289525,
       "distance_mi": 188.1,
@@ -6886,7 +7083,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-jacinto-city-branch-library-houston",
@@ -6894,7 +7092,7 @@
       "city": "Houston",
       "address": "921 Akron St, Houston, TX 77029",
       "phone": "8329275520",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.7724785,
       "lng": -95.2404343,
       "distance_mi": 188.7,
@@ -6908,7 +7106,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-jonestown-community-library-jonestown",
@@ -6938,7 +7137,7 @@
       "city": "Galveston",
       "address": "2310 Sealy St, Galveston, TX 77550",
       "phone": "4097638854",
-      "website": "",
+      "website": "https://www.rosenberg-library.org",
       "lat": 29.3008953,
       "lng": -94.7929621,
       "distance_mi": 189.0,
@@ -6952,7 +7151,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-evelyn-meador-branch-library-seabrook",
@@ -6960,7 +7160,7 @@
       "city": "Seabrook",
       "address": "2400 North Meyer Rd, Seabrook, TX 77586",
       "phone": "2814749142",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 29.5752177,
       "lng": -95.016154,
       "distance_mi": 189.3,
@@ -6974,7 +7174,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-deer-park-public-library-deer-park",
@@ -6982,7 +7183,7 @@
       "city": "Deer Park",
       "address": "3009 Center St, Deer Park, TX 77536",
       "phone": "2814787208",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 29.6838368,
       "lng": -95.1232808,
       "distance_mi": 189.4,
@@ -6996,7 +7197,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-aldine-branch-library-houston",
@@ -7004,7 +7206,7 @@
       "city": "Houston",
       "address": "11331 Airline Dr, Houston, TX 77037",
       "phone": "8329275411",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.9209415,
       "lng": -95.4072426,
       "distance_mi": 189.6,
@@ -7018,7 +7220,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-cedar-park-public-library-cedar-park",
@@ -7092,7 +7295,7 @@
       "city": "Spring",
       "address": "6817 Cypresswood Dr, Spring, TX 77379",
       "phone": "8329277801",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 30.0130112,
       "lng": -95.5105879,
       "distance_mi": 190.7,
@@ -7106,7 +7309,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-scenic-woods-regional-library-houston",
@@ -7114,7 +7318,7 @@
       "city": "Houston",
       "address": "10677 Homestead Rd, Houston, TX 77016",
       "phone": "8323932030",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.869844,
       "lng": -95.3006875,
       "distance_mi": 191.1,
@@ -7128,7 +7332,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-taylor-public-library-taylor",
@@ -7158,7 +7363,7 @@
       "city": "Houston",
       "address": "4500 Aldine Mail Route, Houston, TX 77039",
       "phone": "8329275541",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.9026051,
       "lng": -95.3272261,
       "distance_mi": 191.8,
@@ -7172,7 +7377,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-lone-star-college-tomball-community-library-tomball",
@@ -7224,7 +7430,7 @@
       "city": "La Porte",
       "address": "600 S Broadway St, La Porte, TX 77571",
       "phone": "2814700829",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 29.6586012,
       "lng": -95.0192092,
       "distance_mi": 192.9,
@@ -7238,7 +7444,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-pioneer-memorial-library-fredericksburg",
@@ -7312,7 +7519,7 @@
       "city": "Houston",
       "address": "15741 Wallisville Rd, Houston, TX 77049",
       "phone": "8329275550",
-      "website": "",
+      "website": "https://houstonlibrary.org",
       "lat": 29.8104463,
       "lng": -95.156818,
       "distance_mi": 194.1,
@@ -7326,7 +7533,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-real-county-public-library-leakey-leakey",
@@ -7400,7 +7608,7 @@
       "city": "Humble",
       "address": "22248 Aldine Westfield Rd, Humble, TX 77338",
       "phone": "8329275481",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 30.0375032,
       "lng": -95.3818527,
       "distance_mi": 196.8,
@@ -7414,7 +7622,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-sterling-municipal-library-baytown",
@@ -7466,7 +7675,7 @@
       "city": "Humble",
       "address": "1503 S Houston Ave, Humble, TX 77338",
       "phone": "8329275501",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 29.9806086,
       "lng": -95.2606017,
       "distance_mi": 198.4,
@@ -7480,7 +7689,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-marble-falls-public-library-marble-falls",
@@ -7510,7 +7720,7 @@
       "city": "Highlands",
       "address": "509 Stratford St, Highlands, TX 77562",
       "phone": "8329275401",
-      "website": "",
+      "website": "https://hcpl.net",
       "lat": 29.8216767,
       "lng": -95.0634235,
       "distance_mi": 198.6,
@@ -7524,7 +7734,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-lucy-hill-patterson-memorial-library-rockdale",
@@ -7598,7 +7809,7 @@
       "city": "The Woodlands",
       "address": "2101 Lake Robbins Dr, The Woodlands, TX 77380",
       "phone": "9364427727",
-      "website": "",
+      "website": "https://www.countylibrary.org",
       "lat": 30.1624377,
       "lng": -95.46588,
       "distance_mi": 200.6,
@@ -7612,7 +7823,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "in_outreach": true
+      "in_outreach": true,
+      "web_lookup_done": true
     },
     {
       "id": "lib-crosby-edith-fae-cook-cole-branch-library-crosby",
