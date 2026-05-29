@@ -105,8 +105,10 @@ def _is_aggregator(host):
     if host.startswith("www."):
         host = host[4:]
     return any(host == d or host.endswith("." + d) for d in AGGREGATOR_HOSTS)
-WEBSITE_LOOKUP_CAP = 150   # per run; cached flags let later runs continue where this stops
-WEBSITE_SLEEP = 2.0        # polite delay between queries
+WEBSITE_LOOKUP_CAP = 60    # per run; cached flags let later runs continue where this stops
+WEBSITE_SLEEP = 0.7        # polite delay between queries
+WEBSITE_TIMEOUT = 6        # fail fast if the engine stalls (throttling) instead of hanging ~20s
+WEBSITE_MAX_FAILS = 8      # if this many lookups in a row return nothing/blocked, stop early this run
 
 
 def _ddg_decode(href):
@@ -128,7 +130,7 @@ def _ddg_results(query):
     """Return (list_of_urls, engine_responded). Tries two no-JS DDG endpoints."""
     for url in ("https://html.duckduckgo.com/html/", "https://lite.duckduckgo.com/lite/"):
         try:
-            r = requests.post(url, data={"q": query}, headers=WEB_BROWSER_UA, timeout=20)
+            r = requests.post(url, data={"q": query}, headers=WEB_BROWSER_UA, timeout=WEBSITE_TIMEOUT)
             if r.status_code != 200:
                 continue
             hrefs = re.findall(r'<a[^>]+(?:class="result__a"|class="result-link")[^>]*href="([^"]+)"', r.text)
@@ -163,7 +165,7 @@ def find_website(name, city):
 def enrich_websites(records, label="records"):
     """Generic: fill `website` for any record missing one. Works on leads or libraries,
     so any future source added to either list is auto-scraped too."""
-    done = found = 0
+    done = found = consec_fail = 0
     for r in records:
         if (r.get("website") or "").strip():
             continue
@@ -171,9 +173,14 @@ def enrich_websites(records, label="records"):
             continue
         if done >= WEBSITE_LOOKUP_CAP:
             break
+        if consec_fail >= WEBSITE_MAX_FAILS:
+            log(f"website lookup [{label}]: {consec_fail} misses in a row — engine likely throttling, stopping for this run")
+            break
         site, ok = find_website(r.get("name", ""), r.get("city", ""))
         if not ok:
+            consec_fail += 1
             continue   # engine blocked/failed -> retry on a future run, don't mark done
+        consec_fail = 0
         r["web_lookup_done"] = True
         done += 1
         if site:
