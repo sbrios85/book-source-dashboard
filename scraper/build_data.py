@@ -171,8 +171,19 @@ def fetch_schools():
         jobs.append(("Public K-12", f"{base}/schools/ccd/directory/2022/?fips={fips}",
                      "school_name", "phone", "latitude", "longitude", "school_level"))
     if s.get("include_private"):
-        jobs.append(("Private", f"{base}/schools/pss/directory/2021/?fips={fips}",
-                     "name", "phone", "latitude", "longitude", "school_level"))
+        # PSS is biennial; the API ingests years on a lag. Try newest-first.
+        pss = None
+        for y in (2021, 2019, 2017):
+            u = f"{base}/schools/pss/directory/{y}/?fips={fips}"
+            try:
+                if requests.get(u, headers=UA, timeout=30).status_code == 200:
+                    pss = u; break
+            except Exception:
+                pass
+        if pss:
+            jobs.append(("Private", pss, "name", "phone", "latitude", "longitude", "school_level"))
+        else:
+            log("schools[Private]: no working PSS year found, skipping")
     if s.get("include_colleges"):
         jobs.append(("College", f"{base}/college-university/ipeds/directory/2022/?fips={fips}",
                      "inst_name", "phone_number", "latitude", "longitude", None))
@@ -277,7 +288,7 @@ def fetch_estatesales_net():
         return out
     try:
         from bs4 import BeautifulSoup
-        url = f"https://www.estatesales.net/TX/{es.get('zip','78412')}?radius={es.get('radius',100)}"
+        url = f"https://www.estatesales.net/TX/{es.get('city','Corpus-Christi')}/{es.get('zip','78412')}"
         r = requests.get(url, headers=UA, timeout=40); r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         for a in soup.select("a[href*='/TX/']")[:50]:
