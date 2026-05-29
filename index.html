@@ -36,6 +36,8 @@
   .thead,.lrow{display:grid;align-items:center;gap:10px;padding:6px 10px}
   .thead{grid-template-columns:14px 1.7fr 150px 56px 132px 96px 70px 18px;font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:var(--ink-soft);border-bottom:2px solid var(--line);position:sticky;top:88px;background:var(--paper);z-index:10}
   .lrow{grid-template-columns:14px 1.7fr 150px 56px 132px 96px 70px 18px;border-bottom:1px solid var(--line);cursor:pointer;font-size:14px}
+  /* Outreach table has Title + Contact columns after Dist */
+  #leads .thead,#leads-list .lrow{grid-template-columns:14px 1.4fr 104px 42px 116px 124px 124px 60px 72px 16px}
   .lrow:nth-child(even){background:var(--rowalt)}
   .lrow:hover{background:var(--paper-2)}
   .dot{width:9px;height:9px;border-radius:50%;background:var(--grey)}
@@ -78,7 +80,7 @@
   @media(max-width:760px){
     .thead{display:none}
     .lrow{grid-template-columns:12px 1fr 64px 18px}
-    .lrow .ty-cell,.lrow .phone-cell,.lrow .lc-cell{display:none}
+    .lrow .ty-cell,.lrow .phone-cell,.lrow .lc-cell,.lrow .title-cell,.lrow .contact-cell{display:none}
   }
 </style>
 </head>
@@ -121,7 +123,7 @@
     </div>
     <div class="hint">Click a row to log status, contacts &amp; notes. Saves in this browser — Export to commit back to the repo.</div>
     <div class="thead">
-      <span></span><span>Name</span><span>Type</span><span>Dist</span><span>Phone</span><span>Status</span><span>Last</span><span></span>
+      <span></span><span>Name</span><span>Type</span><span>Dist</span><span>Title</span><span>Contact</span><span>Phone</span><span>Status</span><span>Last</span><span></span>
     </div>
     <div id="leads-list"></div>
   </section>
@@ -205,17 +207,17 @@ function leadsUnified(){
 }
 function leadDetail(l){
   const st=val(l.id,'status',l.status||'new'),lc=val(l.id,'last_contacted',l.last_contacted),on=val(l.id,'outreach_notes',l.outreach_notes);
-  const isC=l.category==='libraries'||l.category==='schools';
-  const ln=val(l.id,'librarian_name',l.librarian_name),lp=val(l.id,'librarian_phone',l.librarian_phone),le=val(l.id,'librarian_email',l.librarian_email);
+  const ct=val(l.id,'contact_title',l.contact_title),ln=val(l.id,'librarian_name',l.librarian_name),lp=val(l.id,'librarian_phone',l.librarian_phone),le=val(l.id,'librarian_email',l.librarian_email);
   return `<div class="addr">${esc(l.address||'')}</div>
     ${l.website?`<div class="addr"><a href="${esc(l.website)}" target="_blank">website ↗</a></div>`:''}
     ${l.notes?`<div class="note-static">${esc(l.notes)}</div>`:''}
     ${l.outreach_window?`<div class="addr">⏰ reach out: ${esc(l.outreach_window)}</div>`:''}
-    ${isC?`<div class="drow">
-      <label class="fld">Librarian<input class="tin" data-id="${l.id}" data-f="librarian_name" value="${esc(ln)}" placeholder="name"></label>
+    <div class="drow">
+      <label class="fld">Contact name<input class="tin" data-id="${l.id}" data-f="librarian_name" value="${esc(ln)}" placeholder="who to ask for"></label>
+      <label class="fld">Title<input class="tin" data-id="${l.id}" data-f="contact_title" value="${esc(ct)}" placeholder="e.g. Head Librarian"></label>
       <label class="fld">Phone<input class="tin" data-id="${l.id}" data-f="librarian_phone" value="${esc(lp)}" placeholder="direct line"></label>
       <label class="fld">Email<input class="tin" data-id="${l.id}" data-f="librarian_email" value="${esc(le)}" placeholder="email"></label>
-    </div>`:''}
+    </div>
     <div class="drow">
       <label class="fld">Status<select data-id="${l.id}" data-f="status">${['new','contacted','replied','sourcing','dead'].map(o=>`<option ${o===st?'selected':''}>${o}</option>`).join('')}</select></label>
       <label class="fld">Last contacted<input class="dt" type="date" data-id="${l.id}" data-f="last_contacted" value="${esc(lc)}"></label>
@@ -240,6 +242,8 @@ function renderLeads(){
       <span class="nm">${esc(l.name)}</span>
       <span class="ty-cell"><span class="tybadge b-${l.category}">${esc(ty)}</span></span>
       <span class="cell">${l.distance_mi!=null?l.distance_mi:''}</span>
+      <span class="cell title-cell">${esc(val(l.id,'contact_title',l.contact_title)||'—')}</span>
+      <span class="cell contact-cell">${esc(val(l.id,'librarian_name',l.librarian_name)||'—')}</span>
       <span class="cell phone-cell">${l.phone?`<a href="tel:${ph}" onclick="event.stopPropagation()">${esc(l.phone)}</a>`:'—'}</span>
       <span class="cell stpill">${esc(st)}</span>
       <span class="cell lc-cell">${esc(lc||'—')}</span>
@@ -319,7 +323,11 @@ function wireList(listId,detailFn,lookup){
   el.addEventListener('change',e=>{const id=e.target.dataset.id,f=e.target.dataset.f;if(!id||!f)return;crm[id]=crm[id]||{};crm[id][f]=e.target.value;saveCrm();
     if(f==='status'){const r=el.querySelector(`[data-row="${CSS.escape(id)}"]`);if(r){r.querySelector('.dot').className='dot '+e.target.value;const sp=r.querySelector('.stpill');if(sp)sp.textContent=e.target.value;}}
   });
-  el.addEventListener('input',e=>{const id=e.target.dataset.id,f=e.target.dataset.f;if(!id||!f)return;if(['outreach_notes','sales_notes','fol_facebook','librarian_name','librarian_phone','librarian_email'].includes(f)){crm[id]=crm[id]||{};crm[id][f]=e.target.value;saveCrm();}});
+  el.addEventListener('input',e=>{const id=e.target.dataset.id,f=e.target.dataset.f;if(!id||!f)return;if(['outreach_notes','sales_notes','fol_facebook','librarian_name','contact_title','librarian_phone','librarian_email'].includes(f)){crm[id]=crm[id]||{};crm[id][f]=e.target.value;saveCrm();
+    const r=el.querySelector(`[data-row="${CSS.escape(id)}"]`);
+    if(r){if(f==='contact_title'){const c=r.querySelector('.title-cell');if(c)c.textContent=e.target.value||'—';}
+      if(f==='librarian_name'){const c=r.querySelector('.contact-cell');if(c)c.textContent=e.target.value||'—';}}
+  }});
   el.addEventListener('click',e=>{if(e.target.classList.contains('copy')){navigator.clipboard.writeText(PITCH[e.target.dataset.pitch]||'');e.target.textContent='copied ✓';setTimeout(()=>e.target.textContent='copy pitch',1200);}});
 }
 wireList('leads-list',leadDetail,id=>leadsUnified().find(x=>x.id===id));
