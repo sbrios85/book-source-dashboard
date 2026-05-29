@@ -17,7 +17,7 @@
   body{margin:0;background:var(--paper);color:var(--ink);
     font-family:"Newsreader",Georgia,serif;font-size:15px;line-height:1.4;}
   a{color:var(--ox);text-decoration:none}a:hover{text-decoration:underline}
-  .wrap{max-width:1180px;margin:0 auto;padding:0 16px 80px}
+  .wrap{max-width:1600px;margin:0 auto;padding:0 24px 80px}
   header{padding:20px 0 10px;border-bottom:2px solid var(--ink)}
   .brand{font-family:"Fraunces",serif;font-weight:900;font-size:28px;letter-spacing:-.5px;line-height:1}
   .brand .sub{display:block;font-family:"Spline Sans Mono",monospace;font-weight:500;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--ink-soft);margin-top:6px}
@@ -34,10 +34,10 @@
 
   /* compact rows */
   .thead,.lrow{display:grid;align-items:center;gap:10px;padding:6px 10px}
-  .thead{grid-template-columns:14px 1.7fr 150px 56px 132px 96px 70px 18px;font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:var(--ink-soft);border-bottom:2px solid var(--line);position:sticky;top:88px;background:var(--paper);z-index:10}
-  .lrow{grid-template-columns:14px 1.7fr 150px 56px 132px 96px 70px 18px;border-bottom:1px solid var(--line);cursor:pointer;font-size:14px}
+  .thead{grid-template-columns:14px 2fr 150px 64px 170px 70px 150px 18px;font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:var(--ink-soft);border-bottom:2px solid var(--line);position:sticky;top:88px;background:var(--paper);z-index:10}
+  .lrow{grid-template-columns:14px 2fr 150px 64px 170px 70px 150px 18px;border-bottom:1px solid var(--line);cursor:pointer;font-size:14px}
   /* Outreach table has Title + Contact columns after Dist */
-  #leads .thead,#leads-list .lrow{grid-template-columns:14px 1.3fr 96px 40px 102px 114px 116px 56px 70px 70px 16px}
+  #leads .thead,#leads-list .lrow{grid-template-columns:14px 1.4fr 110px 130px 48px 130px 150px 150px 64px 84px 84px 16px}
   .lrow:nth-child(even){background:var(--rowalt)}
   .lrow:hover{background:var(--paper-2)}
   .dot{width:9px;height:9px;border-radius:50%;background:var(--grey)}
@@ -80,7 +80,7 @@
   @media(max-width:760px){
     .thead{display:none}
     .lrow{grid-template-columns:12px 1fr 64px 18px}
-    .lrow .ty-cell,.lrow .phone-cell,.lrow .lc-cell,.lrow .title-cell,.lrow .contact-cell,.lrow .follow-cell{display:none}
+    .lrow .ty-cell,.lrow .phone-cell,.lrow .lc-cell,.lrow .title-cell,.lrow .contact-cell,.lrow .follow-cell,.lrow .city-cell{display:none}
   }
 </style>
 </head>
@@ -123,7 +123,7 @@
     </div>
     <div class="hint">Click a row to log status, contacts &amp; notes. Saves in this browser — Export to commit back to the repo.</div>
     <div class="thead">
-      <span></span><span>Name</span><span>Type</span><span>Dist</span><span>Title</span><span>Contact</span><span>Phone</span><span>Status</span><span>Last</span><span>Follow Up</span><span></span>
+      <span></span><span>Name</span><span>Type</span><span>City</span><span>Dist</span><span>Title</span><span>Contact</span><span>Phone</span><span>Status</span><span>Last</span><span>Follow Up</span><span></span>
     </div>
     <div id="leads-list"></div>
   </section>
@@ -242,6 +242,7 @@ function renderLeads(){
       <span class="dot ${st}"></span>
       <span class="nm">${esc(l.name)}</span>
       <span class="ty-cell"><span class="tybadge b-${l.category}">${esc(ty)}</span></span>
+      <span class="cell city-cell">${esc(l.city||'—')}</span>
       <span class="cell">${l.distance_mi!=null?l.distance_mi:''}</span>
       <span class="cell title-cell">${esc(val(l.id,'contact_title',l.contact_title)||'—')}</span>
       <span class="cell contact-cell">${esc(val(l.id,'librarian_name',l.librarian_name)||'—')}</span>
