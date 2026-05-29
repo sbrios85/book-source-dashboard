@@ -1,0 +1,50 @@
+{
+  "generated": "2026-05-29",
+  "note": "Master list of public libraries. Outreach tab shows those within libraries_outreach radius; Library Sales tab shows those within library_sales radius. Manual fields (librarian_name/phone/email, fol_facebook, sales_notes) persist via the dashboard and are preserved on refresh.",
+  "radii": {
+    "outreach": 110,
+    "library_sales": 250
+  },
+  "libraries": [
+    {
+      "id": "lib-aransas-rockport",
+      "name": "Aransas County Public Library",
+      "city": "Rockport",
+      "address": "701 E Mimosa St, Rockport, TX 78382",
+      "phone": "+1 361-790-0153",
+      "website": "https://www.acplibrary.org/",
+      "lat": 28.0207,
+      "lng": -97.0586,
+      "distance_mi": 30,
+      "outlet_type": "Central",
+      "librarian_name": "",
+      "librarian_phone": "",
+      "librarian_email": "",
+      "fol_facebook": "",
+      "sales_notes": "Ongoing in-library book sale during hours.",
+      "status": "new",
+      "last_contacted": "",
+      "outreach_notes": ""
+    },
+    {
+      "id": "lib-victoria-public",
+      "name": "Victoria Public Library",
+      "city": "Victoria",
+      "address": "302 N Main St, Victoria, TX 77901",
+      "phone": "+1 361-485-3300",
+      "website": "https://www.victoriatx.gov/185/Library",
+      "lat": 28.8053,
+      "lng": -97.0036,
+      "distance_mi": 73,
+      "outlet_type": "Central",
+      "librarian_name": "",
+      "librarian_phone": "",
+      "librarian_email": "",
+      "fol_facebook": "",
+      "sales_notes": "Friends sale runs Jan / May / Sept. Member presale Sunday, public Mon\u2013Fri.",
+      "status": "new",
+      "last_contacted": "",
+      "outreach_notes": ""
+    }
+  ]
+}
