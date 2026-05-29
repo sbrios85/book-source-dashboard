@@ -47,8 +47,8 @@ craigslist:
 
 estatesales_net:
   enabled: true
+  city: "Corpus-Christi"   # EstateSales.net path is /TX/City-Name/zip
   zip: "78412"
-  radius: 100
 
 fixed_schedule_sales:
   - org: "Friends of the Victoria Public Library"
