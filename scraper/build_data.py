@@ -200,6 +200,9 @@ def fetch_schools():
                         continue
                     name = row.get(nk) or row.get("name") or "Unknown"
                     st = label if lvlk is None else level_map.get(row.get(lvlk), label)
+                    # Outreach focuses on high schools, colleges, universities (more/better discards).
+                    if st in ("Elementary", "Middle"):
+                        continue
                     out.append({
                         "id": f"school-{slug(name)}", "category": "schools", "school_type": st,
                         "name": name, "city": row.get("city_mailing") or row.get("city") or "",
@@ -338,6 +341,9 @@ def _fixed_event(s, date_start, note, d):
 def merge_leads(fresh):
     existing = load(DATA / "leads.json", "leads")
     by_id = {l["id"]: l for l in existing.get("leads", [])}
+    # Drop any elementary/middle schools that were stored before we narrowed scope.
+    by_id = {k: v for k, v in by_id.items()
+             if v.get("school_type") not in ("Elementary", "Middle")}
     for l in fresh:
         if l["id"] in by_id:
             for f in ("status", "last_contacted", "follow_up", "outreach_notes", "priority",
