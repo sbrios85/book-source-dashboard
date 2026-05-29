@@ -69,7 +69,7 @@ fixed_schedule_sales:
 # ── Schools (Urban Institute Education Data API over NCES) ───────────────────
 schools:
   include_public_k12: true
-  include_private: true
+  include_private: false    # Urban API has NO private-school (PSS) endpoint — private schools are seeded by hand in leads.json instead
   include_colleges: true
   state_fips: "48"
   outreach_window: "April–May (before year-end weeding)"
