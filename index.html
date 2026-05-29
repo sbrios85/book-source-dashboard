@@ -169,7 +169,7 @@ async function boot(){
     const get=async f=>{const r=await fetch(f);if(!r.ok)throw new Error(f+' '+r.status);return r.json();};
     const [s,l,lb]=await Promise.all([get('data/sales.json'),get('data/leads.json'),get('data/libraries.json').catch(()=>({libraries:[],radii:RADII}))]);
     SALES=s.events||[];LEADS=l.leads||[];LIBS=lb.libraries||[];RADII=lb.radii||RADII;
-    const libOut=LIBS.filter(x=>x.distance_mi==null||x.distance_mi<=RADII.outreach).length;
+    const libOut=LIBS.filter(x=>x.in_outreach!=null?x.in_outreach:(x.distance_mi==null||x.distance_mi<=RADII.outreach)).length;
     document.getElementById('meta').textContent=`updated ${s.generated||l.generated||'—'} · ${SALES.length} live · ${LEADS.length+libOut} leads · ${LIBS.length} libraries`;
     document.getElementById('n-feed').textContent=SALES.length;
     document.getElementById('n-leads').textContent=LEADS.length+libOut;
@@ -202,7 +202,8 @@ function renderFeed(){
 /* OUTREACH (compact rows + expand) */
 let cFilter='all',hideDead=false;
 function leadsUnified(){
-  const libs=LIBS.filter(x=>x.distance_mi==null||x.distance_mi<=RADII.outreach).map(x=>({...x,category:'libraries'}));
+  const inOut=x=>x.in_outreach!=null?x.in_outreach:(x.distance_mi==null||x.distance_mi<=RADII.outreach);
+  const libs=LIBS.filter(inOut).map(x=>({...x,category:'libraries'}));
   return LEADS.concat(libs);
 }
 function leadDetail(l){
