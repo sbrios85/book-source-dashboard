@@ -205,7 +205,7 @@ def fetch_schools():
                         continue
                     out.append({
                         "id": f"school-{slug(name)}", "category": "schools", "school_type": st,
-                        "name": name, "city": row.get("city_mailing") or row.get("city") or "",
+                        "name": name, "city": (row.get("city_mailing") or row.get("city") or "").strip().title(),
                         "address": " ".join(filter(None, [row.get("street_mailing") or row.get("address"),
                                   row.get("city_mailing") or row.get("city"), "TX", str(row.get("zip_mailing") or "")])),
                         "phone": str(row.get(pk) or ""), "website": row.get("inst_url") or "",
@@ -351,8 +351,12 @@ def merge_leads(fresh):
                 if by_id[l["id"]].get(f):
                     l[f] = by_id[l["id"]][f]
         by_id[l["id"]] = {**by_id.get(l["id"], {}), **l}
+    merged = sorted(by_id.values(), key=lambda x: (x.get("category", ""), x.get("priority", 9)))
+    for l in merged:
+        if l.get("city"):
+            l["city"] = l["city"].strip().title()
     return {"generated": TODAY.isoformat(), "note": existing.get("note", ""),
-            "leads": sorted(by_id.values(), key=lambda x: (x.get("category", ""), x.get("priority", 9)))}
+            "leads": merged}
 
 
 def merge_sales(fresh):
