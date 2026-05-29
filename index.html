@@ -9,72 +9,77 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:ital,opsz@0,6..72;1,6..72&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --paper:#f3ebdd; --paper-2:#ece1cd; --card:#fbf6ec;
+    --paper:#f3ebdd; --paper-2:#ece1cd; --card:#fbf6ec; --rowalt:#f6efe1;
     --ink:#2a2118; --ink-soft:#6a5d49; --line:#d8c9ad;
-    --ox:#8a3324; --ox-soft:#b5654d; --moss:#4f6f52; --gold:#b07d28; --slate:#3f5a6b; --indigo:#3b4a7a;
-    --shadow:0 1px 0 #fff inset, 0 2px 6px rgba(60,40,20,.10);
+    --ox:#8a3324; --ox-soft:#b5654d; --moss:#4f6f52; --gold:#b07d28; --slate:#3f5a6b; --indigo:#3b4a7a; --grey:#9b8f78;
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--paper);color:var(--ink);
-    font-family:"Newsreader",Georgia,serif;font-size:16px;line-height:1.45;
-    background-image:radial-gradient(rgba(120,90,50,.04) 1px,transparent 1px);background-size:4px 4px;}
-  a{color:var(--ox);text-decoration:none;border-bottom:1px solid var(--ox-soft)}
-  a:hover{color:var(--ink)}
-  .wrap{max-width:1080px;margin:0 auto;padding:0 18px 80px}
-  header{padding:26px 0 14px;border-bottom:2px solid var(--ink)}
-  .brand{font-family:"Fraunces",serif;font-weight:900;font-size:34px;letter-spacing:-.5px;line-height:1}
-  .brand .sub{display:block;font-family:"Spline Sans Mono",monospace;font-weight:500;
-    font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--ink-soft);margin-top:8px}
-  .meta{font-family:"Spline Sans Mono",monospace;font-size:11.5px;color:var(--ink-soft);margin-top:10px}
-  .tabs{display:flex;gap:0;border-bottom:2px solid var(--ink);margin-top:18px;flex-wrap:wrap}
-  .tab{font-family:"Fraunces",serif;font-weight:600;font-size:17px;padding:11px 18px;cursor:pointer;
-    border:2px solid transparent;border-bottom:none;background:transparent;color:var(--ink-soft);
-    margin-bottom:-2px;border-radius:6px 6px 0 0}
+    font-family:"Newsreader",Georgia,serif;font-size:15px;line-height:1.4;}
+  a{color:var(--ox);text-decoration:none}a:hover{text-decoration:underline}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 16px 80px}
+  header{padding:20px 0 10px;border-bottom:2px solid var(--ink)}
+  .brand{font-family:"Fraunces",serif;font-weight:900;font-size:28px;letter-spacing:-.5px;line-height:1}
+  .brand .sub{display:block;font-family:"Spline Sans Mono",monospace;font-weight:500;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--ink-soft);margin-top:6px}
+  .meta{font-family:"Spline Sans Mono",monospace;font-size:11px;color:var(--ink-soft);margin-top:8px}
+  .tabs{display:flex;gap:0;border-bottom:2px solid var(--ink);margin-top:14px;position:sticky;top:0;background:var(--paper);z-index:20;flex-wrap:wrap}
+  .tab{font-family:"Fraunces",serif;font-weight:600;font-size:16px;padding:9px 16px;cursor:pointer;border:2px solid transparent;border-bottom:none;background:transparent;color:var(--ink-soft);margin-bottom:-2px;border-radius:6px 6px 0 0}
   .tab.on{color:var(--ink);background:var(--card);border-color:var(--ink);border-bottom:2px solid var(--card)}
-  .tab .n{font-family:"Spline Sans Mono",monospace;font-size:11px;color:var(--ox);margin-left:6px}
-  .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:16px 0}
-  .chip{font-family:"Spline Sans Mono",monospace;font-size:11.5px;letter-spacing:.5px;text-transform:uppercase;
-    padding:6px 12px;border:1.5px solid var(--line);border-radius:20px;background:var(--card);cursor:pointer;color:var(--ink-soft)}
+  .tab .n{font-family:"Spline Sans Mono",monospace;font-size:11px;color:var(--ox);margin-left:5px}
+  .toolbar{display:flex;flex-wrap:wrap;gap:7px;align-items:center;padding:12px 0;position:sticky;top:43px;background:var(--paper);z-index:15}
+  .chip{font-family:"Spline Sans Mono",monospace;font-size:11px;letter-spacing:.4px;text-transform:uppercase;padding:5px 11px;border:1.5px solid var(--line);border-radius:20px;background:var(--card);cursor:pointer;color:var(--ink-soft)}
   .chip.on{border-color:var(--ink);color:var(--ink);background:var(--paper-2);font-weight:600}
-  .search{flex:1;min-width:160px;font-family:"Newsreader",serif;font-size:15px;padding:7px 12px;
-    border:1.5px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
-  .btn{font-family:"Spline Sans Mono",monospace;font-size:11.5px;letter-spacing:.5px;text-transform:uppercase;
-    padding:7px 13px;border:1.5px solid var(--ink);border-radius:8px;background:var(--ink);color:var(--paper);cursor:pointer}
-  .card{background:var(--card);border:1.5px solid var(--line);border-radius:10px;padding:15px 17px;
-    margin-bottom:12px;box-shadow:var(--shadow);position:relative}
-  .card h3{font-family:"Fraunces",serif;font-weight:600;font-size:20px;margin:0 0 3px}
-  .row{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:baseline}
-  .badge{font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;
-    padding:3px 8px;border-radius:4px;color:#fff;white-space:nowrap}
-  .b-library{background:var(--moss)} .b-estate{background:var(--ox)} .b-lot{background:var(--slate)}
-  .b-estate_companies{background:var(--ox)} .b-junk_removal{background:var(--slate)}
-  .b-schools{background:var(--gold)} .b-libraries{background:var(--moss)} .b-lib{background:var(--indigo)}
-  .when{font-family:"Spline Sans Mono",monospace;font-weight:600;font-size:13px;color:var(--ox)}
-  .dist{font-family:"Spline Sans Mono",monospace;font-size:12px;color:var(--ink-soft)}
-  .stars{color:var(--gold);letter-spacing:2px;font-size:13px}
-  .notes{color:var(--ink-soft);font-size:14.5px;margin:7px 0 0;font-style:italic}
-  .detail{font-size:14px;margin:6px 0 0}
-  .lines{font-family:"Spline Sans Mono",monospace;font-size:12.5px;color:var(--ink-soft);margin-top:6px}
-  .lines a{border:none}
-  .crm{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:11px;padding-top:11px;border-top:1px dashed var(--line)}
-  label.fld{font-family:"Spline Sans Mono",monospace;font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:var(--ink-soft);display:flex;flex-direction:column;gap:3px}
-  select,.dt,.tin{font-family:"Spline Sans Mono",monospace;font-size:12px;padding:5px 8px;border:1.5px solid var(--line);
-    border-radius:7px;background:var(--paper);color:var(--ink)}
+  .search{flex:1;min-width:150px;font-family:"Newsreader",serif;font-size:14px;padding:6px 11px;border:1.5px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+  .btn{font-family:"Spline Sans Mono",monospace;font-size:11px;letter-spacing:.4px;text-transform:uppercase;padding:6px 12px;border:1.5px solid var(--ink);border-radius:8px;background:var(--ink);color:var(--paper);cursor:pointer}
+
+  /* compact rows */
+  .thead,.lrow{display:grid;align-items:center;gap:10px;padding:6px 10px}
+  .thead{grid-template-columns:14px 1.7fr 150px 56px 132px 96px 70px 18px;font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:var(--ink-soft);border-bottom:2px solid var(--line);position:sticky;top:88px;background:var(--paper);z-index:10}
+  .lrow{grid-template-columns:14px 1.7fr 150px 56px 132px 96px 70px 18px;border-bottom:1px solid var(--line);cursor:pointer;font-size:14px}
+  .lrow:nth-child(even){background:var(--rowalt)}
+  .lrow:hover{background:var(--paper-2)}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--grey)}
+  .dot.contacted{background:var(--gold)} .dot.replied{background:var(--slate)} .dot.sourcing{background:var(--moss)} .dot.dead{background:#c9bfa9}
+  .nm{font-family:"Fraunces",serif;font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cell{font-family:"Spline Sans Mono",monospace;font-size:12px;color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .tybadge{font-family:"Spline Sans Mono",monospace;font-size:9.5px;letter-spacing:.5px;text-transform:uppercase;padding:2px 6px;border-radius:4px;color:#fff;white-space:nowrap;display:inline-block;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+  .b-estate_companies{background:var(--ox)} .b-junk_removal{background:var(--slate)} .b-schools{background:var(--gold)} .b-libraries{background:var(--moss)} .b-lib{background:var(--indigo)}
+  .stpill{font-family:"Spline Sans Mono",monospace;font-size:10px;text-transform:uppercase;color:var(--ink-soft)}
+  .chev{justify-self:end;color:var(--ink-soft);font-size:12px;transition:transform .15s}
+  .lrow.open .chev{transform:rotate(90deg)}
+  .phone-cell a{color:var(--ox);font-family:"Spline Sans Mono",monospace;font-size:12px}
+
+  /* expanded detail */
+  .detail{display:none;padding:12px 14px 16px 38px;background:var(--card);border-bottom:1px solid var(--line);border-left:3px solid var(--ox-soft)}
+  .detail.open{display:block}
+  .drow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+  .addr{font-family:"Spline Sans Mono",monospace;font-size:12px;color:var(--ink-soft)}
+  .note-static{font-style:italic;color:var(--ink-soft);font-size:13.5px;margin:4px 0 8px}
+  label.fld{font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:.4px;text-transform:uppercase;color:var(--ink-soft);display:flex;flex-direction:column;gap:3px}
+  select,.dt,.tin{font-family:"Spline Sans Mono",monospace;font-size:12px;padding:5px 8px;border:1.5px solid var(--line);border-radius:7px;background:var(--paper);color:var(--ink)}
   .tin{min-width:150px}
-  .st-contacted{box-shadow:0 0 0 2px var(--gold) inset}
-  .st-replied{box-shadow:0 0 0 2px var(--slate) inset} .st-sourcing{box-shadow:0 0 0 2px var(--moss) inset}
-  .st-dead{opacity:.5}
-  textarea{font-family:"Newsreader",serif;font-size:14px;width:100%;margin-top:8px;padding:7px 9px;
-    border:1.5px solid var(--line);border-radius:7px;background:var(--paper);color:var(--ink);resize:vertical;min-height:38px}
-  .copy{font-family:"Spline Sans Mono",monospace;font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;
-    padding:5px 10px;border:1.5px solid var(--ox);color:var(--ox);background:transparent;border-radius:7px;cursor:pointer}
+  textarea{font-family:"Newsreader",serif;font-size:14px;width:100%;margin-top:6px;padding:7px 9px;border:1.5px solid var(--line);border-radius:7px;background:var(--paper);color:var(--ink);resize:vertical;min-height:34px}
+  .copy{font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:.4px;text-transform:uppercase;padding:5px 10px;border:1.5px solid var(--ox);color:var(--ox);background:transparent;border-radius:7px;cursor:pointer}
   .copy:hover{background:var(--ox);color:#fff}
-  .fb{display:inline-flex;align-items:center;gap:5px;font-family:"Spline Sans Mono",monospace;font-size:11px;color:var(--indigo);border:none}
+  .fb{font-family:"Spline Sans Mono",monospace;font-size:11px;color:var(--indigo)}
+  .salechip{display:inline-block;font-family:"Spline Sans Mono",monospace;font-size:11px;background:var(--paper-2);border:1px solid var(--line);border-radius:6px;padding:3px 8px;margin:4px 4px 0 0;color:var(--ink)}
   .empty{padding:40px;text-align:center;color:var(--ink-soft);font-style:italic}
   .err{background:#fff3ed;border:1.5px solid var(--ox-soft);color:var(--ox);padding:12px 15px;border-radius:8px;font-size:14px;margin-top:14px}
-  .hint{font-family:"Spline Sans Mono",monospace;font-size:11px;color:var(--ink-soft);margin:2px 0 14px}
-  .salechip{display:inline-block;font-family:"Spline Sans Mono",monospace;font-size:11px;background:var(--paper-2);
-    border:1px solid var(--line);border-radius:6px;padding:3px 8px;margin:4px 4px 0 0;color:var(--ink)}
+  .hint{font-family:"Spline Sans Mono",monospace;font-size:10.5px;color:var(--ink-soft);margin:0 0 8px}
+
+  /* live feed cards (kept as cards, but tighter) */
+  .card{background:var(--card);border:1.5px solid var(--line);border-radius:9px;padding:12px 15px;margin-bottom:9px}
+  .card h3{font-family:"Fraunces",serif;font-weight:600;font-size:18px;margin:0 0 2px}
+  .crow{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline}
+  .badge{font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:3px 8px;border-radius:4px;color:#fff}
+  .b-library{background:var(--moss)} .b-estate{background:var(--ox)} .b-lot{background:var(--slate)}
+  .when{font-family:"Spline Sans Mono",monospace;font-weight:600;font-size:13px;color:var(--ox)}
+  .dist{font-family:"Spline Sans Mono",monospace;font-size:12px;color:var(--ink-soft)}
+  @media(max-width:760px){
+    .thead{display:none}
+    .lrow{grid-template-columns:12px 1fr 64px 18px}
+    .lrow .ty-cell,.lrow .phone-cell,.lrow .lc-cell{display:none}
+  }
 </style>
 </head>
 <body>
@@ -110,10 +115,14 @@
       <span class="chip" data-cfilter="schools">School Libraries</span>
       <span class="chip" data-cfilter="estate_companies">Estate Cos</span>
       <span class="chip" data-cfilter="junk_removal">Junk / Haulers</span>
+      <span class="chip" data-sfilter="open">Hide dead</span>
       <input class="search" id="leads-search" placeholder="search name, city, notes…">
-      <button class="btn" id="export-leads">⤓ Export leads.json</button>
+      <button class="btn" id="export-leads">⤓ leads.json</button>
     </div>
-    <div class="hint">Status, librarian contacts & notes save in this browser. Export when you want to commit them back to the repo. Library contact edits export via the Library Sales tab.</div>
+    <div class="hint">Click a row to log status, contacts &amp; notes. Saves in this browser — Export to commit back to the repo.</div>
+    <div class="thead">
+      <span></span><span>Name</span><span>Type</span><span>Dist</span><span>Phone</span><span>Status</span><span>Last</span><span></span>
+    </div>
     <div id="leads-list"></div>
   </section>
 
@@ -122,192 +131,203 @@
     <div class="toolbar">
       <input class="search" id="libs-search" placeholder="search library, city…">
       <span class="chip on" data-lfilter="all">All</span>
-      <span class="chip" data-lfilter="hasfb">Has FoL link</span>
-      <span class="chip" data-lfilter="needfb">Needs FoL link</span>
-      <button class="btn" id="export-libs">⤓ Export libraries.json</button>
+      <span class="chip" data-lfilter="hasfb">Has FoL</span>
+      <span class="chip" data-lfilter="needfb">Needs FoL</span>
+      <button class="btn" id="export-libs">⤓ libraries.json</button>
     </div>
-    <div class="hint">Every public library in range (incl. San Antonio &amp; Houston). Paste each library's Friends-of-the-Library Facebook link and sale notes — they save here and export to the repo.</div>
+    <div class="hint">Click a library to paste its Friends-of-the-Library Facebook link and sale notes. Saves here — Export to commit.</div>
+    <div class="thead">
+      <span></span><span>Library</span><span>Type</span><span>Dist</span><span>Phone</span><span>FoL</span><span>City</span><span></span>
+    </div>
     <div id="libs-list"></div>
   </section>
 </div>
 
 <script>
-const PITCH = {
+const PITCH={
   junk_removal:`Hi [Name], I run a small used-book resale business in the Corpus Christi area. I noticed you handle a lot of home and apartment clean-outs — and those jobs usually have boxes of books headed for the dumpster. I'm happy to come pick them up free of charge whenever a job has books, which saves you the volume and tipping fees. Even a quick text when one comes up would be great. Can I leave you my number?`,
   estate_companies:`Hi [Name], I run a used-book resale business locally. Estate sales almost always have books left over on the last day — the stuff that doesn't sell and still has to be cleared. I'd be glad to set up a standing arrangement where I buy or take the unsold books off your hands at closeout, so you don't have to haul them. Worth a short call to see if it fits how you run your sales?`,
   schools:`Hi [Name], I run a local used-book resale business. I know libraries weed older titles at year-end and a lot of it ends up recycled or tossed. If your library is removing books from the collection this spring, I'd gladly pick them up — it saves you the disposal effort and keeps the books in circulation. Could you point me to whoever handles the library's discards? Thank you!`,
   libraries:`Hi [Name], I run a local used-book resale business and partner with libraries on the materials you weed from the collection. When you pull older or surplus books, I'm happy to take them off your hands — saves staff the disposal work and keeps the books in use. Could I ask how your library handles withdrawn books, and whether I could be on the list for them?`
 };
 const LBL_KIND={library_sale:'Library / Friends',estate_sale:'Estate Sale',book_lot:'Book Lot'};
-const LBL_CAT={estate_companies:'Estate Co',junk_removal:'Junk / Hauler',schools:'School Library',libraries:'Public Library'};
+const LBL_CAT={estate_companies:'Estate Co',junk_removal:'Junk / Hauler',schools:'School',libraries:'Public Library'};
 const BADGE_KIND={library_sale:'b-library',estate_sale:'b-estate',book_lot:'b-lot'};
 
-let SALES=[], LEADS=[], LIBS=[], RADII={outreach:110,library_sales:250};
+let SALES=[],LEADS=[],LIBS=[],RADII={outreach:110,library_sales:250};
 const LS='bsd_crm';
 const crm=JSON.parse(localStorage.getItem(LS)||'{}');
 function saveCrm(){localStorage.setItem(LS,JSON.stringify(crm));}
 function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
-function val(id,f,fallback){return (crm[id] && crm[id][f]!=null && crm[id][f]!=='') ? crm[id][f] : (fallback||'');}
+function val(id,f,fb){return (crm[id]&&crm[id][f]!=null&&crm[id][f]!=='')?crm[id][f]:(fb||'');}
+function tel(p){return p?p.replace(/[^+\d]/g,''):'';}
 
 async function boot(){
   try{
-    const get=async f=>{const r=await fetch(f); if(!r.ok) throw new Error(f+' '+r.status); return r.json();};
+    const get=async f=>{const r=await fetch(f);if(!r.ok)throw new Error(f+' '+r.status);return r.json();};
     const [s,l,lb]=await Promise.all([get('data/sales.json'),get('data/leads.json'),get('data/libraries.json').catch(()=>({libraries:[],radii:RADII}))]);
-    SALES=s.events||[]; LEADS=l.leads||[]; LIBS=lb.libraries||[]; RADII=lb.radii||RADII;
-    const libOut=LIBS.filter(x=>(x.distance_mi==null)||x.distance_mi<=RADII.outreach).length;
-    document.getElementById('meta').textContent=
-      `updated ${s.generated||l.generated||'—'} · ${SALES.length} live · ${LEADS.length+libOut} leads · ${LIBS.length} libraries`;
+    SALES=s.events||[];LEADS=l.leads||[];LIBS=lb.libraries||[];RADII=lb.radii||RADII;
+    const libOut=LIBS.filter(x=>x.distance_mi==null||x.distance_mi<=RADII.outreach).length;
+    document.getElementById('meta').textContent=`updated ${s.generated||l.generated||'—'} · ${SALES.length} live · ${LEADS.length+libOut} leads · ${LIBS.length} libraries`;
     document.getElementById('n-feed').textContent=SALES.length;
     document.getElementById('n-leads').textContent=LEADS.length+libOut;
     document.getElementById('n-libs').textContent=LIBS.length;
-    renderFeed(); renderLeads(); renderLibs();
+    renderFeed();renderLeads();renderLibs();
   }catch(e){
-    document.getElementById('feed-list').innerHTML=
-      `<div class="err">Couldn't load data files (${esc(e.message)}). Must be served over http (GitHub Pages), not opened from disk.</div>`;
+    document.getElementById('feed-list').innerHTML=`<div class="err">Couldn't load data (${esc(e.message)}). Must be served over http (GitHub Pages), not from disk.</div>`;
     document.getElementById('meta').textContent='data not loaded';
   }
 }
 
-/* ---- LIVE FEED ---- */
+/* LIVE FEED (cards) */
 let kFilter='all';
 function renderFeed(){
   const q=(document.getElementById('feed-search').value||'').toLowerCase();
-  const rows=SALES.filter(e=>(kFilter==='all'||e.kind===kFilter))
-    .filter(e=>!q||(`${e.title} ${e.org} ${e.city}`).toLowerCase().includes(q));
+  const rows=SALES.filter(e=>kFilter==='all'||e.kind===kFilter).filter(e=>!q||`${e.title} ${e.org} ${e.city}`.toLowerCase().includes(q));
   const el=document.getElementById('feed-list');
-  if(!rows.length){el.innerHTML='<div class="empty">No matching sales. The scraper adds Craigslist, estate, and calendar hits as it runs.</div>';return;}
+  if(!rows.length){el.innerHTML='<div class="empty">No matching sales.</div>';return;}
   el.innerHTML=rows.map(e=>{
     const when=e.date_start==='ongoing'?'Ongoing':(e.date_start||'TBD');
     const dist=e.distance_mi!=null?`· ${e.distance_mi} mi`:'';
-    return `<div class="card"><div class="row">
-        <span class="badge ${BADGE_KIND[e.kind]||'b-lot'}">${LBL_KIND[e.kind]||e.kind}</span>
-        <span class="when">${esc(when)}</span><span class="dist">${esc(e.city||'')} ${dist}</span></div>
+    return `<div class="card"><div class="crow"><span class="badge ${BADGE_KIND[e.kind]||'b-lot'}">${LBL_KIND[e.kind]||e.kind}</span><span class="when">${esc(when)}</span><span class="dist">${esc(e.city||'')} ${dist}</span></div>
       <h3>${esc(e.title)}</h3>
-      ${e.date_note?`<div class="detail"><b>${esc(e.date_note)}</b></div>`:''}
-      ${e.details?`<div class="detail">${esc(e.details)}</div>`:''}
-      <div class="lines">${esc(e.address||'')}${e.url?` · <a href="${esc(e.url)}" target="_blank">listing ↗</a>`:''} · ${esc(e.source||'')}</div>
-    </div>`;
+      ${e.date_note?`<div class="addr"><b>${esc(e.date_note)}</b></div>`:''}
+      ${e.details?`<div class="note-static">${esc(e.details)}</div>`:''}
+      <div class="addr">${esc(e.address||'')}${e.url?` · <a href="${esc(e.url)}" target="_blank">listing ↗</a>`:''} · ${esc(e.source||'')}</div></div>`;
   }).join('');
 }
 
-/* ---- OUTREACH LEADS (companies + schools + public libraries) ---- */
-let cFilter='all';
-function stars(p){p=p||3;return '★'.repeat(4-Math.min(p,3))+'☆'.repeat(Math.min(p,3)-1);}
+/* OUTREACH (compact rows + expand) */
+let cFilter='all',hideDead=false;
 function leadsUnified(){
-  // companies + schools from LEADS, plus public libraries within outreach radius from LIBS
-  const libs=LIBS.filter(x=>(x.distance_mi==null)||x.distance_mi<=RADII.outreach)
-    .map(x=>({...x,category:'libraries'}));
+  const libs=LIBS.filter(x=>x.distance_mi==null||x.distance_mi<=RADII.outreach).map(x=>({...x,category:'libraries'}));
   return LEADS.concat(libs);
+}
+function leadDetail(l){
+  const st=val(l.id,'status',l.status||'new'),lc=val(l.id,'last_contacted',l.last_contacted),on=val(l.id,'outreach_notes',l.outreach_notes);
+  const isC=l.category==='libraries'||l.category==='schools';
+  const ln=val(l.id,'librarian_name',l.librarian_name),lp=val(l.id,'librarian_phone',l.librarian_phone),le=val(l.id,'librarian_email',l.librarian_email);
+  return `<div class="addr">${esc(l.address||'')}</div>
+    ${l.website?`<div class="addr"><a href="${esc(l.website)}" target="_blank">website ↗</a></div>`:''}
+    ${l.notes?`<div class="note-static">${esc(l.notes)}</div>`:''}
+    ${l.outreach_window?`<div class="addr">⏰ reach out: ${esc(l.outreach_window)}</div>`:''}
+    ${isC?`<div class="drow">
+      <label class="fld">Librarian<input class="tin" data-id="${l.id}" data-f="librarian_name" value="${esc(ln)}" placeholder="name"></label>
+      <label class="fld">Phone<input class="tin" data-id="${l.id}" data-f="librarian_phone" value="${esc(lp)}" placeholder="direct line"></label>
+      <label class="fld">Email<input class="tin" data-id="${l.id}" data-f="librarian_email" value="${esc(le)}" placeholder="email"></label>
+    </div>`:''}
+    <div class="drow">
+      <label class="fld">Status<select data-id="${l.id}" data-f="status">${['new','contacted','replied','sourcing','dead'].map(o=>`<option ${o===st?'selected':''}>${o}</option>`).join('')}</select></label>
+      <label class="fld">Last contacted<input class="dt" type="date" data-id="${l.id}" data-f="last_contacted" value="${esc(lc)}"></label>
+      <button class="copy" data-pitch="${l.category}">copy pitch</button>
+    </div>
+    <textarea data-id="${l.id}" data-f="outreach_notes" placeholder="outreach notes…">${esc(on)}</textarea>`;
 }
 function renderLeads(){
   const q=(document.getElementById('leads-search').value||'').toLowerCase();
-  const rows=leadsUnified().filter(l=>(cFilter==='all'||l.category===cFilter))
-    .filter(l=>!q||(`${l.name} ${l.city} ${l.notes||''}`).toLowerCase().includes(q))
-    .sort((a,b)=>(a.category.localeCompare(b.category))||((a.priority||5)-(b.priority||5))||((a.distance_mi||999)-(b.distance_mi||999)));
+  let rows=leadsUnified().filter(l=>cFilter==='all'||l.category===cFilter)
+    .filter(l=>!q||`${l.name} ${l.city} ${l.notes||''}`.toLowerCase().includes(q));
+  if(hideDead) rows=rows.filter(l=>val(l.id,'status',l.status)!=='dead');
+  rows.sort((a,b)=>a.category.localeCompare(b.category)||((a.priority||5)-(b.priority||5))||((a.distance_mi||999)-(b.distance_mi||999)));
   const el=document.getElementById('leads-list');
   if(!rows.length){el.innerHTML='<div class="empty">No matching leads.</div>';return;}
   el.innerHTML=rows.map(l=>{
-    const st=val(l.id,'status',l.status||'new');
-    const lc=val(l.id,'last_contacted',l.last_contacted);
-    const on=val(l.id,'outreach_notes',l.outreach_notes);
-    const phone=l.phone?l.phone.replace(/[^+\d]/g,''):'';
-    const isContact=(l.category==='libraries'||l.category==='schools');
-    const ln=val(l.id,'librarian_name',l.librarian_name), lp=val(l.id,'librarian_phone',l.librarian_phone), le=val(l.id,'librarian_email',l.librarian_email);
-    const typeLabel=l.school_type||LBL_CAT[l.category]||l.category;
-    return `<div class="card st-${st}"><div class="row">
-        <span class="badge b-${l.category}">${esc(typeLabel)}</span>
-        ${l.priority?`<span class="stars" title="priority">${stars(l.priority)}</span>`:''}
-        ${l.distance_mi!=null?`<span class="dist">${l.distance_mi} mi</span>`:''}</div>
-      <h3>${esc(l.name)}</h3>
-      <div class="lines">${esc(l.address||'')}</div>
-      <div class="lines">${l.phone?`☏ <a href="tel:${phone}">${esc(l.phone)}</a>`:''}${l.website?` · <a href="${esc(l.website)}" target="_blank">website ↗</a>`:''}</div>
-      ${l.notes?`<div class="notes">${esc(l.notes)}</div>`:''}
-      ${l.outreach_window?`<div class="lines">⏰ reach out: ${esc(l.outreach_window)}</div>`:''}
-      ${isContact?`<div class="crm">
-        <label class="fld">Librarian<input class="tin" data-id="${l.id}" data-f="librarian_name" value="${esc(ln)}" placeholder="name"></label>
-        <label class="fld">Phone<input class="tin" data-id="${l.id}" data-f="librarian_phone" value="${esc(lp)}" placeholder="direct line"></label>
-        <label class="fld">Email<input class="tin" data-id="${l.id}" data-f="librarian_email" value="${esc(le)}" placeholder="email"></label>
-      </div>`:''}
-      <div class="crm">
-        <select data-id="${l.id}" data-f="status">
-          ${['new','contacted','replied','sourcing','dead'].map(o=>`<option value="${o}" ${o===st?'selected':''}>${o}</option>`).join('')}
-        </select>
-        <input class="dt" type="date" data-id="${l.id}" data-f="last_contacted" value="${esc(lc)}">
-        <button class="copy" data-pitch="${l.category}">copy pitch</button>
-      </div>
-      <textarea data-id="${l.id}" data-f="outreach_notes" placeholder="outreach notes…">${esc(on)}</textarea>
-    </div>`;
+    const st=val(l.id,'status',l.status||'new'),lc=val(l.id,'last_contacted',l.last_contacted);
+    const ty=l.school_type||LBL_CAT[l.category]||l.category;
+    const ph=tel(l.phone);
+    return `<div class="lrow" data-row="${l.id}">
+      <span class="dot ${st}"></span>
+      <span class="nm">${esc(l.name)}</span>
+      <span class="ty-cell"><span class="tybadge b-${l.category}">${esc(ty)}</span></span>
+      <span class="cell">${l.distance_mi!=null?l.distance_mi:''}</span>
+      <span class="cell phone-cell">${l.phone?`<a href="tel:${ph}" onclick="event.stopPropagation()">${esc(l.phone)}</a>`:'—'}</span>
+      <span class="cell stpill">${esc(st)}</span>
+      <span class="cell lc-cell">${esc(lc||'—')}</span>
+      <span class="chev">▸</span>
+    </div><div class="detail" data-detail="${l.id}"></div>`;
   }).join('');
 }
 
-/* ---- LIBRARY SALES ---- */
+/* LIBRARY SALES (compact rows + expand) */
 let lFilter='all';
 function salesForLibrary(lib){
   const city=(lib.city||'').toLowerCase();
   const nameTok=(lib.name||'').toLowerCase().split(/\s+/).filter(w=>w.length>4);
-  return SALES.filter(e=>{
-    const hay=`${e.org} ${e.title} ${e.venue} ${e.city}`.toLowerCase();
-    if(city && e.city && e.city.toLowerCase().includes(city)) return true;
-    return nameTok.some(t=>hay.includes(t));
-  });
+  return SALES.filter(e=>{const hay=`${e.org} ${e.title} ${e.venue} ${e.city}`.toLowerCase();
+    if(city&&e.city&&e.city.toLowerCase().includes(city))return true;return nameTok.some(t=>hay.includes(t));});
+}
+function libDetail(l){
+  const fb=val(l.id,'fol_facebook',l.fol_facebook),sn=val(l.id,'sales_notes',l.sales_notes);
+  const ln=val(l.id,'librarian_name',l.librarian_name),lp=val(l.id,'librarian_phone',l.librarian_phone),le=val(l.id,'librarian_email',l.librarian_email);
+  const evs=salesForLibrary(l);
+  return `<div class="addr">${esc(l.address||'')}</div>
+    ${l.website?`<div class="addr"><a href="${esc(l.website)}" target="_blank">website ↗</a></div>`:''}
+    ${fb?`<div class="addr"><a class="fb" href="${esc(fb)}" target="_blank">📘 Friends page ↗</a></div>`:''}
+    ${evs.length?`<div>${evs.map(e=>`<span class="salechip">${esc(e.date_start==='ongoing'?'Ongoing':e.date_start)} — ${esc(e.title)}</span>`).join('')}</div>`:''}
+    <div class="drow" style="margin-top:8px"><label class="fld" style="flex:1;min-width:260px">Friends-of-the-Library Facebook link
+      <input class="tin" style="width:100%" data-id="${l.id}" data-f="fol_facebook" value="${esc(fb)}" placeholder="https://facebook.com/…"></label></div>
+    <div class="drow">
+      <label class="fld">Librarian<input class="tin" data-id="${l.id}" data-f="librarian_name" value="${esc(ln)}" placeholder="name"></label>
+      <label class="fld">Phone<input class="tin" data-id="${l.id}" data-f="librarian_phone" value="${esc(lp)}" placeholder="direct line"></label>
+      <label class="fld">Email<input class="tin" data-id="${l.id}" data-f="librarian_email" value="${esc(le)}" placeholder="email"></label>
+    </div>
+    <textarea data-id="${l.id}" data-f="sales_notes" placeholder="sale schedule / notes…">${esc(sn)}</textarea>`;
 }
 function renderLibs(){
   const q=(document.getElementById('libs-search').value||'').toLowerCase();
-  let rows=LIBS.filter(x=>(x.distance_mi==null)||x.distance_mi<=RADII.library_sales)
-    .filter(l=>!q||(`${l.name} ${l.city}`).toLowerCase().includes(q));
-  if(lFilter==='hasfb') rows=rows.filter(l=>val(l.id,'fol_facebook',l.fol_facebook));
-  if(lFilter==='needfb') rows=rows.filter(l=>!val(l.id,'fol_facebook',l.fol_facebook));
+  let rows=LIBS.filter(x=>x.distance_mi==null||x.distance_mi<=RADII.library_sales).filter(l=>!q||`${l.name} ${l.city}`.toLowerCase().includes(q));
+  if(lFilter==='hasfb')rows=rows.filter(l=>val(l.id,'fol_facebook',l.fol_facebook));
+  if(lFilter==='needfb')rows=rows.filter(l=>!val(l.id,'fol_facebook',l.fol_facebook));
   const el=document.getElementById('libs-list');
-  if(!rows.length){el.innerHTML='<div class="empty">No libraries loaded yet. Run the “Refresh book sources” workflow to pull the IMLS library list.</div>';return;}
+  if(!rows.length){el.innerHTML='<div class="empty">No libraries loaded. Run the refresh workflow to pull the IMLS list.</div>';return;}
   el.innerHTML=rows.map(l=>{
-    const fb=val(l.id,'fol_facebook',l.fol_facebook);
-    const sn=val(l.id,'sales_notes',l.sales_notes);
-    const phone=l.phone?l.phone.replace(/[^+\d]/g,''):'';
-    const evs=salesForLibrary(l);
-    return `<div class="card"><div class="row">
-        <span class="badge b-lib">${esc(l.outlet_type||'Library')}</span>
-        ${l.distance_mi!=null?`<span class="dist">${l.distance_mi} mi</span>`:''}
-        ${l.city?`<span class="dist">${esc(l.city)}</span>`:''}</div>
-      <h3>${esc(l.name)}</h3>
-      <div class="lines">${esc(l.address||'')}</div>
-      <div class="lines">${l.phone?`☏ <a href="tel:${phone}">${esc(l.phone)}</a>`:''}${l.website?` · <a href="${esc(l.website)}" target="_blank">website ↗</a>`:''}${fb?` · <a class="fb" href="${esc(fb)}" target="_blank">📘 Friends page ↗</a>`:''}</div>
-      ${evs.length?`<div class="detail">Upcoming/known sales:</div><div>${evs.map(e=>`<span class="salechip">${esc(e.date_start==='ongoing'?'Ongoing':e.date_start)} — ${esc(e.title)}</span>`).join('')}</div>`:''}
-      <div class="crm">
-        <label class="fld" style="flex:1;min-width:240px">Friends-of-the-Library Facebook link
-          <input class="tin" style="width:100%" data-id="${l.id}" data-f="fol_facebook" value="${esc(fb)}" placeholder="https://facebook.com/…"></label>
-      </div>
-      <textarea data-id="${l.id}" data-f="sales_notes" placeholder="sale schedule / notes (e.g. 'Fall sale 2nd weekend of Oct, presale Fri')…">${esc(sn)}</textarea>
-    </div>`;
+    const fb=val(l.id,'fol_facebook',l.fol_facebook),ph=tel(l.phone);
+    return `<div class="lrow" data-row="${l.id}">
+      <span class="dot ${fb?'sourcing':''}"></span>
+      <span class="nm">${esc(l.name)}</span>
+      <span class="ty-cell"><span class="tybadge b-lib">${esc(l.outlet_type||'Library')}</span></span>
+      <span class="cell">${l.distance_mi!=null?l.distance_mi:''}</span>
+      <span class="cell phone-cell">${l.phone?`<a href="tel:${ph}" onclick="event.stopPropagation()">${esc(l.phone)}</a>`:'—'}</span>
+      <span class="cell">${fb?'📘':'—'}</span>
+      <span class="cell lc-cell">${esc(l.city||'')}</span>
+      <span class="chev">▸</span>
+    </div><div class="detail" data-detail="${l.id}"></div>`;
   }).join('');
 }
 
-/* ---- tabs + filters ---- */
-document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
-  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
-  ['feed','leads','libs'].forEach(id=>document.getElementById(id).style.display=(id===t.dataset.tab)?'':'none');
-});
+/* tabs + filters */
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');['feed','leads','libs'].forEach(id=>document.getElementById(id).style.display=id===t.dataset.tab?'':'none');});
 document.querySelectorAll('[data-kfilter]').forEach(c=>c.onclick=()=>{document.querySelectorAll('[data-kfilter]').forEach(x=>x.classList.remove('on'));c.classList.add('on');kFilter=c.dataset.kfilter;renderFeed();});
 document.querySelectorAll('[data-cfilter]').forEach(c=>c.onclick=()=>{document.querySelectorAll('[data-cfilter]').forEach(x=>x.classList.remove('on'));c.classList.add('on');cFilter=c.dataset.cfilter;renderLeads();});
 document.querySelectorAll('[data-lfilter]').forEach(c=>c.onclick=()=>{document.querySelectorAll('[data-lfilter]').forEach(x=>x.classList.remove('on'));c.classList.add('on');lFilter=c.dataset.lfilter;renderLibs();});
+document.querySelector('[data-sfilter]').onclick=function(){hideDead=!hideDead;this.classList.toggle('on',hideDead);renderLeads();};
 document.getElementById('feed-search').oninput=renderFeed;
 document.getElementById('leads-search').oninput=renderLeads;
 document.getElementById('libs-search').oninput=renderLibs;
 
-function bind(listId,rerender){
+/* expand on row click; lazy-render detail */
+function wireList(listId,detailFn,lookup){
   const el=document.getElementById(listId);
-  el.addEventListener('change',e=>{const id=e.target.dataset.id,f=e.target.dataset.f;if(!id||!f)return;crm[id]=crm[id]||{};crm[id][f]=e.target.value;saveCrm();if(f==='status'&&rerender)rerender();});
+  el.addEventListener('click',e=>{
+    const row=e.target.closest('.lrow');if(!row)return;
+    const id=row.dataset.row;const d=el.querySelector(`[data-detail="${CSS.escape(id)}"]`);
+    if(!d)return;
+    const opening=!d.classList.contains('open');
+    if(opening&&!d.dataset.built){const obj=lookup(id);if(obj){d.innerHTML=detailFn(obj);d.dataset.built='1';}}
+    d.classList.toggle('open',opening);row.classList.toggle('open',opening);
+  });
+  el.addEventListener('change',e=>{const id=e.target.dataset.id,f=e.target.dataset.f;if(!id||!f)return;crm[id]=crm[id]||{};crm[id][f]=e.target.value;saveCrm();
+    if(f==='status'){const r=el.querySelector(`[data-row="${CSS.escape(id)}"]`);if(r){r.querySelector('.dot').className='dot '+e.target.value;const sp=r.querySelector('.stpill');if(sp)sp.textContent=e.target.value;}}
+  });
   el.addEventListener('input',e=>{const id=e.target.dataset.id,f=e.target.dataset.f;if(!id||!f)return;if(['outreach_notes','sales_notes','fol_facebook','librarian_name','librarian_phone','librarian_email'].includes(f)){crm[id]=crm[id]||{};crm[id][f]=e.target.value;saveCrm();}});
   el.addEventListener('click',e=>{if(e.target.classList.contains('copy')){navigator.clipboard.writeText(PITCH[e.target.dataset.pitch]||'');e.target.textContent='copied ✓';setTimeout(()=>e.target.textContent='copy pitch',1200);}});
 }
-bind('leads-list',renderLeads); bind('libs-list',renderLibs);
+wireList('leads-list',leadDetail,id=>leadsUnified().find(x=>x.id===id));
+wireList('libs-list',libDetail,id=>LIBS.find(x=>x.id===id));
 
 function download(name,obj){const b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;a.click();}
-document.getElementById('export-leads').onclick=()=>{
-  download('leads.json',{generated:new Date().toISOString().slice(0,10),leads:LEADS.map(l=>({...l,...(crm[l.id]||{})}))});
-};
-document.getElementById('export-libs').onclick=()=>{
-  download('libraries.json',{generated:new Date().toISOString().slice(0,10),radii:RADII,libraries:LIBS.map(l=>({...l,...(crm[l.id]||{})}))});
-};
+document.getElementById('export-leads').onclick=()=>download('leads.json',{generated:new Date().toISOString().slice(0,10),leads:LEADS.map(l=>({...l,...(crm[l.id]||{})}))});
+document.getElementById('export-libs').onclick=()=>download('libraries.json',{generated:new Date().toISOString().slice(0,10),radii:RADII,libraries:LIBS.map(l=>({...l,...(crm[l.id]||{})}))});
 
 boot();
 </script>
