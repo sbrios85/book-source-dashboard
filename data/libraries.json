@@ -25,7 +25,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-corpus-christi-public-libraries-corpus-christi",
@@ -46,7 +47,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-ben-f-mcdonald-public-library-corpus-christi",
@@ -67,7 +69,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-anita-wt-neyland-public-library-corpus-christi",
@@ -88,7 +91,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-bell-whittington-public-library-portland",
@@ -109,7 +113,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-dr-clotilde-p-garcia-public-library-corpus-christi",
@@ -130,7 +135,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-owen-r-hopkins-public-library-corpus-christi",
@@ -151,7 +157,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-ingleside-public-library-ingleside",
@@ -172,7 +179,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-janet-f-harte-public-library-corpus-christi",
@@ -193,7 +201,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-taft-public-library-taft",
@@ -214,7 +223,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-odem-public-library-odem",
@@ -235,7 +245,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-nueces-county-public-libraries-robstown",
@@ -256,7 +267,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-ed-hazel-richmond-public-library-aransas-pass",
@@ -277,7 +289,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-sinton-public-library-sinton",
@@ -298,7 +311,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-william-r-bill-ellis-memorial-library-port-aransas",
@@ -319,7 +333,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-aransas-county-public-library-rockport",
@@ -340,7 +355,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-bishop-branch-library-bishop",
@@ -361,7 +377,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-aransas-rockport",
@@ -402,7 +419,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-dennis-m-o-connor-public-library-refugio",
@@ -423,7 +441,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-orange-grove-school-public-library-orange-grove",
@@ -444,7 +463,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-robert-j-kleberg-public-library-kingsville",
@@ -465,7 +485,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-alicia-salinas-public-library-alice",
@@ -486,7 +507,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-joe-barnhart-bee-county-library-beeville",
@@ -507,7 +529,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-live-oak-county-library-george-west",
@@ -528,7 +551,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-seadrift-branch-library-seadrift",
@@ -549,7 +573,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-goliad-county-library-goliad",
@@ -570,7 +595,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-ed-rachal-memorial-library-falfurrias",
@@ -591,7 +617,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-live-oak-county-branch-library-three-rivers",
@@ -612,7 +639,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-victoria-public",
@@ -653,7 +681,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-calhoun-county-public-library-port-lavaca",
@@ -674,7 +703,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-port-o-connor-branch-library-port-o-connor",
@@ -695,7 +725,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-kenedy-public-library-kenedy",
@@ -716,7 +747,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-runge-public-library-runge",
@@ -737,7 +769,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-point-comfort-branch-library-point-comfort",
@@ -758,7 +791,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-karnes-city-public-library-karnes-city",
@@ -779,7 +813,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-yorktown-public-library-yorktown",
@@ -800,7 +835,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-cuero-public-library-cuero",
@@ -821,7 +857,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-falls-city-public-library-falls-city",
@@ -842,7 +879,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-jackson-county-memorial-library-edna",
@@ -863,7 +901,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-palacios-library-inc-palacios",
@@ -884,7 +923,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-blessing-library-blessing",
@@ -905,7 +945,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-wilson-county-historical-commission-archive-floresville",
@@ -926,7 +967,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-wilson-county-public-libraries-floresville",
@@ -947,7 +989,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-carl-mary-welhausen-library-yoakum",
@@ -968,7 +1011,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-pleasanton-public-library-pleasanton",
@@ -989,7 +1033,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-aphne-pattillo-nixon-public-library-nixon",
@@ -1010,7 +1055,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-jourdanton-community-library-jourdanton",
@@ -1031,7 +1077,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-sarah-bain-chandler-library-stockdale",
@@ -1052,7 +1099,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-charlotte-public-library-charlotte",
@@ -1073,7 +1121,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-louise-branch-library-louise",
@@ -1094,7 +1143,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-rio-hondo-public-library-rio-hondo",
@@ -1115,7 +1165,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-elsa-public-library-elsa",
@@ -1136,7 +1187,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-poteet-public-library-poteet",
@@ -1157,7 +1209,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-harlingen-public-library-harlingen",
@@ -1178,7 +1231,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-shiner-public-library-shiner",
@@ -1199,7 +1253,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-dustin-michael-sekula-memorial-library-edinburg",
@@ -1220,7 +1275,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-jane-yelvington-mccallum-public-library-la-vernia",
@@ -1241,7 +1297,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-san-benito-public-library-san-benito",
@@ -1262,7 +1319,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bailey-h-dunlap-memorial-library-la-feria",
@@ -1283,7 +1341,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-friench-simpson-memorial-library-hallettsville",
@@ -1304,7 +1363,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-laguna-vista-public-library-laguna-vista",
@@ -1325,7 +1385,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-gonzales-public-library-gonzales",
@@ -1346,7 +1407,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-el-campo-branch-library-el-campo",
@@ -1367,7 +1429,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-lark-branch-library-mcallen",
@@ -1388,7 +1451,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-dr-hector-p-garcia-memorial-library-mercedes",
@@ -1409,7 +1473,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bay-city-public-library-bay-city",
@@ -1430,7 +1495,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-mayor-joe-v-sanchez-public-library-weslaco",
@@ -1451,7 +1517,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-ethel-l-whipple-memorial-library-los-fresnos",
@@ -1472,7 +1539,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-mcallen-public-library-mcallen",
@@ -1493,7 +1561,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-port-isabel-public-library-port-isabel",
@@ -1514,7 +1583,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-donna-public-library-donna",
@@ -1535,7 +1605,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-sergeant-fernando-de-la-rosa-memorial-library-alamo",
@@ -1556,7 +1627,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-alexander-memorial-library-cotulla",
@@ -1577,7 +1649,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-lasalle-county-library-encinal",
@@ -1598,7 +1671,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-san-juan-memorial-library-san-juan",
@@ -1619,7 +1693,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-pharr-memorial-library-pharr",
@@ -1640,7 +1715,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-speer-memorial-library-mission",
@@ -1661,7 +1737,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-dilley-public-library-dilley",
@@ -1682,7 +1759,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-palm-view-branch-library-mcallen",
@@ -1703,7 +1781,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-schaefer-branch-library-san-antonio",
@@ -1724,7 +1803,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-sheridan-memorial-library-sheridan",
@@ -1745,7 +1825,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-bibliotech-san-antonio",
@@ -1766,7 +1847,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-bibliotech-south-san-antonio",
@@ -1787,7 +1869,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-pharr-development-and-research-center-pharr",
@@ -1808,7 +1891,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-penitas-public-library-penitas",
@@ -1829,7 +1913,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-la-joya-municipal-library-la-joya",
@@ -1850,7 +1935,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-mission-branch-library-san-antonio",
@@ -1871,7 +1957,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-mccreless-branch-library-san-antonio",
@@ -1892,7 +1979,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-seguin-public-library-seguin",
@@ -1913,7 +2001,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-cortez-branch-library-san-antonio",
@@ -1934,7 +2023,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-pan-american-branch-library-san-antonio",
@@ -1955,7 +2045,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-pearsall-public-library-pearsall",
@@ -1976,7 +2067,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-sargent-branch-library-sargent",
@@ -1997,7 +2089,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-carver-branch-library-san-antonio",
@@ -2018,7 +2111,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-hidalgo-public-library-hidalgo",
@@ -2039,7 +2133,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-brownsville-public-library-brownsville",
@@ -2060,7 +2155,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-laredo-public-library-laredo",
@@ -2081,7 +2177,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-garwood-memorial-library-garwood",
@@ -2102,7 +2199,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-mos-branch-library-laredo",
@@ -2123,7 +2221,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bibliotech-east-san-antonio",
@@ -2144,7 +2243,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-collins-garden-branch-library-san-antonio",
@@ -2165,7 +2265,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-lamar-bruni-vergara-inner-city-library-laredo",
@@ -2186,7 +2287,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-driscoll-public-library-devine",
@@ -2207,7 +2309,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-kampmann-library-portal-san-antonio",
@@ -2228,7 +2331,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-lytle-public-library-lytle",
@@ -2249,7 +2353,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-marion-community-library-marion",
@@ -2270,7 +2375,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-bibliotech-west-dr-ricardo-romo-branch-san-antonio",
@@ -2291,7 +2397,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-bibliotech-central-jury-room-san-antonio",
@@ -2312,7 +2419,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-bruni-plaza-branch-library-laredo",
@@ -2333,7 +2441,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-converse-public-library-converse",
@@ -2354,7 +2463,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-jb-nickells-memorial-library-luling",
@@ -2375,7 +2485,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-olga-v-figueroa-zapata-county-public-library-zapata",
@@ -2396,7 +2507,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-natalia-veterans-memorial-library-natalia",
@@ -2417,7 +2529,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bibliotech-edu-san-antonio",
@@ -2438,7 +2551,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-san-antonio-public-library-san-antonio",
@@ -2459,7 +2573,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-waelder-public-library-waelder",
@@ -2480,7 +2595,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-barbara-fasken-branch-library-laredo",
@@ -2501,7 +2617,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bazan-branch-library-san-antonio",
@@ -2522,7 +2639,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-rio-grande-city-public-library-rio-grande-city",
@@ -2543,7 +2661,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-southmost-branch-library-brownsville",
@@ -2564,7 +2683,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-las-palmas-branch-library-san-antonio",
@@ -2585,7 +2705,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-san-pedro-branch-library-san-antonio",
@@ -2606,7 +2727,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-wharton-county-library-wharton",
@@ -2627,7 +2749,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-johnston-branch-library-san-antonio",
@@ -2648,7 +2771,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-landa-branch-library-san-antonio",
@@ -2669,7 +2793,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-schertz-public-library-schertz",
@@ -2690,7 +2815,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-pruitt-branch-library-san-antonio",
@@ -2711,7 +2837,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-universal-city-public-library-universal-city",
@@ -2732,7 +2859,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-schulenburg-public-library-schulenburg",
@@ -2753,7 +2881,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-sweeny-library-sweeny",
@@ -2774,7 +2903,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-tobin-library-san-antonio",
@@ -2795,7 +2925,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-memorial-branch-library-san-antonio",
@@ -2816,7 +2947,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-guerra-branch-library-san-antonio",
@@ -2837,7 +2969,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-thousand-oaks-branch-library-san-antonio",
@@ -2858,7 +2991,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-tri-community-library-prairie-lea",
@@ -2879,7 +3013,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-westfall-branch-library-san-antonio",
@@ -2900,7 +3035,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-forest-hills-branch-library-san-antonio",
@@ -2921,7 +3057,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-semmes-branch-library-san-antonio",
@@ -2942,7 +3079,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-weimar-public-library-weimar",
@@ -2963,7 +3101,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-potranco-branch-library-san-antonio",
@@ -2984,7 +3123,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-westside-community-center-library-new-braunfels",
@@ -3005,7 +3145,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-city-of-garden-ridge-library-garden-ridge",
@@ -3026,7 +3167,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-brook-hollow-branch-library-san-antonio",
@@ -3047,7 +3189,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-leon-valley-public-library-leon-valley",
@@ -3068,7 +3211,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-new-braunfels-public-library-new-braunfels",
@@ -3089,7 +3233,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-eula-david-wintermann-library-eagle-lake",
@@ -3110,7 +3255,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-great-northwest-branch-library-san-antonio",
@@ -3131,7 +3277,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-castroville-public-library-castroville",
@@ -3152,7 +3299,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-cody-branch-library-san-antonio",
@@ -3173,7 +3321,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-brazoria-library-brazoria",
@@ -3194,7 +3343,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-maverick-branch-library-san-antonio",
@@ -3215,7 +3365,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-west-columbia-branch-library-west-columbia",
@@ -3236,7 +3387,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-nesbitt-memorial-library-columbus",
@@ -3257,7 +3409,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-encino-branch-library-san-antonio",
@@ -3278,7 +3431,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-martindale-community-library-martindale",
@@ -3299,7 +3453,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-igo-branch-library-san-antonio",
@@ -3320,7 +3475,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-east-bernard-branch-library-east-bernard",
@@ -3341,7 +3497,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-parman-library-san-antonio",
@@ -3362,7 +3519,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-dr-eugene-clark-library-lockhart",
@@ -3383,7 +3541,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-albert-george-branch-library-needville",
@@ -3404,7 +3563,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-lake-jackson-library-lake-jackson",
@@ -3425,7 +3585,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-freeport-library-freeport",
@@ -3446,7 +3607,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-san-marcos-public-library-san-marcos",
@@ -3467,7 +3629,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-clute-library-clute",
@@ -3488,7 +3651,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-fayette-public-library-la-grange",
@@ -3509,7 +3673,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-austin-county-library-system-wallis",
@@ -3530,7 +3695,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-knox-memorial-library-wallis",
@@ -3551,7 +3717,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-hondo-public-library-hondo",
@@ -3572,7 +3739,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-tye-preston-memorial-library-canyon-lake",
@@ -3593,7 +3761,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-mammen-family-public-library-bulverde",
@@ -3614,7 +3783,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-angleton-library-angleton",
@@ -3635,7 +3805,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-smithville-public-library-smithville",
@@ -3656,7 +3827,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-juvenile-justice-center-angleton",
@@ -3677,7 +3849,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-kyle-public-library-kyle",
@@ -3698,7 +3871,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-virgil-josephine-gordon-memorial-library-sealy",
@@ -3719,7 +3893,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-fort-bend-county-libraries-richmond",
@@ -3740,7 +3915,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-george-memorial-library-richmond",
@@ -3761,7 +3937,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-lakehills-area-library-lakehills",
@@ -3782,7 +3959,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-fort-bend-county-law-library-richmond",
@@ -3803,7 +3981,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-wimberley-village-library-wimberley",
@@ -3824,7 +4003,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-dimmit-county-public-library-carrizo-springs",
@@ -3845,7 +4025,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-danbury-library-danbury",
@@ -3866,7 +4047,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-fulshear-branch-library-fulshear",
@@ -3887,7 +4069,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-west-end-library-industry",
@@ -3908,7 +4091,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bastrop-public-library-bastrop",
@@ -3929,7 +4113,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-patrick-heath-public-library-boerne",
@@ -3950,7 +4135,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-buda-public-library-buda",
@@ -3971,7 +4157,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-east-travis-gateway-library-district-del-valle",
@@ -3992,7 +4179,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-university-branch-library-sugar-land",
@@ -4013,7 +4201,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-round-top-family-library-round-top",
@@ -4034,7 +4223,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-waller-county-library-brookshire-pattison-brookshire",
@@ -4055,7 +4245,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-sabinal-public-library-sabinal",
@@ -4076,7 +4267,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bellville-public-library-bellville",
@@ -4097,7 +4289,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-first-colony-branch-library-sugar-land",
@@ -4118,7 +4311,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-sienna-branch-library-missouri-city",
@@ -4139,7 +4333,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-kendalia-public-library-kendalia",
@@ -4160,7 +4355,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-garfield-library-del-valle",
@@ -4181,7 +4377,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-cinco-ranch-branch-library-katy",
@@ -4202,7 +4399,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-sugar-land-branch-library-sugar-land",
@@ -4223,7 +4421,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-southeast-austin-community-branch-library-austin",
@@ -4244,7 +4443,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-mission-bend-branch-library-houston",
@@ -4265,7 +4465,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-pleasant-hill-branch-library-austin",
@@ -4286,7 +4487,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-giddings-public-library-giddings",
@@ -4307,7 +4509,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-mamie-george-branch-library-stafford",
@@ -4328,7 +4531,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-cy-fair-college-cypress",
@@ -4349,7 +4553,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-bandera-county-library-bandera",
@@ -4370,7 +4575,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-katy-branch-library-katy",
@@ -4391,7 +4597,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-missouri-city-branch-library-missouri-city",
@@ -4412,7 +4619,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-maud-smith-marks-branch-library-katy",
@@ -4433,7 +4641,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-menchaca-road-branch-library-austin",
@@ -4454,7 +4663,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-daniel-e-ruiz-branch-library-austin",
@@ -4475,7 +4685,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-manvel-library-manvel",
@@ -4496,7 +4707,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-will-hampton-at-oak-hill-branch-library-austin",
@@ -4517,7 +4729,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-stimley-blue-ridge-neighborhood-library-houston",
@@ -4538,7 +4751,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-henington-alief-regional-library-houston",
@@ -4559,7 +4773,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-twin-oaks-branch-library-austin",
@@ -4580,7 +4795,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-blanco-county-south-library-district-blanco",
@@ -4601,7 +4817,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-dripping-springs-community-library-dripping-springs",
@@ -4622,7 +4839,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-eustasio-cepeda-branch-library-austin",
@@ -4643,7 +4861,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-terrazas-branch-library-austin",
@@ -4664,7 +4883,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-austin-public-library-austin",
@@ -4685,7 +4905,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-carver-branch-library-austin",
@@ -4706,7 +4927,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-west-pearland-library-pearland",
@@ -4727,7 +4949,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-willie-mae-kirk-branch-library-austin",
@@ -4748,7 +4971,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-austin-history-center-library-austin",
@@ -4769,7 +4993,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-alvin-library-alvin",
@@ -4790,7 +5015,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-hpl-express-frank-houston",
@@ -4811,7 +5037,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-vinson-neighborhood-library-houston",
@@ -4832,7 +5059,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-westbank-community-library-district-austin",
@@ -4853,7 +5081,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-robinson-westchase-neighborhood-library-houston",
@@ -4874,7 +5103,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-kendall-neighborhood-library-houston",
@@ -4895,7 +5125,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-howson-branch-library-austin",
@@ -4916,7 +5147,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-university-hills-branch-library-austin",
@@ -4937,7 +5169,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-walter-neighborhood-library-houston",
@@ -4958,7 +5191,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-windsor-park-branch-library-austin",
@@ -4979,7 +5213,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-nancy-carol-roberts-memorial-library-brenham",
@@ -5000,7 +5235,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-el-progreso-memorial-library-uvalde",
@@ -5021,7 +5257,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-hpl-express-southwest-houston",
@@ -5042,7 +5279,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-comfort-public-library-comfort",
@@ -5063,7 +5301,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-ralph-w-yarborough-branch-library-austin",
@@ -5084,7 +5323,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bellaire-city-library-bellaire",
@@ -5105,7 +5345,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-katherine-tyra-bear-creek-branch-library-houston",
@@ -5126,7 +5367,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-st-john-branch-library-austin",
@@ -5147,7 +5389,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-elgin-public-library-elgin",
@@ -5168,7 +5411,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-laura-bush-community-library-austin",
@@ -5189,7 +5433,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bee-cave-public-library-bee-cave",
@@ -5210,7 +5455,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-mae-s-bruce-library-santa-fe",
@@ -5231,7 +5477,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-waller-county-library-hempstead",
@@ -5252,7 +5499,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-mcgovern-stella-link-neighborhood-library-houston",
@@ -5273,7 +5521,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-jungman-neighborhood-library-houston",
@@ -5294,7 +5543,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-tom-reid-library-pearland",
@@ -5315,7 +5565,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-johnson-neighborhood-library-houston",
@@ -5336,7 +5587,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-old-quarry-branch-library-austin",
@@ -5357,7 +5609,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-medina-community-library-medina",
@@ -5378,7 +5631,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-west-university-branch-library-houston",
@@ -5399,7 +5653,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-little-walnut-creek-branch-library-austin",
@@ -5420,7 +5675,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-north-village-branch-library-austin",
@@ -5441,7 +5697,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-spring-branch-library-houston",
@@ -5462,7 +5719,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-hillendahl-neighborhood-library-houston",
@@ -5483,7 +5741,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-friendswood-public-library-friendswood",
@@ -5504,7 +5763,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-looscan-neighborhood-library-houston",
@@ -5525,7 +5785,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-lake-travis-community-library-austin",
@@ -5546,7 +5807,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-genevieve-miller-hitchcock-public-library-hitchcock",
@@ -5567,7 +5829,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-ring-neighborhood-library-houston",
@@ -5588,7 +5851,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-bracewell-neighborhood-library-houston",
@@ -5609,7 +5873,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-utopia-memorial-library-utopia",
@@ -5630,7 +5895,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-family-history-research-center-at-the-clayton-campus-houston",
@@ -5651,7 +5917,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-freed-montrose-neighborhood-library-houston",
@@ -5672,7 +5939,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-mancuso-neighborhood-library-houston",
@@ -5693,7 +5961,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-parker-williams-branch-library-houston",
@@ -5714,7 +5983,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-young-neighborhood-library-houston",
@@ -5735,7 +6005,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-smith-neighborhood-library-houston",
@@ -5756,7 +6027,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-fairbanks-branch-library-houston",
@@ -5777,7 +6049,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-african-american-history-research-center-houston",
@@ -5798,7 +6071,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-johnson-city-library-johnson-city",
@@ -5819,7 +6093,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-milwood-branch-library-austin",
@@ -5840,7 +6115,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-collier-regional-library-houston",
@@ -5861,7 +6137,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-helen-hall-library-league-city",
@@ -5882,7 +6159,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-dickinson-public-library-dickinson",
@@ -5903,7 +6181,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-houston-history-research-center-houston",
@@ -5924,7 +6203,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-houston-public-library-houston",
@@ -5945,7 +6225,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-la-marque-public-library-la-marque",
@@ -5966,7 +6247,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-pflugerville-public-library-pflugerville",
@@ -5987,7 +6269,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-park-place-regional-library-houston",
@@ -6008,7 +6291,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-spicewood-springs-branch-library-austin",
@@ -6029,7 +6313,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-heights-neighborhood-library-houston",
@@ -6050,7 +6335,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-melcher-neighborhood-library-houston",
@@ -6071,7 +6357,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-wells-branch-community-library-austin",
@@ -6092,7 +6379,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-flores-neighborhood-library-houston",
@@ -6113,7 +6401,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-oak-forest-neighborhood-library-houston",
@@ -6134,7 +6423,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-clear-lake-city-county-freeman-branch-library-houston",
@@ -6155,7 +6445,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-south-houston-branch-library-south-houston",
@@ -6176,7 +6467,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-carnegie-neighborhood-library-houston",
@@ -6197,7 +6489,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-stanaker-neighborhood-library-houston",
@@ -6218,7 +6511,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-northwest-branch-library-cypress",
@@ -6239,7 +6533,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-hcpl-technology-center-at-finnegan-park-houston",
@@ -6260,7 +6555,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-fairmont-branch-library-pasadena",
@@ -6281,7 +6577,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-shepard-acres-homes-neighborhood-library-houston",
@@ -6302,7 +6599,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-tuttle-neighborhood-library-houston",
@@ -6323,7 +6621,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-moore-memorial-public-library-texas-city",
@@ -6344,7 +6643,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-pasadena-public-library-pasadena",
@@ -6365,7 +6665,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-lago-vista-public-library-lago-vista",
@@ -6386,7 +6687,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-hcpl-technology-center-at-lincoln-park-houston",
@@ -6407,7 +6709,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-pleasantville-neighborhood-library-houston",
@@ -6428,7 +6731,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-mccrane-kashmere-gardens-neighborhood-library-houston",
@@ -6449,7 +6753,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-galena-park-branch-library-galena-park",
@@ -6470,7 +6775,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-moody-neighborhood-library-houston",
@@ -6491,7 +6797,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-butt-holdsworth-memorial-library-kerrville",
@@ -6512,7 +6819,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-kerr-regional-history-center-kerrville",
@@ -6533,7 +6841,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-round-rock-public-library-system-round-rock",
@@ -6554,7 +6863,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-techlink-dixon-houston",
@@ -6575,7 +6885,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-jacinto-city-branch-library-houston",
@@ -6596,7 +6907,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-jonestown-community-library-jonestown",
@@ -6617,7 +6929,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-rosenberg-library-galveston",
@@ -6638,7 +6951,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-evelyn-meador-branch-library-seabrook",
@@ -6659,7 +6973,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-deer-park-public-library-deer-park",
@@ -6680,7 +6995,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-aldine-branch-library-houston",
@@ -6701,7 +7017,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-cedar-park-public-library-cedar-park",
@@ -6722,7 +7039,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-hutto-public-library-hutto",
@@ -6743,7 +7061,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-spicewood-community-library-spicewood",
@@ -6764,7 +7083,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-barbara-bush-branch-library-spring",
@@ -6785,7 +7105,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-scenic-woods-regional-library-houston",
@@ -6806,7 +7127,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-taylor-public-library-taylor",
@@ -6827,7 +7149,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-high-meadows-branch-library-houston",
@@ -6848,7 +7171,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-lone-star-college-tomball-community-library-tomball",
@@ -6869,7 +7193,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-leander-public-library-leander",
@@ -6890,7 +7215,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-la-porte-branch-library-la-porte",
@@ -6911,7 +7237,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-pioneer-memorial-library-fredericksburg",
@@ -6932,7 +7259,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-harrie-p-woodson-memorial-library-caldwell",
@@ -6953,7 +7281,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-malcolm-purvis-library-magnolia-magnolia",
@@ -6974,7 +7303,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-north-channel-branch-library-houston",
@@ -6995,7 +7325,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-real-county-public-library-leakey-leakey",
@@ -7016,7 +7347,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-navasota-public-library-navasota",
@@ -7037,7 +7369,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-georgetown-public-library-georgetown",
@@ -7058,7 +7391,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-baldwin-boettcher-branch-library-humble",
@@ -7079,7 +7413,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-sterling-municipal-library-baytown",
@@ -7100,7 +7435,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-george-cynthia-woods-mitchell-library-the-woodlands",
@@ -7121,7 +7457,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-octavia-fields-branch-library-humble",
@@ -7142,7 +7479,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-marble-falls-public-library-marble-falls",
@@ -7163,7 +7501,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-stratford-branch-library-highlands",
@@ -7184,7 +7523,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-lucy-hill-patterson-memorial-library-rockdale",
@@ -7205,7 +7545,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-eagle-pass-public-library-eagle-pass",
@@ -7226,7 +7567,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-liberty-hill-public-library-liberty-hill",
@@ -7247,7 +7589,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-south-regional-library-the-woodlands",
@@ -7268,7 +7611,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": true
     },
     {
       "id": "lib-crosby-edith-fae-cook-cole-branch-library-crosby",
@@ -7289,7 +7633,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-larry-j-ringer-public-library-college-station",
@@ -7310,7 +7655,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-atascocita-branch-library-humble",
@@ -7331,7 +7677,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-camp-wood-public-library-camp-wood",
@@ -7352,7 +7699,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-kingwood-branch-library-kingwood",
@@ -7373,7 +7721,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-harper-library-harper",
@@ -7394,7 +7743,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-charles-b-stewart-west-branch-library-montgomery",
@@ -7415,7 +7765,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-teinert-memorial-public-library-bartlett",
@@ -7436,7 +7787,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bertram-free-library-bertram",
@@ -7457,7 +7809,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-kingsland-branch-library-kingsland",
@@ -7478,7 +7831,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-rb-tullis-library-new-caney",
@@ -7499,7 +7853,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-carnegie-history-center-bryan",
@@ -7520,7 +7875,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bryan-college-station-public-library-system-bryan",
@@ -7541,7 +7897,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-clara-b-mounce-public-library-bryan",
@@ -7562,7 +7919,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-jarrell-community-library-and-resource-center-jarrell",
@@ -7583,7 +7941,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-montgomery-county-memorial-library-system-conroe",
@@ -7604,7 +7963,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-sam-and-carmena-goss-memorial-branch-library-mont-belvieu",
@@ -7625,7 +7985,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-burnet-county-library-system-bertram",
@@ -7646,7 +8007,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-herman-brown-free-library-burnet",
@@ -7667,7 +8029,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-florence-public-library-florence",
@@ -7688,7 +8051,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-quemado-public-library-quemado",
@@ -7709,7 +8073,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-cameron-public-library-cameron",
@@ -7730,7 +8095,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-chambers-county-library-anahuac",
@@ -7751,7 +8117,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-chambers-county-library-system-anahuac",
@@ -7772,7 +8139,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-rf-meador-branch-library-willis",
@@ -7793,7 +8161,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-jones-public-library-dayton",
@@ -7814,7 +8183,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-lakeshore-branch-library-buchanan-dam",
@@ -7835,7 +8205,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-llano-county-library-system-llano",
@@ -7856,7 +8227,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-salado-public-library-district-salado",
@@ -7877,7 +8249,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-smith-welch-memorial-library-hearne",
@@ -7898,7 +8271,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-new-waverly-public-library-new-waverly",
@@ -7919,7 +8293,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-liberty-municipal-library-liberty",
@@ -7940,7 +8315,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-oakalla-public-library-oakalla",
@@ -7961,7 +8337,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bedias-public-library-bedias",
@@ -7982,7 +8359,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-austin-memorial-library-cleveland",
@@ -8003,7 +8381,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-lena-armstrong-public-library-belton",
@@ -8024,7 +8403,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-stewart-c-meyer-library-harker-heights",
@@ -8045,7 +8425,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-tarkington-community-library-cleveland-tarkington",
@@ -8066,7 +8447,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-d-brown-memorial-library-rosebud",
@@ -8087,7 +8469,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-copper-mountain-branch-library-killeen",
@@ -8108,7 +8491,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-temple-public-library-temple",
@@ -8129,7 +8513,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-claud-h-gilmer-memorial-library-rocksprings",
@@ -8150,7 +8535,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-juanita-hargraves-memorial-branch-library-winnie",
@@ -8171,7 +8557,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-robertson-county-carnegie-library-franklin",
@@ -8192,7 +8579,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-huntsville-public-library-huntsville",
@@ -8213,7 +8601,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-killeen-city-library-system-killeen",
@@ -8234,7 +8623,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-lampasas-public-library-lampasas",
@@ -8255,7 +8645,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-copperas-cove-public-library-copperas-cove",
@@ -8276,7 +8667,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-mason-county-m-beven-eckert-memorial-library-mason",
@@ -8297,7 +8689,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-kimble-county-library-junction",
@@ -8318,7 +8711,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-madison-county-library-madisonville",
@@ -8339,7 +8733,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-coldspring-area-public-library-inc-coldspring",
@@ -8360,7 +8755,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-shepherd-public-library-shepherd",
@@ -8381,7 +8777,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-bremond-public-library-bremond",
@@ -8402,7 +8799,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-val-verde-county-library-del-rio",
@@ -8423,7 +8821,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-alma-m-carpenter-public-library-sour-lake",
@@ -8444,7 +8843,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-moody-community-library-moody",
@@ -8465,7 +8865,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-pauline-and-jane-chilton-memorial-marlin-public-library-marlin",
@@ -8486,7 +8887,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-rylander-memorial-library-san-saba",
@@ -8507,7 +8909,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     },
     {
       "id": "lib-onalaska-public-library-onalaska",
@@ -8528,7 +8931,8 @@
       "sales_notes": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "in_outreach": false
     }
   ]
 }
