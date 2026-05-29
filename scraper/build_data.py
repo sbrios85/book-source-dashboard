@@ -27,6 +27,60 @@ RADIUS = CFG["radius_miles"]
 UA = {"User-Agent": "book-source-dashboard/1.0 (personal sourcing tool)"}
 TODAY = datetime.date.today()
 
+# High-school outreach is limited to these areas: Nueces County, San Patricio County,
+# Kingsville (Kleberg), and Victoria. (Other school types are not restricted.)
+HS_KEEP_CITIES = {
+    # Nueces County
+    "corpus christi", "robstown", "agua dulce", "banquete", "bishop", "driscoll",
+    "port aransas", "petronila",
+    # San Patricio County
+    "sinton", "portland", "ingleside", "aransas pass", "mathis", "taft", "gregory",
+    "odem", "edroy", "st. paul", "st paul", "lake city", "lakeside",
+    # Kingsville (Kleberg)
+    "kingsville", "riviera", "ricardo",
+    # Victoria
+    "victoria",
+}
+
+def hs_allowed(school_type, city):
+    """High schools are kept only in the target areas; everything else passes through."""
+    if school_type != "High":
+        return True
+    return (city or "").strip().lower() in HS_KEEP_CITIES
+
+
+# Library OUTREACH region — the hand-drawn boundary: San Antonio + I-10 corridor to Houston/
+# Galveston + the full coast down to Kingsville + back up through Alice/Pleasanton. Libraries
+# inside this polygon go on the Outreach (who-to-call) list; the Library Sales tab still shows
+# the wider 250-mi set. Vertices are (lng, lat), traced clockwise.
+OUTREACH_POLYGON = [
+    (-98.75, 29.82), (-98.02, 29.78), (-97.35, 29.55), (-96.30, 29.78),
+    (-95.70, 30.05), (-95.45, 30.18), (-95.10, 29.95), (-94.88, 29.55),
+    (-94.78, 29.28), (-95.36, 28.94), (-96.00, 28.66), (-96.42, 28.40),
+    (-97.05, 27.83), (-97.38, 27.30), (-97.72, 27.40), (-98.10, 27.78),
+    (-98.20, 28.55), (-98.50, 29.10), (-98.78, 29.45), (-98.75, 29.82),
+]
+
+
+def in_outreach_region(lat, lng):
+    if lat is None or lng is None:
+        return False
+    try:
+        lat, lng = float(lat), float(lng)
+    except (TypeError, ValueError):
+        return False
+    poly = OUTREACH_POLYGON
+    inside = False
+    n = len(poly)
+    j = n - 1
+    for i in range(n):
+        xi, yi = poly[i]
+        xj, yj = poly[j]
+        if ((yi > lat) != (yj > lat)) and (lng < (xj - xi) * (lat - yi) / (yj - yi) + xi):
+            inside = not inside
+        j = i
+    return inside
+
 
 def miles(lat, lng):
     if lat is None or lng is None:
@@ -108,6 +162,7 @@ def parse_outlet_csv(text):
             "phone": (row.get(c_phone) or "").strip() if c_phone else "",
             "website": "", "lat": float(row[c_lat]), "lng": float(row[c_lng]),
             "distance_mi": d, "outlet_type": type_map.get(otype, "Library"),
+            "in_outreach": in_outreach_region(row.get(c_lat), row.get(c_lng)),
             "county": (row.get(c_county) or "").strip().title() if c_county else "",
             "librarian_name": "", "librarian_phone": "", "librarian_email": "",
             "fol_facebook": "", "sales_notes": "",
@@ -202,6 +257,10 @@ def fetch_schools():
                     st = label if lvlk is None else level_map.get(row.get(lvlk), label)
                     # Outreach focuses on high schools, colleges, universities (more/better discards).
                     if st in ("Elementary", "Middle"):
+                        continue
+                    city_now = (row.get("city_mailing") or row.get("city") or "").strip().title()
+                    # High schools restricted to Nueces / San Patricio / Kingsville / Victoria.
+                    if not hs_allowed(st, city_now):
                         continue
                     out.append({
                         "id": f"school-{slug(name)}", "category": "schools", "school_type": st,
@@ -344,6 +403,9 @@ def merge_leads(fresh):
     # Drop any elementary/middle schools that were stored before we narrowed scope.
     by_id = {k: v for k, v in by_id.items()
              if v.get("school_type") not in ("Elementary", "Middle")}
+    # Drop high schools outside the target areas (Nueces / San Patricio / Kingsville / Victoria).
+    by_id = {k: v for k, v in by_id.items()
+             if hs_allowed(v.get("school_type"), v.get("city"))}
     for l in fresh:
         if l["id"] in by_id:
             for f in ("status", "last_contacted", "follow_up", "outreach_notes", "priority",
