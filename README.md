@@ -1,52 +1,75 @@
-[README.md](https://github.com/user-attachments/files/28374866/README.md)
-# book-source-dashboard# Book Source Dashboard
+# ─────────────────────────────────────────────────────────────────────────────
+# Book Source Dashboard — configuration
+# Edit this file to change coverage. Each lead/source CATEGORY has its OWN radius.
+# ─────────────────────────────────────────────────────────────────────────────
 
-A sourcing dashboard for the book business. Two halves:
+# Center point everything is measured from (Corpus Christi, TX)
+center:
+  lat: 27.8006
+  lng: -97.3964
 
-- **Live Feed** — library/Friends book sales, estate sales, and book lots worth driving to, within a configurable radius.
-- **Outreach Leads** — estate-sale companies, junk/haul-out companies, and school libraries (K-12, private, colleges), with a built-in CRM (status, last-contacted, notes) and one-click outreach pitches.
-
-Built to run exactly like the other GitHub-Pages dashboards: a scheduled Action refreshes two JSON files, the static page reads them.
-
-## How it works
-
-```
-index.html              ← the dashboard (reads data/*.json at runtime)
-data/sales.json         ← Live Feed contents
-data/leads.json         ← Outreach contents (your CRM status is preserved on refresh)
-scraper/build_data.py   ← pulls every source, writes the two JSON files
-scraper/config.yaml      ← coverage + sources. PER-CATEGORY RADIUS lives here.
-scraper/requirements.txt
-.github/workflows/refresh.yml  ← weekly + manual refresh, commits data back
-```
-
-## Per-category radius
-
-In `scraper/config.yaml`:
-
-```yaml
+# ── Per-category radius (miles) ──────────────────────────────────────────────
+# Change a number here and that category re-scopes on the next run.
 radius_miles:
-  schools: 110          # Kingsville → Victoria. Set to ~250 to add San Antonio + Houston.
-  estate_companies: 45  # tighter — you drive to these
-  junk_removal: 45
-  book_sales: 90
-```
+  schools: 110        # Kingsville (south) up to Victoria (north). Bump to 250 to pull in San Antonio + Houston.
+  estate_companies: 45    # tighter — you physically drive to these pickups
+  junk_removal: 45        # tighter — same reason
+  book_sales: 90          # library / Friends sales worth a day trip
 
-Each category re-scopes on the next run when you change its number.
+# ── Live event feeds (populate the "Live Feed" tab) ──────────────────────────
+# CivicPlus municipal calendars expose an iCal feed; add the iCal URL for each town.
+# Find it on the city's Calendar.aspx page -> "iCalendar" / RSS link.
+civicplus_ical:
+  - name: "City of Victoria"
+    url: "https://www.victoriatx.gov/common/modules/iCalendar/iCalendar.aspx?catID=23&feed=calendar"
+  # - name: "City of Corpus Christi"
+  #   url: "PASTE_ICAL_URL_HERE"
 
-## Sources
+# Craigslist regions to monitor (RSS). Searches run for each term below.
+craigslist:
+  regions:
+    - "corpuschristi"     # https://corpuschristi.craigslist.org
+    # - "victoriatx"
+  search_terms:
+    - "book lot"
+    - "books free"
+    - "estate books"
+    - "library books"
+  sections:               # craigslist category codes
+    - "zip"               # free stuff
+    - "sss"               # for-sale (all)
 
-- **Schools** — Urban Institute Education Data API (a clean JSON layer over NCES public/private/college directories). The first live run may need one field-name tweak in `fetch_schools()` if Urban shifts a column for the data year; the code logs what it pulled.
-- **Library/Friends sales** — CivicPlus municipal iCal feeds (add each town's iCal URL), plus **fixed schedules** for sales that never hit any aggregator (Victoria's Jan/May/Sept is pre-loaded).
-- **Estate sales** — EstateSales.net (polite scrape).
-- **Book lots** — Craigslist RSS (the Marketplace replacement that doesn't fight automation).
+# Estate-sale aggregators (HTML scrape, polite). zip + radius set per site in the scraper.
+estatesales_net:
+  enabled: true
+  zip: "78412"
+  radius: 50
 
-## CRM persistence
+# Fixed-schedule sales that never get posted to aggregators (encode them once).
+# These show up in the Live Feed automatically as their dates approach.
+fixed_schedule_sales:
+  - org: "Friends of the Victoria Public Library"
+    venue: "Victoria Public Library"
+    address: "302 N Main St, Victoria, TX 77901"
+    lat: 28.8053
+    lng: -97.0036
+    months: [1, 5, 9]          # January, May, September every year
+    note: "Member presale Sunday; open to public Mon–Fri during library hours. Most items $2 or less, cash/check only."
+  - org: "Aransas County Public Library"
+    venue: "Aransas County Public Library"
+    address: "701 E Mimosa St, Rockport, TX 78382"
+    lat: 28.0207
+    lng: -97.0586
+    months: [1,2,3,4,5,6,7,8,9,10,11,12]   # ongoing in-library sale
+    note: "Ongoing book sale during library hours."
 
-Status/notes save in your browser (localStorage). Click **Export leads.json** to download the merged file and commit it to `data/` so your outreach state lives in the repo and survives across devices.
-
-## Notes
-
-- The page must be served over http (GitHub Pages or `python -m http.server`), not opened from disk, or the browser blocks the JSON fetches.
-- After a refresh commit, if Pages serves a stale file, hard-refresh once.
-- Adding a new town = add its iCal URL (or a fixed-schedule block) to `config.yaml`. No code changes.
+# ── School lead source ───────────────────────────────────────────────────────
+# Pulls from the Urban Institute Education Data API (a clean JSON layer over NCES
+# CCD public schools, PSS private schools, and IPEDS colleges). No giant downloads.
+schools:
+  include_public_k12: true
+  include_private: true
+  include_colleges: true
+  state_fips: "48"        # Texas
+  # Outreach reminder window — schools weed at year-end.
+  outreach_window: "April–May (before year-end weeding)"
