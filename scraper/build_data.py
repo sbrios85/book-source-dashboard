@@ -147,7 +147,7 @@ def fetch_libraries():
 def merge_libraries(fresh):
     existing = load(DATA / "libraries.json", "libraries")
     by_id = {l["id"]: l for l in existing.get("libraries", [])}
-    MANUAL = ("librarian_name", "librarian_phone", "librarian_email", "fol_facebook",
+    MANUAL = ("librarian_name", "contact_title", "librarian_phone", "librarian_email", "fol_facebook",
               "sales_notes", "status", "last_contacted", "outreach_notes", "website")
     for l in fresh:
         if l["id"] in by_id:
@@ -341,7 +341,7 @@ def merge_leads(fresh):
     for l in fresh:
         if l["id"] in by_id:
             for f in ("status", "last_contacted", "outreach_notes", "priority",
-                      "librarian_name", "librarian_phone", "librarian_email"):
+                      "librarian_name", "contact_title", "librarian_phone", "librarian_email"):
                 if by_id[l["id"]].get(f):
                     l[f] = by_id[l["id"]][f]
         by_id[l["id"]] = {**by_id.get(l["id"], {}), **l}
