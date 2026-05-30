@@ -67,6 +67,9 @@
   .copy:hover{background:var(--ox);color:#fff}
   .fb{font-family:"Spline Sans Mono",monospace;font-size:11px;color:var(--indigo)}
   .salechip{display:inline-block;font-family:"Spline Sans Mono",monospace;font-size:11px;background:var(--paper-2);border:1px solid var(--line);border-radius:6px;padding:3px 8px;margin:4px 4px 0 0;color:var(--ink)}
+  .salechip.more{background:transparent;color:var(--ink-soft);font-style:italic}
+  .evsec{margin-top:10px}
+  .evlabel{font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-soft);margin-bottom:2px}
   .empty{padding:40px;text-align:center;color:var(--ink-soft);font-style:italic}
   .err{background:#fff3ed;border:1.5px solid var(--ox-soft);color:var(--ox);padding:12px 15px;border-radius:8px;font-size:14px;margin-top:14px}
   .hint{font-family:"Spline Sans Mono",monospace;font-size:10.5px;color:var(--ink-soft);margin:0 0 8px}
@@ -165,6 +168,7 @@ function saveCrm(){localStorage.setItem(LS,JSON.stringify(crm));}
 function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 function val(id,f,fb){return (crm[id]&&crm[id][f]!=null&&crm[id][f]!=='')?crm[id][f]:(fb||'');}
 function webHost(u){try{let h=new URL(u).hostname.replace(/^www\./,'');return h;}catch(e){return 'website';}}
+function stripHtml(s){return (s||'').replace(/<[^>]*>/g,' ').replace(/&[a-z]+;/gi,' ').replace(/\s+/g,' ').trim();}
 function tel(p){return p?p.replace(/[^+\d]/g,''):'';}
 
 async function boot(){
@@ -263,10 +267,20 @@ function renderLeads(){
 /* LIBRARY SALES (compact rows + expand) */
 let lFilter='all';
 function salesForLibrary(lib){
-  const city=(lib.city||'').toLowerCase();
-  const nameTok=(lib.name||'').toLowerCase().split(/\s+/).filter(w=>w.length>4);
-  return SALES.filter(e=>{const hay=`${e.org} ${e.title} ${e.venue} ${e.city}`.toLowerCase();
-    if(city&&e.city&&e.city.toLowerCase().includes(city))return true;return nameTok.some(t=>hay.includes(t));});
+  const city=(lib.city||'').toLowerCase().trim();
+  // Distinctive name tokens only — drop generic library words that match everything.
+  const STOP=new Set(['public','library','libraries','county','memorial','branch','central','school','community','district','the','and','of','inc','city']);
+  const nameTok=(lib.name||'').toLowerCase().split(/[^a-z]+/).filter(w=>w.length>3&&!STOP.has(w));
+  return SALES.filter(e=>{
+    const eCity=(e.city||'').toLowerCase().trim();
+    const venue=(e.venue||'').toLowerCase();
+    const org=(e.org||'').toLowerCase();
+    // 1) Venue explicitly names THIS library (strongest signal).
+    if(nameTok.length&&nameTok.some(t=>venue.includes(t)))return true;
+    // 2) Same city AND the event is actually library-hosted (org/venue mentions a library).
+    if(city&&eCity===city&&(venue.includes('librar')||org.includes('librar')))return true;
+    return false;
+  });
 }
 function libDetail(l){
   const fb=val(l.id,'fol_facebook',l.fol_facebook),sn=val(l.id,'sales_notes',l.sales_notes);
@@ -275,7 +289,16 @@ function libDetail(l){
   return `<div class="addr">${esc(l.address||'')}</div>
     ${val(l.id,'website',l.website)?`<div><a class="weblink" href="${esc(val(l.id,'website',l.website))}" target="_blank" rel="noopener">🔗 ${esc(webHost(val(l.id,'website',l.website)))} ↗</a></div>`:''}
     ${fb?`<div class="addr"><a class="fb" href="${esc(fb)}" target="_blank">📘 Friends page ↗</a></div>`:''}
-    ${evs.length?`<div>${evs.map(e=>`<span class="salechip">${esc(e.date_start==='ongoing'?'Ongoing':e.date_start)} — ${esc(e.title)}</span>`).join('')}</div>`:''}
+    ${(()=>{const today=new Date().toISOString().slice(0,10);
+      let up=evs.filter(e=>e.date_start==='ongoing'||(e.date_start||'')>=today)
+               .sort((a,b)=>(a.date_start==='ongoing'?'0':a.date_start).localeCompare(b.date_start==='ongoing'?'0':b.date_start));
+      if(!up.length)return '';
+      const shown=up.slice(0,6);
+      const more=up.length-shown.length;
+      return `<div class="evsec"><div class="evlabel">Upcoming sales &amp; events nearby</div>`+
+        shown.map(e=>`<span class="salechip">${esc(e.date_start==='ongoing'?'Ongoing':e.date_start)} — ${esc(e.title)}</span>`).join('')+
+        (more>0?`<span class="salechip more">+${more} more</span>`:'')+`</div>`;
+    })()}
     <div class="drow" style="margin-top:8px"><label class="fld" style="flex:1;min-width:260px">Friends-of-the-Library Facebook link
       <input class="tin" style="width:100%" data-id="${l.id}" data-f="fol_facebook" value="${esc(fb)}" placeholder="https://facebook.com/…"></label></div>
     <div class="drow">
