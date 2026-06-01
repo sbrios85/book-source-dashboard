@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29",
+  "generated": "2026-06-01",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -59,7 +59,7 @@
       "city": "Victoria",
       "address": "1923 E Red River St, Victoria, TX 77901",
       "phone": "",
-      "website": "",
+      "website": "https://myestatetoliquidate.com",
       "lat": 28.8134145,
       "lng": -96.984346,
       "priority": 2,
@@ -68,7 +68,8 @@
       "notes": "Full estate liquidation incl. clean-out; reviews mention decades of books/collectibles. Angle: unsold books at closeout.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "estate-shoppe-victoria",
@@ -77,7 +78,7 @@
       "city": "Victoria",
       "address": "1308 Village Dr, Victoria, TX 77901",
       "phone": "+1 361-484-5381",
-      "website": "",
+      "website": "https://www.antiquestoresnearby.com",
       "lat": 28.8196054,
       "lng": -96.9910135,
       "priority": 3,
@@ -86,7 +87,8 @@
       "notes": "Storefront reseller of estate goods \u2014 may have steady book turnover to offload.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "estate-tickled-pink",
