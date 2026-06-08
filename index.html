@@ -36,6 +36,11 @@
   .thead,.lrow{display:grid;align-items:center;gap:10px;padding:6px 10px}
   .thead{grid-template-columns:14px 2fr 150px 64px 170px 70px 150px 18px;font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:var(--ink-soft);border-bottom:2px solid var(--line);position:sticky;top:88px;background:var(--paper);z-index:10}
   .sorth{cursor:pointer;user-select:none}
+  .rowweb{text-decoration:none;font-size:13px;margin-left:4px;opacity:.75;cursor:pointer}
+  .rowweb:hover{opacity:1}
+  .deadhdr{font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink-soft);padding:14px 10px 6px;margin-top:10px;border-top:2px solid var(--line)}
+  .lrow.isdead{opacity:.5}
+  .lrow.isdead:hover{opacity:.8}
   .sorth:hover{color:var(--ink)}
   .sorth.act{color:var(--ox);font-weight:700}
   .modal-wrap{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:1000}
@@ -302,13 +307,14 @@ function renderLeads(){
   }
   const el=document.getElementById('leads-list');
   if(!rows.length){el.innerHTML='<div class="empty">No matching leads.</div>';return;}
-  el.innerHTML=rows.map(l=>{
+  const rowHtml=(l)=>{
     const st=val(l.id,'status',l.status||'new'),lc=val(l.id,'last_contacted',l.last_contacted);
     const ty=l.school_type||LBL_CAT[l.category]||l.category;
     const ph=tel(l.phone);
-    return `<div class="lrow" data-row="${l.id}">
+    const web=val(l.id,'website',l.website);
+    return `<div class="lrow${st==='dead'?' isdead':''}" data-row="${l.id}">
       <span class="dot ${st}"></span>
-      <span class="nm">${esc(l.name)}</span>
+      <span class="nm">${esc(l.name)}${web?` <a class="rowweb" href="${esc(web)}" target="_blank" rel="noopener" title="${esc(web)}" onclick="event.stopPropagation()">🔗</a>`:''}</span>
       <span class="ty-cell"><span class="tybadge b-${l.category}">${esc(ty)}</span></span>
       <span class="cell city-cell">${esc(l.city||'—')}</span>
       <span class="cell">${l.distance_mi!=null?l.distance_mi:''}</span>
@@ -320,7 +326,15 @@ function renderLeads(){
       <span class="cell follow-cell">${esc(val(l.id,'follow_up',l.follow_up)||'—')}</span>
       <span class="chev">▸</span>
     </div><div class="detail" data-detail="${l.id}"></div>`;
-  }).join('');
+  };
+  const live=rows.filter(l=>val(l.id,'status',l.status)!=='dead');
+  const dead=rows.filter(l=>val(l.id,'status',l.status)==='dead');
+  let html=live.map(rowHtml).join('');
+  if(dead.length){
+    html+=`<div class="deadhdr">Dead leads · ${dead.length}</div>`;
+    html+=dead.map(rowHtml).join('');
+  }
+  el.innerHTML=html;
 }
 
 /* LIBRARY SALES (compact rows + expand) */
@@ -412,6 +426,10 @@ function wireList(listId,detailFn,lookup){
     d.classList.toggle('open',opening);row.classList.toggle('open',opening);
   });
   el.addEventListener('change',e=>{const id=e.target.dataset.id,f=e.target.dataset.f;if(!id||!f)return;crm[id]=crm[id]||{};crm[id][f]=e.target.value;saveCrm();
+    if(listId==='leads-list'&&f==='status'){renderLeads();
+      const d2=el.querySelector(`[data-detail="${CSS.escape(id)}"]`);
+      if(d2&&!d2.dataset.built){const obj=leadsUnified().find(x=>x.id===id);if(obj){d2.innerHTML=leadDetail(obj);d2.dataset.built='1';}d2.classList.add('open');const r2=el.querySelector(`[data-row="${CSS.escape(id)}"]`);if(r2)r2.classList.add('open');}
+      return;}
     const r=el.querySelector(`[data-row="${CSS.escape(id)}"]`);
     if(r){if(f==='status'){r.querySelector('.dot').className='dot '+e.target.value;const sp=r.querySelector('.stpill');if(sp)sp.textContent=e.target.value;}
       if(f==='last_contacted'){const c=r.querySelector('.lc-cell');if(c)c.textContent=e.target.value||'—';}
@@ -420,7 +438,10 @@ function wireList(listId,detailFn,lookup){
   el.addEventListener('input',e=>{const id=e.target.dataset.id,f=e.target.dataset.f;if(!id||!f)return;if(['outreach_notes','sales_notes','fol_facebook','website','librarian_name','contact_title','librarian_phone','librarian_email'].includes(f)){crm[id]=crm[id]||{};crm[id][f]=e.target.value;saveCrm();
     const r=el.querySelector(`[data-row="${CSS.escape(id)}"]`);
     if(r){if(f==='contact_title'){const c=r.querySelector('.title-cell');if(c)c.textContent=e.target.value||'—';}
-      if(f==='librarian_name'){const c=r.querySelector('.contact-cell');if(c)c.textContent=e.target.value||'—';}}
+      if(f==='librarian_name'){const c=r.querySelector('.contact-cell');if(c)c.textContent=e.target.value||'—';}
+      if(f==='website'){const nm=r.querySelector('.nm');if(nm){let a=nm.querySelector('.rowweb');const u=e.target.value.trim();
+        if(u){if(!a){a=document.createElement('a');a.className='rowweb';a.target='_blank';a.rel='noopener';a.textContent='🔗';a.onclick=ev=>ev.stopPropagation();nm.appendChild(document.createTextNode(' '));nm.appendChild(a);}a.href=u;a.title=u;}
+        else if(a){a.remove();}}}}
   }});
   el.addEventListener('click',e=>{if(e.target.classList.contains('copy')){navigator.clipboard.writeText(PITCH[e.target.dataset.pitch]||'');e.target.textContent='copied ✓';setTimeout(()=>e.target.textContent='copy pitch',1200);}});
 }
