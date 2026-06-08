@@ -1,21 +1,7 @@
 {
-  "generated": "2026-06-01",
+  "generated": "2026-06-08",
   "note": "Live feed. Built by scraper/build_data.py from fixed schedules + CivicPlus iCal + Craigslist RSS + EstateSales.net.",
   "events": [
-    {
-      "id": "civic-city-of-victoria-bookish-society-monthly-meetup-2026-06-02",
-      "source": "City of Victoria",
-      "kind": "library_sale",
-      "title": "Bookish Society Monthly meetup",
-      "org": "City of Victoria",
-      "venue": "<p><span style='color: rgb(51, 51, 51); font-family: \"Open Sans\", \"sans-serif\"; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;' data-pasted=\"true\">Vida Caf&eacute; &amp; Market</span></p> - 105 Spring Green Blvd  Victoria TX 77905",
-      "address": "<p><span style='color: rgb(51, 51, 51); font-family: \"Open Sans\", \"sans-serif\"; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;' data-pasted=\"true\">Vida Caf&eacute; &amp; Market</span></p> - 105 Spring Green Blvd  Victoria TX 77905",
-      "city": "Victoria",
-      "date_start": "2026-06-02",
-      "date_note": "",
-      "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
-      "details": "We are an author-focused book society that reads by mood\u2014sometimes inspired by the season, sometimes by curiosity. https://www.victoriatx.gov/calendar.aspx?EID=3778"
-    },
     {
       "id": "civic-city-of-victoria-adult-craft-night-book-nooks-2026-06-08",
       "source": "City of Victoria",
@@ -667,6 +653,20 @@
       "date_start": "",
       "date_note": "see listing",
       "url": "https://www.estatesales.net/TX/Cuero/77954/4942395",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-189-regionally-featured-finds-for-kings-and-quee",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "189 Regionally Featured Finds for Kings and Queens Listed by Random & Rare Last modified 43 minutes ago. 189 Pictures. Rockport,\u00a0TX\u00a078382 32 miles away Jun 11, 12, 13 11am to 3pm (Thu) 32 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Rockport/78382/4939119",
       "details": "Estate sale \u2014 check listing for book/library mentions."
     },
     {

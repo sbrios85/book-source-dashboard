@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01",
+  "generated": "2026-06-08",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -97,14 +97,15 @@
       "city": "Victoria",
       "address": "201 Canterbury Ln, Victoria, TX 77904",
       "phone": "",
-      "website": "",
+      "website": "https://www.estatesale.com",
       "lat": 28.8434883,
       "lng": -96.996345,
       "priority": 3,
       "notes": "Estate-sale company, Victoria.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "estate-crossroads-victoria",
@@ -113,14 +114,15 @@
       "city": "Victoria",
       "address": "1308 Village Dr, Victoria, TX 77901",
       "phone": "+1 361-541-9118",
-      "website": "",
+      "website": "https://www.estatesales.net",
       "lat": 28.8191606,
       "lng": -96.9919716,
       "priority": 3,
       "notes": "Estate-sale company, Victoria.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "junk-texasjunk",
