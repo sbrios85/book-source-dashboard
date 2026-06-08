@@ -35,6 +35,15 @@
   /* compact rows */
   .thead,.lrow{display:grid;align-items:center;gap:10px;padding:6px 10px}
   .thead{grid-template-columns:14px 2fr 150px 64px 170px 70px 150px 18px;font-family:"Spline Sans Mono",monospace;font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:var(--ink-soft);border-bottom:2px solid var(--line);position:sticky;top:88px;background:var(--paper);z-index:10}
+  .sorth{cursor:pointer;user-select:none}
+  .sorth:hover{color:var(--ink)}
+  .sorth.act{color:var(--ox);font-weight:700}
+  .modal-wrap{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:1000}
+  .modal{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:22px;width:min(420px,92vw);box-shadow:0 12px 40px rgba(0,0,0,.3);max-height:90vh;overflow:auto}
+  .modal-h{font-family:"Fraunces",serif;font-size:20px;margin-bottom:14px;color:var(--ink)}
+  .modal .fld{display:block;margin-bottom:10px}
+  .modal-btns{display:flex;gap:10px;justify-content:flex-end;margin-top:16px}
+  .btn.primary{background:var(--ox);color:var(--paper);border-color:var(--ox)}
   .lrow{grid-template-columns:14px 2fr 150px 64px 170px 70px 150px 18px;border-bottom:1px solid var(--line);cursor:pointer;font-size:14px}
   /* Outreach table has Title + Contact columns after Dist */
   #leads .thead,#leads-list .lrow{grid-template-columns:14px 1.4fr 110px 130px 48px 130px 150px 150px 64px 84px 84px 16px}
@@ -45,7 +54,7 @@
   .nm{font-family:"Fraunces",serif;font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .cell{font-family:"Spline Sans Mono",monospace;font-size:12px;color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .tybadge{font-family:"Spline Sans Mono",monospace;font-size:9.5px;letter-spacing:.5px;text-transform:uppercase;padding:2px 6px;border-radius:4px;color:#fff;white-space:nowrap;display:inline-block;overflow:hidden;text-overflow:ellipsis;max-width:100%}
-  .b-estate_companies{background:var(--ox)} .b-junk_removal{background:var(--slate)} .b-schools{background:var(--gold)} .b-libraries{background:var(--moss)} .b-lib{background:var(--indigo)}
+  .b-estate_companies{background:var(--ox)} .b-junk_removal{background:var(--slate)} .b-schools{background:var(--gold)} .b-libraries{background:var(--moss)} .b-lib{background:var(--indigo)} .b-other{background:var(--ink-soft)}
   .stpill{font-family:"Spline Sans Mono",monospace;font-size:10px;text-transform:uppercase;color:var(--ink-soft)}
   .chev{justify-self:end;color:var(--ink-soft);font-size:12px;transition:transform .15s}
   .lrow.open .chev{transform:rotate(90deg)}
@@ -124,14 +133,41 @@
       <span class="chip" data-cfilter="junk_removal">Junk / Haulers</span>
       <span class="chip" data-sfilter="open">Hide dead</span>
       <input class="search" id="leads-search" placeholder="search name, city, notes…">
+      <button class="btn" id="add-lead">+ Add company</button>
       <button class="btn" id="export-leads">⤓ leads.json</button>
     </div>
     <div class="hint">Click a row to log status, contacts &amp; notes. Saves in this browser — Export to commit back to the repo.</div>
-    <div class="thead">
-      <span></span><span>Name</span><span>Type</span><span>City</span><span>Dist</span><span>Title</span><span>Contact</span><span>Phone</span><span>Status</span><span>Last</span><span>Follow Up</span><span></span>
+    <div class="thead" id="leads-thead">
+      <span></span><span class="sorth" data-sort="name">Name</span><span class="sorth" data-sort="type">Type</span><span class="sorth" data-sort="city">City</span><span class="sorth" data-sort="dist">Dist</span><span class="sorth" data-sort="title">Title</span><span class="sorth" data-sort="contact">Contact</span><span class="sorth" data-sort="phone">Phone</span><span class="sorth" data-sort="status">Status</span><span class="sorth" data-sort="last">Last</span><span class="sorth" data-sort="follow">Follow Up</span><span></span>
     </div>
     <div id="leads-list"></div>
   </section>
+
+  <!-- ADD COMPANY MODAL -->
+  <div id="add-modal" class="modal-wrap" style="display:none">
+    <div class="modal">
+      <div class="modal-h">Add a company</div>
+      <label class="fld">Name<input class="tin" id="m-name" placeholder="e.g. Lone Star Estate Sales"></label>
+      <label class="fld">Type
+        <select id="m-cat">
+          <option value="estate_companies">Estate Co</option>
+          <option value="junk_removal">Junk / Hauler</option>
+          <option value="libraries">Public Library</option>
+          <option value="schools">School</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+      <label class="fld">City<input class="tin" id="m-city" placeholder="e.g. San Antonio"></label>
+      <label class="fld">Phone<input class="tin" id="m-phone" placeholder="optional"></label>
+      <label class="fld">Website<input class="tin" id="m-web" placeholder="optional https://…"></label>
+      <label class="fld">Address<input class="tin" id="m-addr" placeholder="optional"></label>
+      <label class="fld">Notes<input class="tin" id="m-notes" placeholder="optional"></label>
+      <div class="modal-btns">
+        <button class="btn" id="m-cancel">Cancel</button>
+        <button class="btn primary" id="m-save">Save company</button>
+      </div>
+    </div>
+  </div>
 
   <!-- LIBRARY SALES -->
   <section id="libs" style="display:none">
@@ -158,13 +194,17 @@ const PITCH={
   libraries:`Hi [Name], I run a local used-book resale business and partner with libraries on the materials you weed from the collection. When you pull older or surplus books, I'm happy to take them off your hands — saves staff the disposal work and keeps the books in use. Could I ask how your library handles withdrawn books, and whether I could be on the list for them?`
 };
 const LBL_KIND={library_sale:'Library / Friends',estate_sale:'Estate Sale',book_lot:'Book Lot'};
-const LBL_CAT={estate_companies:'Estate Co',junk_removal:'Junk / Hauler',schools:'School',libraries:'Public Library'};
+const LBL_CAT={estate_companies:'Estate Co',junk_removal:'Junk / Hauler',schools:'School',libraries:'Public Library',other:'Other'};
 const BADGE_KIND={library_sale:'b-library',estate_sale:'b-estate',book_lot:'b-lot'};
 
 let SALES=[],LEADS=[],LIBS=[],RADII={outreach:110,library_sales:250};
 const LS='bsd_crm';
 const crm=JSON.parse(localStorage.getItem(LS)||'{}');
 function saveCrm(){localStorage.setItem(LS,JSON.stringify(crm));}
+const LS_MANUAL='bsd_manual';
+let MANUAL=JSON.parse(localStorage.getItem(LS_MANUAL)||'[]');
+function saveManual(){localStorage.setItem(LS_MANUAL,JSON.stringify(MANUAL));}
+let sortKey='', sortDir=1; // '' = default grouped sort
 function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 function val(id,f,fb){return (crm[id]&&crm[id][f]!=null&&crm[id][f]!=='')?crm[id][f]:(fb||'');}
 function webHost(u){try{let h=new URL(u).hostname.replace(/^www\./,'');return h;}catch(e){return 'website';}}
@@ -211,7 +251,7 @@ let cFilter='all',hideDead=false;
 function leadsUnified(){
   const inOut=x=>x.in_outreach!=null?x.in_outreach:(x.distance_mi==null||x.distance_mi<=RADII.outreach);
   const libs=LIBS.filter(inOut).map(x=>({...x,category:'libraries'}));
-  return LEADS.concat(libs);
+  return LEADS.concat(libs).concat(MANUAL);
 }
 function leadDetail(l){
   const st=val(l.id,'status',l.status||'new'),lc=val(l.id,'last_contacted',l.last_contacted),on=val(l.id,'outreach_notes',l.outreach_notes);
@@ -240,7 +280,26 @@ function renderLeads(){
   let rows=leadsUnified().filter(l=>cFilter==='all'||l.category===cFilter)
     .filter(l=>!q||`${l.name} ${l.city} ${l.notes||''}`.toLowerCase().includes(q));
   if(hideDead) rows=rows.filter(l=>val(l.id,'status',l.status)!=='dead');
-  rows.sort((a,b)=>a.category.localeCompare(b.category)||((a.priority||5)-(b.priority||5))||((a.distance_mi||999)-(b.distance_mi||999)));
+  if(sortKey){
+    const gv=(l)=>{
+      switch(sortKey){
+        case 'name': return (l.name||'').toLowerCase();
+        case 'type': return (l.school_type||LBL_CAT[l.category]||l.category||'').toLowerCase();
+        case 'city': return (l.city||'').toLowerCase();
+        case 'dist': return l.distance_mi==null?99999:l.distance_mi;
+        case 'title': return (val(l.id,'contact_title',l.contact_title)||'').toLowerCase();
+        case 'contact': return (val(l.id,'librarian_name',l.librarian_name)||'').toLowerCase();
+        case 'phone': return (l.phone||'').toLowerCase();
+        case 'status': return (val(l.id,'status',l.status||'new')||'').toLowerCase();
+        case 'last': return (val(l.id,'last_contacted',l.last_contacted)||'');
+        case 'follow': return (val(l.id,'follow_up',l.follow_up)||'');
+        default: return '';
+      }
+    };
+    rows.sort((a,b)=>{const x=gv(a),y=gv(b); if(x<y)return -1*sortDir; if(x>y)return 1*sortDir; return 0;});
+  } else {
+    rows.sort((a,b)=>a.category.localeCompare(b.category)||((a.priority||5)-(b.priority||5))||((a.distance_mi||999)-(b.distance_mi||999)));
+  }
   const el=document.getElementById('leads-list');
   if(!rows.length){el.innerHTML='<div class="empty">No matching leads.</div>';return;}
   el.innerHTML=rows.map(l=>{
@@ -369,8 +428,37 @@ wireList('leads-list',leadDetail,id=>leadsUnified().find(x=>x.id===id));
 wireList('libs-list',libDetail,id=>LIBS.find(x=>x.id===id));
 
 function download(name,obj){const b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;a.click();}
-document.getElementById('export-leads').onclick=()=>download('leads.json',{generated:new Date().toISOString().slice(0,10),leads:LEADS.map(l=>({...l,...(crm[l.id]||{})}))});
+document.getElementById('export-leads').onclick=()=>download('leads.json',{generated:new Date().toISOString().slice(0,10),leads:LEADS.concat(MANUAL).map(l=>({...l,...(crm[l.id]||{})}))});
 document.getElementById('export-libs').onclick=()=>download('libraries.json',{generated:new Date().toISOString().slice(0,10),radii:RADII,libraries:LIBS.map(l=>({...l,...(crm[l.id]||{})}))});
+
+/* sortable column headers */
+function paintSortHeaders(){document.querySelectorAll('#leads-thead .sorth').forEach(h=>{h.classList.toggle('act',h.dataset.sort===sortKey);const base=h.textContent.replace(/[ ▲▼]+$/,'');h.textContent=h.dataset.sort===sortKey?base+(sortDir===1?' ▲':' ▼'):base;});}
+document.querySelectorAll('#leads-thead .sorth').forEach(h=>{h.onclick=()=>{const k=h.dataset.sort;if(sortKey===k){if(sortDir===1){sortDir=-1;}else{sortKey='';sortDir=1;}}else{sortKey=k;sortDir=1;}paintSortHeaders();renderLeads();};});
+
+/* add-company modal */
+const modal=document.getElementById('add-modal');
+function openModal(){['m-name','m-city','m-phone','m-web','m-addr','m-notes'].forEach(i=>document.getElementById(i).value='');document.getElementById('m-cat').value='estate_companies';modal.style.display='flex';document.getElementById('m-name').focus();}
+function closeModal(){modal.style.display='none';}
+document.getElementById('add-lead').onclick=openModal;
+document.getElementById('m-cancel').onclick=closeModal;
+modal.onclick=e=>{if(e.target===modal)closeModal();};
+document.getElementById('m-save').onclick=()=>{
+  const name=document.getElementById('m-name').value.trim();
+  if(!name){document.getElementById('m-name').focus();return;}
+  const rec={
+    id:'m_'+Date.now().toString(36)+Math.random().toString(36).slice(2,6),
+    name, category:document.getElementById('m-cat').value,
+    city:document.getElementById('m-city').value.trim(),
+    phone:document.getElementById('m-phone').value.trim(),
+    website:document.getElementById('m-web').value.trim(),
+    address:document.getElementById('m-addr').value.trim(),
+    notes:document.getElementById('m-notes').value.trim(),
+    status:'new', manual:true
+  };
+  MANUAL.push(rec);saveManual();closeModal();
+  document.getElementById('n-leads').textContent=LEADS.length+LIBS.filter(x=>x.in_outreach!=null?x.in_outreach:(x.distance_mi==null||x.distance_mi<=RADII.outreach)).length+MANUAL.length;
+  renderLeads();
+};
 
 boot();
 </script>
