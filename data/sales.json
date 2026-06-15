@@ -1,21 +1,7 @@
 {
-  "generated": "2026-06-08",
+  "generated": "2026-06-15",
   "note": "Live feed. Built by scraper/build_data.py from fixed schedules + CivicPlus iCal + Craigslist RSS + EstateSales.net.",
   "events": [
-    {
-      "id": "civic-city-of-victoria-adult-craft-night-book-nooks-2026-06-08",
-      "source": "City of Victoria",
-      "kind": "library_sale",
-      "title": "Adult Craft Night: Book Nooks",
-      "org": "City of Victoria",
-      "venue": "Victoria Public Library - 302 N. Main Street  Victoria TX 77901",
-      "address": "Victoria Public Library - 302 N. Main Street  Victoria TX 77901",
-      "city": "Victoria",
-      "date_start": "2026-06-08",
-      "date_note": "",
-      "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
-      "details": "Give your bookshelf a glow-up with a DIY book nook! Join us for an evening building tiny, magical worlds to live between your favorite novels. https://www.victoriatx.gov/calendar.aspx?EID=3782"
-    },
     {
       "id": "civic-city-of-victoria-adult-craft-night-tie-dye-book-bags-2026-06-15",
       "source": "City of Victoria",
@@ -667,6 +653,34 @@
       "date_start": "",
       "date_note": "see listing",
       "url": "https://www.estatesales.net/TX/Rockport/78382/4939119",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-40-regionally-featured-dolen-privately-listed-sa",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "40 Regionally Featured Dolen Privately Listed Sale Last modified 3 hours ago. 40 Pictures.  13 Pictures Added in Last 24 Hours. Goliad,\u00a0TX\u00a077963 67 miles away Jun 19, 20, 21 9am to 7pm (Fri) 67 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Goliad/77963/4958643",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-252-regionally-featured-debut-sale-comics-hot-wh",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "252 Regionally Featured DEBUT SALE! COMICS, HOT WHEELS, TOYS, DOLL HOUSES! Listed by Crossroads Estate Sales Last modified 1 hour ago. 252 Pictures.  20 Pictures Added in Last 24 Hours. Victoria,\u00a0TX\u00a077901 79 miles away Jun 25, 26, 27, 28 7am to 4pm (Thu) 79 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77901/4949400",
       "details": "Estate sale \u2014 check listing for book/library mentions."
     },
     {

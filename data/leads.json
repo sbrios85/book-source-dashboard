@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08",
+  "generated": "2026-06-15",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -167,7 +167,7 @@
       "city": "Victoria",
       "address": "1212 Locust Ave, Victoria, TX 77901",
       "phone": "+1 361-212-6413",
-      "website": "",
+      "website": "https://texasproudjunkremoval.com",
       "lat": 28.8221635,
       "lng": -96.9924112,
       "priority": 1,
@@ -176,7 +176,8 @@
       "notes": "Same-day clean-outs, 5.0/160. Strong Victoria-market haul lead. Divert-books pitch.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "junk-yall-call-i-haul",
@@ -185,7 +186,7 @@
       "city": "Victoria",
       "address": "606 Profit St, Victoria, TX 77901",
       "phone": "+1 361-541-6858",
-      "website": "",
+      "website": "https://www.yallcallihaul.com",
       "lat": 28.8044899,
       "lng": -96.9772328,
       "priority": 2,
@@ -194,7 +195,8 @@
       "notes": "Moving + haul-off; handles apartment/home move-outs where books pile up.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "junk-haul-lelujah",
