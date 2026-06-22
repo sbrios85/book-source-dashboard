@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15",
+  "generated": "2026-06-22",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -205,7 +205,7 @@
       "city": "Kingsville",
       "address": "515 E Richard Ave, Kingsville, TX 78363",
       "phone": "+1 361-246-4126",
-      "website": "",
+      "website": "https://local.yahoo.com",
       "lat": 27.5215984,
       "lng": -97.8627151,
       "priority": 2,
@@ -214,7 +214,8 @@
       "notes": "Kingsville-market haul-off. Good for TAMUK-area clean-outs.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "junk-texasgrime",
@@ -241,14 +242,15 @@
       "city": "Victoria",
       "address": "107 Guinevere St, Victoria, TX 77904",
       "phone": "+1 361-489-9854",
-      "website": "",
+      "website": "https://outdoornearme.com",
       "lat": 28.8518372,
       "lng": -96.9920674,
       "priority": 3,
       "notes": "Junk removal, Victoria.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "junk-rockin-d",
