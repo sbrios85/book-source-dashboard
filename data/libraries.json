@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22",
+  "generated": "2026-06-29",
   "note": "Master list of public libraries. Outreach tab shows those within libraries_outreach radius; Library Sales tab shows those within library_sales radius. Manual fields (librarian_name/phone/email, fol_facebook, sales_notes) persist via the dashboard and are preserved on refresh.",
   "radii": {
     "outreach": 110,

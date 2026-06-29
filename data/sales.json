@@ -1,21 +1,7 @@
 {
-  "generated": "2026-06-22",
+  "generated": "2026-06-29",
   "note": "Live feed. Built by scraper/build_data.py from fixed schedules + CivicPlus iCal + Craigslist RSS + EstateSales.net.",
   "events": [
-    {
-      "id": "civic-city-of-victoria-adult-ish-book-club-2026-06-26",
-      "source": "City of Victoria",
-      "kind": "library_sale",
-      "title": "Adult-ish Book Club",
-      "org": "City of Victoria",
-      "venue": "<p><span style='color: rgb(51, 51, 51); font-family: \"Open Sans\", \"sans-serif\"; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;' data-pasted=\"true\">Gardenhouse Coffee &amp; Espresso Bar</span></p> - 1908 N Laurent St  Victoria TX 77901",
-      "address": "<p><span style='color: rgb(51, 51, 51); font-family: \"Open Sans\", \"sans-serif\"; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;' data-pasted=\"true\">Gardenhouse Coffee &amp; Espresso Bar</span></p> - 1908 N Laurent St  Victoria TX 77901",
-      "city": "Victoria",
-      "date_start": "2026-06-26",
-      "date_note": "",
-      "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
-      "details": "Join the Adult-Ish Book Club for a relaxing night with engaging and exciting discussions!  https://www.victoriatx.gov/calendar.aspx?EID=3800"
-    },
     {
       "id": "civic-city-of-victoria-true-crime-book-club-2026-06-29",
       "source": "City of Victoria",
@@ -695,6 +681,34 @@
       "date_start": "",
       "date_note": "see listing",
       "url": "https://www.estatesales.net/TX/Victoria/77904/4970577",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-170-a-castle-hills-quick-sale-listed-by-crossroa",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "170 A CASTLE HILLS \"QUICK SALE\"! Listed by Crossroads Estate Sales Last modified 16 hours ago. 170 Pictures. Victoria,\u00a0TX\u00a077904 90 miles away Jul 3, 4 8am to 4pm (Fri) 90 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77904/4971645",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-43-second-home-liquidation-privately-listed-sale",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "43 Second Home Liquidation Privately Listed Sale Last modified 2 days ago. 43 Pictures. Rockport,\u00a0TX\u00a078382 32 miles away Jul 16, 17, 18 8:30am to 4pm (Thu) 32 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Rockport/78382/4978533",
       "details": "Estate sale \u2014 check listing for book/library mentions."
     },
     {

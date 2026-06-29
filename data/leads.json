@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22",
+  "generated": "2026-06-29",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -259,7 +259,7 @@
       "city": "Kingsville",
       "address": "1107 E A Ave, Kingsville, TX 78363",
       "phone": "+1 361-228-3011",
-      "website": "",
+      "website": "https://www.rockindrolloffs.com",
       "lat": 27.5256456,
       "lng": -97.8542735,
       "priority": 3,
@@ -268,7 +268,8 @@
       "notes": "Dumpster roll-offs, Kingsville \u2014 weaker (rental, not haul), customers fill during clean-outs.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "junk-fd-debris",
@@ -277,7 +278,7 @@
       "city": "Alice",
       "address": "435 S Cameron St, Alice, TX 78332",
       "phone": "+1 361-668-8029",
-      "website": "",
+      "website": "https://fddebrisdisposal.com",
       "lat": 27.7458323,
       "lng": -98.0702127,
       "priority": 3,
@@ -286,7 +287,8 @@
       "notes": "Roll-offs + cleanouts, Alice market.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "junk-dumpster-dudez-kville",
