@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29",
+  "generated": "2026-07-06",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -297,7 +297,7 @@
       "city": "Kingsville",
       "address": "916 S 14th St Ste 101R, Kingsville, TX 78363",
       "phone": "+1 361-321-7970",
-      "website": "",
+      "website": "https://dumpsterdudez.com",
       "lat": 27.5081294,
       "lng": -97.8555594,
       "priority": 3,
@@ -306,7 +306,8 @@
       "notes": "Dumpster rental, Kingsville.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "junk-coastal-bend-waste",
@@ -315,7 +316,7 @@
       "city": "Rockport",
       "address": "2425 FM 1069, Rockport, TX 78382",
       "phone": "+1 361-941-3044",
-      "website": "",
+      "website": "https://coastalbendwaste.com",
       "lat": 28.0314046,
       "lng": -97.0916103,
       "priority": 3,
@@ -324,7 +325,8 @@
       "notes": "Waste/haul service, Rockport.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "junk-rockport-rolloffs",
