@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06",
+  "generated": "2026-07-13",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -335,7 +335,7 @@
       "city": "Rockport",
       "address": "1521 16th St, Rockport, TX 78382",
       "phone": "+1 361-463-8857",
-      "website": "",
+      "website": "https://www.rockportrolloffs.com",
       "lat": 27.9973419,
       "lng": -97.093708,
       "priority": 3,
@@ -344,7 +344,8 @@
       "notes": "Dumpster roll-offs, Rockport.",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-tamucc",
@@ -390,7 +391,7 @@
       "city": "Beeville",
       "address": "3800 Charco Rd Beeville TX",
       "phone": "3613542200",
-      "website": "",
+      "website": "https://www.coastalbend.edu",
       "lat": 28.435194,
       "lng": -97.755896,
       "distance_mi": 49.0,
@@ -402,7 +403,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-texas-a-m-university-corpus-christi",
