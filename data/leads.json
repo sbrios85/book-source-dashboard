@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-13",
+  "generated": "2026-07-20",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -414,7 +414,7 @@
       "city": "Corpus Christi",
       "address": "6300 Ocean Dr. Corpus Christi TX",
       "phone": "3618255700",
-      "website": "",
+      "website": "https://www.tamucc.edu",
       "lat": 27.713723,
       "lng": -97.32395,
       "distance_mi": 7.5,
@@ -426,7 +426,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-del-mar-college",
@@ -436,7 +437,7 @@
       "city": "Corpus Christi",
       "address": "101 Baldwin Blvd. Corpus Christi TX",
       "phone": "3616981200",
-      "website": "",
+      "website": "https://www.delmar.edu",
       "lat": 27.763619,
       "lng": -97.40762,
       "distance_mi": 2.6,
@@ -448,7 +449,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-university-of-houston-victoria",
