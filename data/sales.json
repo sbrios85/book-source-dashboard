@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-27",
   "note": "Live feed. Built by scraper/build_data.py from fixed schedules + CivicPlus iCal + Craigslist RSS + EstateSales.net.",
   "events": [
     {
@@ -64,8 +64,8 @@
       "kind": "library_sale",
       "title": "Adult-ish Book Club",
       "org": "City of Victoria",
-      "venue": "Victoria Public Library - 302 N. Main Street  Victoria TX 77901",
-      "address": "Victoria Public Library - 302 N. Main Street  Victoria TX 77901",
+      "venue": "<p>Gardenhouse Coffee and Espresso Bar</p> - 104 Teakwood Dr Ste 100  Victoria TX 77901",
+      "address": "<p>Gardenhouse Coffee and Espresso Bar</p> - 104 Teakwood Dr Ste 100  Victoria TX 77901",
       "city": "Victoria",
       "date_start": "2026-08-28",
       "date_note": "",
@@ -813,7 +813,7 @@
       "id": "es-49-locally-featured-kings-crossing-estate-sale-l",
       "source": "EstateSales.net",
       "kind": "estate_sale",
-      "title": "49 Locally Featured Kings Crossing Estate Sale Listed by DFW Room Service Last modified 9 days ago. 49 Pictures. Corpus Christi,\u00a0TX\u00a078414 3 miles away Jul 31, Aug 1, 2 10am to 4pm (Fri) 3 miles away",
+      "title": "49 Locally Featured Kings Crossing Estate Sale Listed by DFW Room Service Last modified 2 days ago. 49 Pictures. Corpus Christi,\u00a0TX\u00a078414 3 miles away Jul 31, Aug 1, 2 10am to 4pm (Fri) 3 miles away",
       "org": "",
       "venue": "",
       "address": "",
@@ -891,6 +891,48 @@
       "date_start": "",
       "date_note": "see listing",
       "url": "https://www.estatesales.net/TX/Victoria/77904/4990539",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-384-living-estate-of-j-johnson-listed-by-bloomin",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "384 Living Estate of J. Johnson Listed by Bloomin\u00e2\u0080\u0099 Pedal Last modified 23 hours ago. 384 Pictures. Victoria,\u00a0TX\u00a077904 90 miles away Jul 29, 30, 31, Aug 1 9am to 6pm (Wed) 90 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77904/4990539",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-238-regionally-featured-three-estates-brought-in",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "238 Regionally Featured Three estates brought in for this great sale Listed by Crossroads Estate Sales Last modified 19 hours ago. 238 Pictures. Victoria,\u00a0TX\u00a077901 79 miles away Jul 30, 31, Aug 1 7am to 4pm (Thu) 79 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77901/5011164",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-125-take-the-drive-this-one-is-packed-with-every",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "125 TAKE THE DRIVE! This one is PACKED with EVERYTHING you never knew you needed Listed by Vintage Nest Estate Sales Last modified 13 hours ago.  125 Pictures Added in Last 24 Hours. Orange Grove,\u00a0TX\u00a078372 46 miles away Jul 31, Aug 1 9am to 2pm (Fri) 46 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Orange-Grove/78372/5014659",
       "details": "Estate sale \u2014 check listing for book/library mentions."
     },
     {

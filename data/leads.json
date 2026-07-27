@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-27",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -460,7 +460,7 @@
       "city": "Victoria",
       "address": "3007 N. Ben Wilson Victoria TX",
       "phone": "3615704848",
-      "website": "",
+      "website": "https://www.tamuv.edu",
       "lat": 28.816248,
       "lng": -96.976334,
       "distance_mi": 74.7,
@@ -472,7 +472,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-south-texas-barber-college-inc",
@@ -482,7 +483,7 @@
       "city": "Corpus Christi",
       "address": "3917 Ayers Corpus Christi TX",
       "phone": "3618550262",
-      "website": "",
+      "website": "https://applycollege.org",
       "lat": 27.754868,
       "lng": -97.417156,
       "distance_mi": 3.4,
@@ -494,7 +495,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-texas-a-m-university-kingsville",
