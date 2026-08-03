@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27",
+  "generated": "2026-08-03",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -506,7 +506,7 @@
       "city": "Kingsville",
       "address": "955 University Blvd Kingsville TX",
       "phone": "3615932111",
-      "website": "",
+      "website": "https://www.tamuk.edu",
       "lat": 27.525168,
       "lng": -97.882387,
       "distance_mi": 35.3,
@@ -518,7 +518,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-victoria-beauty-barber-college",
@@ -528,7 +529,7 @@
       "city": "Victoria",
       "address": "1508 N Laurent Victoria TX",
       "phone": "3615754526",
-      "website": "",
+      "website": "https://victoriabeautyandbarbercollege.com",
       "lat": 28.807928,
       "lng": -96.990854,
       "distance_mi": 73.8,
@@ -540,7 +541,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-victoria-college",
