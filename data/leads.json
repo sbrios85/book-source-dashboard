@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03",
+  "generated": "2026-08-10",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -552,7 +552,7 @@
       "city": "Victoria",
       "address": "2200 E Red River Victoria TX",
       "phone": "3615733291",
-      "website": "",
+      "website": "http://victoriacollege.edu",
       "lat": 28.816446,
       "lng": -96.979226,
       "distance_mi": 74.6,
@@ -564,7 +564,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-southern-careers-institute-corpus-christi",
@@ -574,7 +575,7 @@
       "city": "Corpus Christi",
       "address": "2422 Airline Road Corpus Christi TX",
       "phone": "5124377500",
-      "website": "",
+      "website": "https://scitexas.edu",
       "lat": 27.68504,
       "lng": -97.363145,
       "distance_mi": 8.2,
@@ -586,7 +587,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-miller-motte-college-stvt-corpus-christi",
