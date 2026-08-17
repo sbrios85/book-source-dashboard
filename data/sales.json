@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10",
+  "generated": "2026-08-17",
   "note": "Live feed. Built by scraper/build_data.py from fixed schedules + CivicPlus iCal + Craigslist RSS + EstateSales.net.",
   "events": [
     {
@@ -1017,6 +1017,48 @@
       "date_start": "",
       "date_note": "see listing",
       "url": "https://www.estatesales.net/TX/Victoria/77904/5032908",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-354-regionally-featured-a-big-sale-for-the-ladie",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "354 Regionally Featured A BIG SALE FOR THE LADIES!!! Listed by Crossroads Estate Sales Last modified 1 day ago. 354 Pictures. Victoria,\u00a0TX\u00a077901 79 miles away Aug 20, 21, 22 7am to 4pm (Thu) 79 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77901/5038689",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-108-burning-tree-estate-sale-listed-by-zatopek-e",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "108 Burning Tree Estate Sale! Listed by Zatopek Estate Sales Last modified 21 hours ago.  108 Pictures Added in Last 24 Hours. Victoria,\u00a0TX\u00a077904 90 miles away Aug 20, 21, 22 9am to 4pm (Thu) 90 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77904/5041572",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-1-regionally-featured-huge-estate-sale-in-rockpo",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "1 Regionally Featured Huge Estate Sale in Rockport Artwork, Art Glass, Talavera Pottery, Amazing Furniture & More Listed by South Texas Estate Sales Last modified 23 hours ago.  1 Picture Added in Last 24 Hours. Rockport,\u00a0TX\u00a078382 32 miles away Aug 21, 22 8:30am to 3pm (Fri) 32 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Rockport/78382/5041542",
       "details": "Estate sale \u2014 check listing for book/library mentions."
     },
     {

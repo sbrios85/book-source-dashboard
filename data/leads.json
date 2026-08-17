@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10",
+  "generated": "2026-08-17",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -598,7 +598,7 @@
       "city": "Corpus Christi",
       "address": "2000 South Padre Island Dr Corpus Christi TX",
       "phone": "361232505735821",
-      "website": "",
+      "website": "https://www.collegetuitioncompare.com",
       "lat": 27.739649,
       "lng": -97.433269,
       "distance_mi": 4.8,
@@ -610,7 +610,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-manuel-and-theresa-s-school-of-hair-design-victoria",
@@ -620,7 +621,7 @@
       "city": "Victoria",
       "address": "1405 East North Victoria TX",
       "phone": "9792045772",
-      "website": "",
+      "website": "https://manuelandtheresasschoolofhair.com",
       "lat": 28.799901,
       "lng": -96.991589,
       "distance_mi": 73.3,
@@ -632,7 +633,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-strand-institute-of-beauty-esthetics",
