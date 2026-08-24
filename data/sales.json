@@ -1,21 +1,7 @@
 {
-  "generated": "2026-08-17",
+  "generated": "2026-08-24",
   "note": "Live feed. Built by scraper/build_data.py from fixed schedules + CivicPlus iCal + Craigslist RSS + EstateSales.net.",
   "events": [
-    {
-      "id": "civic-city-of-victoria-no-pressure-book-club-2026-08-19",
-      "source": "City of Victoria",
-      "kind": "library_sale",
-      "title": "No Pressure Book Club",
-      "org": "City of Victoria",
-      "venue": "<p>Moonshine Drinkery</p> - 103 W Santa Rosa St  Victoria TX 77901",
-      "address": "<p>Moonshine Drinkery</p> - 103 W Santa Rosa St  Victoria TX 77901",
-      "city": "Victoria",
-      "date_start": "2026-08-19",
-      "date_note": "",
-      "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
-      "details": "Get Lit(erary) at our No Pressure Book Club! We host this book club with a twist at Moonshine Drinkery.  https://www.victoriatx.gov/calendar.aspx?EID=3880"
-    },
     {
       "id": "civic-city-of-victoria-adult-ish-book-club-2026-08-28",
       "source": "City of Victoria",
@@ -1059,6 +1045,62 @@
       "date_start": "",
       "date_note": "see listing",
       "url": "https://www.estatesales.net/TX/Rockport/78382/5041542",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-158-clean-little-ranch-listed-by-random-rare-las",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "158 Clean Little Ranch Listed by Random & Rare Last modified 13 hours ago. 158 Pictures.  13 Pictures Added in Last 24 Hours. Beeville,\u00a0TX\u00a078102 57 miles away Aug 27, 28, 29 9am to 3pm (Thu) 57 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Beeville/78102/5046681",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-399-regionally-featured-step-back-in-time-at-our",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "399 Regionally Featured STEP BACK IN TIME AT OUR \u00e2\u0080\u009cCIMARRON ANTIQUE FAIR\u00e2\u0080\u009d!! Listed by Crossroads Estate Sales Last modified 1 day ago. 399 Pictures. Victoria,\u00a0TX\u00a077901 79 miles away Aug 27, 28, 29, 30 7am to 4pm (Thu) 79 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77901/5038707",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-1-estate-sale-on-copano-parkway-in-rockport-list",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "1 Estate Sale on Copano Parkway in Rockport Listed by South Texas Estate Sales Last modified 11 hours ago.  1 Picture Added in Last 24 Hours. Rockport,\u00a0TX\u00a078382 32 miles away Aug 28, 29 8:30am to 3pm (Fri) 32 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Rockport/78382/5051604",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-120-nationally-featured-a-house-full-of-beautifu",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "120 Nationally Featured A House Full of Beautiful Things Listed by Vintage Nest Estate Sales Last modified 9 hours ago. 120 Pictures. Woodsboro,\u00a0TX\u00a078393 36 miles away Aug 28, 29, 30 9am to 2pm (Fri) 36 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Woodsboro/78393/5050551",
       "details": "Estate sale \u2014 check listing for book/library mentions."
     },
     {

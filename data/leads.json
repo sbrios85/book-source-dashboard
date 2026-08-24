@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17",
+  "generated": "2026-08-24",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -644,7 +644,7 @@
       "city": "Portland",
       "address": "1018 Us Hwy 181 Portland TX",
       "phone": "3616432373",
-      "website": "",
+      "website": "https://www.thestrandinstitute.edu",
       "lat": 27.878924,
       "lng": -97.319593,
       "distance_mi": 7.2,
@@ -656,7 +656,8 @@
       "librarian_email": "",
       "status": "new",
       "last_contacted": "",
-      "outreach_notes": ""
+      "outreach_notes": "",
+      "web_lookup_done": true
     },
     {
       "id": "school-delmar",
@@ -720,7 +721,7 @@
       "city": "Victoria",
       "address": "206 W Convent St, Victoria, TX 77901",
       "phone": "+1 361-573-6651",
-      "website": "",
+      "website": "https://nazarethacademy.org",
       "lat": 28.7964366,
       "lng": -97.0089485,
       "priority": 2,
@@ -732,7 +733,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "distance_mi": 72.7
+      "distance_mi": 72.7,
+      "web_lookup_done": true
     },
     {
       "id": "school-our-lady-of-victory",
