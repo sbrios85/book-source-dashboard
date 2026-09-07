@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31",
+  "generated": "2026-09-07",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -790,7 +790,7 @@
       "city": "Victoria",
       "address": "539 Waco Cir, Victoria, TX 77904",
       "phone": "+1 361-572-4568",
-      "website": "",
+      "website": "https://myfaithacademy.com",
       "lat": 28.8437427,
       "lng": -96.9239979,
       "priority": 2,
@@ -802,7 +802,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "distance_mi": 77.6
+      "distance_mi": 77.6,
+      "web_lookup_done": true
     },
     {
       "id": "school-the-vine-school",
@@ -812,7 +813,7 @@
       "city": "Victoria",
       "address": "603 E Mesquite Ln, Victoria, TX 77901",
       "phone": "+1 361-212-8463",
-      "website": "",
+      "website": "https://www.thevineschool.com",
       "lat": 28.8239898,
       "lng": -96.999295,
       "priority": 2,
@@ -824,7 +825,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "distance_mi": 74.7
+      "distance_mi": 74.7,
+      "web_lookup_done": true
     },
     {
       "id": "school-presbyterian-pan-american",
