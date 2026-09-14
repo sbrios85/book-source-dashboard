@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07",
+  "generated": "2026-09-14",
   "note": "Seed data from initial research. The scraper merges fresh results into this file by id (category+slug).",
   "leads": [
     {
@@ -836,7 +836,7 @@
       "city": "Kingsville",
       "address": "223 FM 772, Kingsville, TX 78363",
       "phone": "+1 361-592-4307",
-      "website": "",
+      "website": "https://www.ppas.org",
       "lat": 27.4484273,
       "lng": -97.8653332,
       "priority": 2,
@@ -848,7 +848,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "distance_mi": 37.6
+      "distance_mi": 37.6,
+      "web_lookup_done": true
     },
     {
       "id": "school-annapolis-christian",
@@ -858,7 +859,7 @@
       "city": "Corpus Christi",
       "address": "3875 S Staples St Bldg 4, Corpus Christi, TX 78411",
       "phone": "+1 361-991-6004",
-      "website": "",
+      "website": "https://annapolischristianacademy.com",
       "lat": 27.7358809,
       "lng": -97.3864101,
       "priority": 2,
@@ -870,7 +871,8 @@
       "status": "new",
       "last_contacted": "",
       "outreach_notes": "",
-      "distance_mi": 4.5
+      "distance_mi": 4.5,
+      "web_lookup_done": true
     },
     {
       "id": "school-yorktown-christian",

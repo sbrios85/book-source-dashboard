@@ -1,52 +1,7 @@
 {
-  "generated": "2026-09-07",
+  "generated": "2026-09-14",
   "note": "Live feed. Built by scraper/build_data.py from fixed schedules + CivicPlus iCal + Craigslist RSS + EstateSales.net.",
   "events": [
-    {
-      "id": "civic-city-of-victoria-adult-craft-night-bedazzled-books-2026-09-08",
-      "source": "City of Victoria",
-      "kind": "library_sale",
-      "title": "Adult Craft Night: Bedazzled Books",
-      "org": "City of Victoria",
-      "venue": "Victoria Public Library - 302 N. Main Street  Victoria TX 77901",
-      "address": "Victoria Public Library - 302 N. Main Street  Victoria TX 77901",
-      "city": "Victoria",
-      "date_start": "2026-09-08",
-      "date_note": "",
-      "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
-      "details": "Is your favorite novel looking a little... plain? Give your bookshelf some serious main-character energy at our Bedazzled Books Craft Night!  https://www.victoriatx.gov/calendar.aspx?EID=3890"
-    },
-    {
-      "id": "fixed-friends-of-the-victoria-public-library-2026-09-13",
-      "source": "Fixed schedule",
-      "kind": "library_sale",
-      "title": "Friends of the Victoria Public Library \u2014 Book Sale",
-      "org": "Friends of the Victoria Public Library",
-      "venue": "Victoria Public Library",
-      "address": "302 N Main St, Victoria, TX 77901",
-      "city": "Victoria",
-      "lat": 28.8053,
-      "lng": -97.0036,
-      "date_start": "2026-09-13",
-      "date_note": "Member presale Sunday; public Mon\u2013Fri during library hours. Most items $2 or less, cash/check only.",
-      "distance_mi": 73.4,
-      "url": "",
-      "details": "Member presale Sunday; public Mon\u2013Fri during library hours. Most items $2 or less, cash/check only."
-    },
-    {
-      "id": "civic-city-of-victoria-friends-of-the-victoria-public-library-book-member-pre-sale-2026-09-13",
-      "source": "City of Victoria",
-      "kind": "library_sale",
-      "title": "Friends of the Victoria Public Library Book Member Pre-Sale",
-      "org": "City of Victoria",
-      "venue": "Victoria Public Library - 302 N. Main Street  Victoria TX 77901",
-      "address": "Victoria Public Library - 302 N. Main Street  Victoria TX 77901",
-      "city": "Victoria",
-      "date_start": "2026-09-13",
-      "date_note": "",
-      "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
-      "details": "Friends of the Library Book Sales, held in January, May and September, provide needed program support funding for Victoria Public Library each year. https://www.victoriatx.gov/calendar.aspx?EID=3648"
-    },
     {
       "id": "civic-city-of-victoria-friends-of-the-victoria-public-library-book-sale-2026-09-14",
       "source": "City of Victoria",
@@ -1272,6 +1227,34 @@
       "date_start": "",
       "date_note": "see listing",
       "url": "https://www.estatesales.net/TX/Victoria/77904/5065206",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-62-estate-sale-listed-by-liz-peggy-sue-s-estate-",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "62 Estate Sale Listed by Liz & Peggy Sue's Estate Sales Last modified 2 hours ago. 62 Pictures.  57 Pictures Added in Last 24 Hours. Corpus Christi,\u00a0TX\u00a078414 3 miles away Sep 18, 19 9am to 3pm (Fri) 3 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Corpus-Christi/78414/5070444",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-509-regionally-featured-cimarron-4-day-whopper-l",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "509 Regionally Featured CIMARRON 4-DAY \u00e2\u0080\u009cWHOPPER\u00e2\u0080\u009d!! Listed by Crossroads Estate Sales Last modified 2 hours ago. 509 Pictures.  7 Pictures Added in Last 24 Hours. Victoria,\u00a0TX\u00a077901 79 miles away Sep 17, 18, 19, 20 7am to 4pm (Thu) 79 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77901/5064726",
       "details": "Estate sale \u2014 check listing for book/library mentions."
     },
     {
