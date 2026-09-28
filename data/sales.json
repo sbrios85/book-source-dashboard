@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-28",
   "note": "Live feed. Built by scraper/build_data.py from fixed schedules + CivicPlus iCal + Craigslist RSS + EstateSales.net.",
   "events": [
     {
@@ -1269,6 +1269,90 @@
       "date_start": "",
       "date_note": "see listing",
       "url": "https://www.estatesales.net/TX/Rockport/78382/5086872",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-30-grand-estate-sale-privately-listed-sale-last-",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "30 GRAND ESTATE SALE Privately Listed Sale Last modified 3 hours ago. 30 Pictures.  1 Picture Added in Last 24 Hours. Corpus Christi,\u00a0TX\u00a078401 8 miles away Oct 1, 2, 3 9am to 4pm (Thu) 8 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Corpus-Christi/78401/5087976",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-212-huge-estate-sale-in-sinton-from-antiques-to-",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "212 Huge Estate Sale in Sinton, from Antiques to Power Tools, We have everything! Listed by South Texas Estate Sales Last modified 3 days ago. 212 Pictures. Sinton,\u00a0TX\u00a078387 27 miles away Oct 2, 3 8:30am to 3pm (Fri) 27 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Sinton/78387/5093586",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-198-two-estates-in-1-rosebuds-texana-comics-art-",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "198 TWO ESTATES IN 1 - ROSEBUDS, TEXANA, COMICS, ART, & ANTIQUES! Listed by Crossroads Estate Sales Last modified 3 hours ago. 198 Pictures. Victoria,\u00a0TX\u00a077901 79 miles away Oct 1, 2, 3 7am to 4pm (Thu) 79 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77901/5089527",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-252-regionally-featured-packed-full-country-esta",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "252 Regionally Featured PACKED FULL COUNTRY ESTATE SALE NEAR McCOY Listed by Complete Estate Sale Services Last modified 3 hours ago. 252 Pictures. Mccoy,\u00a0TX\u00a078113 98 miles away Oct 1, 2, 3 10am to 4pm (Thu) 98 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Mccoy/78113/5091288",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-52-country-view-estate-sale-phase-ii-listed-by-z",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "52 Country View Estate Sale - Phase II Listed by Zatopek Estate Sales Last modified 1 day ago. 52 Pictures. Victoria,\u00a0TX\u00a077904 90 miles away Oct 2, 3 9am to 4pm (Fri) 90 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77904/5095983",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-57-myrtle-janssen-estate-sale-privately-listed-s",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "57 Myrtle Janssen Estate Sale Privately Listed Sale Last modified 2 hours ago.  57 Pictures Added in Last 24 Hours. Yorktown,\u00a0TX\u00a078164 90 miles away Oct 3, 4 9am to 4pm (Sat) 90 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Yorktown/78164/5097255",
       "details": "Estate sale \u2014 check listing for book/library mentions."
     },
     {
