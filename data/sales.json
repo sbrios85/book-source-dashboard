@@ -1,21 +1,7 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-12",
   "note": "Live feed. Built by scraper/build_data.py from fixed schedules + CivicPlus iCal + Craigslist RSS + EstateSales.net.",
   "events": [
-    {
-      "id": "civic-city-of-victoria-bookish-society-book-club-2026-10-06",
-      "source": "City of Victoria",
-      "kind": "library_sale",
-      "title": "Bookish Society Book Club",
-      "org": "City of Victoria",
-      "venue": "<p>Vida Cafe</p> - 105 Spring Green Blvd  Victoria TX 77904",
-      "address": "<p>Vida Cafe</p> - 105 Spring Green Blvd  Victoria TX 77904",
-      "city": "Victoria",
-      "date_start": "2026-10-06",
-      "date_note": "",
-      "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
-      "details": "We are an author-focused book society that reads by mood\u2014sometimes inspired by the season, sometimes by curiosity. https://www.victoriatx.gov/calendar.aspx?EID=3969"
-    },
     {
       "id": "civic-city-of-victoria-no-pressure-book-club-2026-10-21",
       "source": "City of Victoria",
@@ -1423,6 +1409,34 @@
       "date_start": "",
       "date_note": "see listing",
       "url": "https://www.estatesales.net/TX/Victoria/77904/5095575",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-446-regionally-featured-vikings-antique-clocks-a",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "446 Regionally Featured VIKINGS, ANTIQUE CLOCKS, A LARGE BARN & ROGER CREAGER! Listed by Crossroads Estate Sales Last modified 5 hours ago. 446 Pictures. Victoria,\u00a0TX\u00a077905 74 miles away Oct 15, 16, 17 7am to 4pm (Thu) 74 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77905/5103633",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-107-downtown-victoria-estate-sale-listed-by-zato",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "107 Downtown Victoria Estate Sale! Listed by Zatopek Estate Sales Last modified 5 hours ago. 107 Pictures.  2 Pictures Added in Last 24 Hours. Victoria,\u00a0TX\u00a077901 79 miles away Oct 15, 16, 17 9am to 4pm (Thu) 79 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77901/5114100",
       "details": "Estate sale \u2014 check listing for book/library mentions."
     },
     {
