@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12",
+  "generated": "2026-10-19",
   "note": "Live feed. Built by scraper/build_data.py from fixed schedules + CivicPlus iCal + Craigslist RSS + EstateSales.net.",
   "events": [
     {
@@ -1437,6 +1437,62 @@
       "date_start": "",
       "date_note": "see listing",
       "url": "https://www.estatesales.net/TX/Victoria/77901/5114100",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-27-estate-sale-liquidation-50-off-most-items-lis",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "27 Estate Sale liquidation @50% off most items! Listed by Liz & Peggy Sue's Estate Sales Last modified 19 hours ago. 27 Pictures. Portland,\u00a0TX\u00a078374 16 miles away Oct 24 9am to 5pm (Sat) 16 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Portland/78374/5124072",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-104-no-mousing-around-here-listed-by-bloomin-ped",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "104 No mousing around here Listed by Bloomin\u00e2\u0080\u0099 Pedal Last modified 2 hours ago. 104 Pictures.  49 Pictures Added in Last 24 Hours. Victoria,\u00a0TX\u00a077901 79 miles away Oct 21, 22, 23, 24 8am to 6pm (Wed) 79 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77901/5119512",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-8-estate-sale-and-nursery-liquidation-privately-",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "8 Estate Sale and Nursery Liquidation Privately Listed Sale Last modified 2 days ago. 8 Pictures. Victoria,\u00a0TX\u00a077905 74 miles away Oct 23, 24 8am to 4pm (Fri) 74 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Victoria/77905/5123676",
+      "details": "Estate sale \u2014 check listing for book/library mentions."
+    },
+    {
+      "id": "es-78-carrie-mae-weldon-buchhorn-estate-sale-privat",
+      "source": "EstateSales.net",
+      "kind": "estate_sale",
+      "title": "78 Carrie Mae & Weldon Buchhorn Estate Sale Privately Listed Sale Last modified 7 hours ago.  78 Pictures Added in Last 24 Hours. Cuero,\u00a0TX\u00a077954 98 miles away Oct 24, 25 9am to 4pm (Sat) 98 miles away",
+      "org": "",
+      "venue": "",
+      "address": "",
+      "city": "",
+      "date_start": "",
+      "date_note": "see listing",
+      "url": "https://www.estatesales.net/TX/Cuero/77954/5125272",
       "details": "Estate sale \u2014 check listing for book/library mentions."
     },
     {
